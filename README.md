@@ -1,4 +1,9 @@
-gaffiot
-=======
+Gaffiot.org
+=================================
 
-A Symfony project created on October 25, 2017, 10:49 pm.
+Source code of the Gaffiot.org website.
+
+License
+------------
+
+ Check out the [LICENSE](LICENSE) file.
