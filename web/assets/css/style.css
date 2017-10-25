@@ -23,7 +23,6 @@ body {
 }
 
 body {
-    padding-top: 50px;
     padding-bottom: 40px;
 }
 
@@ -91,6 +90,7 @@ a {
 .main {
     padding-left: 10px;
     padding-right: 10px;
+    padding-top: 50px;
 }
 
 .mobile {
