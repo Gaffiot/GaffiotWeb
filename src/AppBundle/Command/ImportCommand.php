@@ -5,10 +5,10 @@ namespace AppBundle\Command;
 use AppBundle\Entity\Exam;
 use AppBundle\Entity\Subject;
 use AppBundle\Entity\Type;
+use AppBundle\Entity\Word;
 use Doctrine\ORM\EntityManager;
 use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
 use Symfony\Component\Console\Helper\ProgressBar;
-use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
@@ -30,6 +30,9 @@ class ImportCommand extends ContainerAwareCommand
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $this->em = $this->getContainer()->get("doctrine.orm.default_entity_manager");
+
+        $query = $this->em->createQuery('DELETE AppBundle:Word');
+        $query->execute();
 
         $output->writeln("##################################");
         $output->writeln("Starting import...");
