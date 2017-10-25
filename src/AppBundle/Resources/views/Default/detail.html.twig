@@ -1,0 +1,20 @@
+{% extends 'AppBundle::base.html.twig' %}
+{% block title %}
+    {{ word.latin }} | Gaffiot.org
+{% endblock title %}
+{% block body %}
+    <br>
+    <a href="{{ path('home') }}">
+        <button class="btn btn-default btn-sm" role="group"><span class="glyphicon glyphicon-chevron-left"></span> Back
+        </button>
+    </a>
+    <br><br>
+    <div class="detail">
+        <b>{{ word.latin }}</b> {{ word.french|raw }}
+    </div>
+    <div class="alert alert-info alert-dismissable">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+{% endblock %}

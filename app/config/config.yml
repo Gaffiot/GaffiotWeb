@@ -67,3 +67,12 @@ swiftmailer:
     username: '%mailer_user%'
     password: '%mailer_password%'
     spool: { type: memory }
+
+assetic:
+    debug:          '%kernel.debug%'
+    use_controller: '%kernel.debug%'
+    bundles:        [ AppBundle ]
+    filters:
+        cssrewrite: ~
+        lessphp:
+           file: "%kernel.root_dir%/../vendor/oyejorge/less.php/lessc.inc.php"

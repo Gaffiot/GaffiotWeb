@@ -1,0 +1,21 @@
+{% extends 'AppBundle::base.html.twig' %}
+{% block title %}
+    Gaffiot.org
+{% endblock title %}
+{% block body %}
+    <form role="form">
+        <div class="form-group">
+            <input id="searchinput" class="form-control" type="search" placeholder="Search..."/>
+        </div>
+        <div id="searchlist" class="list-group">
+            {% for word in words %}
+                <a class="list-group-item" href="{{ path('detail', {'id': word.id}) }}"><span>{{ word.latin }}</span>
+                    <hidden>{{ word.latinRaw }}</hidden>
+                </a>
+            {% endfor %}
+        </div>
+    </form>
+    <script>
+        $('#searchlist').btsListFilter('#searchinput', {itemChild: 'hidden'});
+    </script>
+{% endblock %}
