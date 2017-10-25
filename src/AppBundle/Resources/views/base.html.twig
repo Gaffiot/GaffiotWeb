@@ -82,7 +82,12 @@
     <div class="container">
         <div class="row hidden-xs hidden-sm">
             <div class="col-md-4">
-                <p class="text-muted">&copy; 2017 Gaffiot.org
+                <p class="text-muted">
+                    <a href="https://itunes.apple.com/us/app/gaffiot/id884468481?ls=1&mt=8" target="_blank">
+                        {% image '@AppBundle/Resources/public/images/appstore.png' %}
+                        <img src="{{ asset_url }}" width="100" alt="gaffiot.org">
+                        {% endimage %}
+                    </a>
                 </p>
             </div>
             <div class="col-md-4">
@@ -103,7 +108,11 @@
             </div>
         </div>
 
-        <p class="text-muted visible-xs-* visible-sm-* hidden-md hidden-lg">&copy; 2017 &nbsp;&nbsp;|&nbsp;&nbsp;<a
+        <p class="text-muted visible-xs-* visible-sm-* hidden-md hidden-lg"> <a href="https://itunes.apple.com/us/app/gaffiot/id884468481?ls=1&mt=8" target="_blank">
+                {% image '@AppBundle/Resources/public/images/appstore.png' %}
+                <img src="{{ asset_url }}" width="100" alt="gaffiot.org">
+                {% endimage %}
+            </a> &nbsp;&nbsp;|&nbsp;&nbsp;<a
                     href="mailto:info@fresh.lu" target="_blank" class="text-muted"><span
                         class="glyphicon glyphicon-envelope"></span> Contact</a>&nbsp;&nbsp;|&nbsp;&nbsp;powered
             by <a href="https://fresh.lu" target="_blank"

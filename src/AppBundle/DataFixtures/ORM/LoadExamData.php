@@ -35,7 +35,7 @@ class LoadExamData implements FixtureInterface
 
         $words = json_decode(file_get_contents('files/gaffiot.json'), true);
 
-        for ($i = 0; $i < 1000; $i++) {
+        for ($i = 0; $i < count($words); $i++) {
             $id = $words[$i]['id'];
             $latin_raw = $words[$i]['latin_raw'];
             $latin = $words[$i]['latin'];
