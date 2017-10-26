@@ -9,21 +9,20 @@
             <input id="searchinput" class="form-control" type="search" placeholder="Search..."/>
         </div>
         <div id="searchlist" class="list-group">
-            {% for word in words|slice(0, 10000) %}
+            {% for word in words|slice(0, 2000) %}
                 <a class="list-group-item" href="{{ path('detail', {'id': word.id}) }}"><span>{{ word.latin }}</span>
                     <hidden>{{ word.latinRaw }}</hidden>
                 </a>
             {% endfor %}
         </div>
     </form>
-    <p><i>In order to speed up page loading, only the first 10 000 words are being displayed in this list, but search
-            works with
+    <p><i>In order to speed up page loading, only the first 2 000 of 72 165 words are being displayed in this list, but
+            search
+            includes
             all
             words.</i></p>
     <script>
         $('#searchlist').btsListFilter('#searchinput', {
-            internal: false,
-            itemChild: 'hidden',
             sourceTmpl: '<a class="list-group-item" href="https://gaffiot.org/{id}"><span>{latin}</span><hidden>{raw}</hidden></a>',
             sourceData: function (text, callback) {
                 return $.getJSON('/search/' + text, function (json) {
