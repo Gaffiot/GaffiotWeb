@@ -1,0 +1,34 @@
+{% extends 'AppBundle::base.html.twig' %}
+{% block title %}
+    License | Gaffiot.org
+{% endblock title %}
+ {% block graph %}
+     <meta property="og:url" content="https://www.gaffiot.org/license"/>
+     <meta property="og:type" content="website"/>
+     <meta property="og:title" content="License | Gaffiot.org"/>
+ {% endblock %}
+{% block body %}
+    <br>
+    <h1>Source des données et Licence</h1>
+    <strong>Source données:</strong>
+    <p><a href="http://gerardgreco.free.fr/spip.php?article47" target="_blank">&copy; Gérard Gréco
+            2015-2016 version komarov-1.1 du 2 mai
+            2016</a></p>
+    <strong>Licence:</strong>
+    <p>Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</p>
+    <ul>
+        <li>Source file available on this page: <a href="http://gerardgreco.free.fr/spip.php?article47" target="_blank">http://gerardgreco.free.fr/spip.php?article47</a>
+        </li>
+        <li>Source data fetched: 23.10.2017</li>
+        <li>Authors of the data: Gérard Gréco, Mark De Wilde, Bernard Maréchal et Katsuhiko Ôkubo.</li>
+    </ul>
+
+    <h1>Open source</h1>
+    <a href="https://github.com/Gaffiot" target="_blank">
+        {% image '@AppBundle/Resources/public/images/GitHub.png' %}
+        <img src="{{ asset_url }}" width="100" alt="github">
+        {% endimage %}</a>
+
+    <h1>Contact</h1>
+    <a href="mailto:info [at] fresh.lu">info [at] fresh.lu</a>
+{% endblock %}

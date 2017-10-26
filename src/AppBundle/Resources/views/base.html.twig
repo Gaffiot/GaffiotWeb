@@ -42,78 +42,54 @@
 
             gtag('config', 'UA-51358608-2');
         </script>
-        <div id="fb-root"></div>
-        <script>(function (d, s, id) {
-                var js, fjs = d.getElementsByTagName(s)[0];
-                if (d.getElementById(id)) return;
-                js = d.createElement(s);
-                js.id = id;
-                js.src = 'https://connect.facebook.net/de_DE/sdk.js#xfbml=1&version=v2.10&appId=413432452047165';
-                fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));</script>
-        <script>
-            $(document).ready(function () {
-                $('[data-toggle="offcanvas"]').click(function () {
-                    $('.row-offcanvas').toggleClass('active')
-                });
-            });
-            $(function () {
-                $('[data-toggle="popover"]').popover()
-            })
-        </script>
     {% endblock %}
     <title>{% block title %}Gaffiot.LU{% endblock %}</title>
 </head>
 <body>
 <div class="container-narrow">
     <div class="main">
-        <a href="{{ path('home') }}">
-            {% image '@AppBundle/Resources/public/images/gaffiot.png' %}
-            <img src="{{ asset_url }}" width="175" alt="gaffiot.org">
-            {% endimage %}
-        </a>
+        <div class="row">
+            <div class="col-md-6 col-xs-6">
+                <a href="{{ path('home') }}">
+                    {% image '@AppBundle/Resources/public/images/gaffiot.png' %}
+                    <img src="{{ asset_url }}" width="175" alt="gaffiot.org">
+                    {% endimage %}
+                </a>
+            </div>
+            <div class="col-md-6 col-xs-6">
+                <p class="text-muted text-right">
+                    <a href="https://itunes.apple.com/us/app/gaffiot/id884468481?ls=1&mt=8" target="_blank">
+                        {% image '@AppBundle/Resources/public/images/appstore.png' %}
+                        <img src="{{ asset_url }}" width="115" alt="gaffiot.org" style="margin-top: 15px">
+                        {% endimage %}
+                    </a>
+                </p>
+            </div>
+        </div>
+
         {% block body %}
 
         {% endblock %}
         <hr>
-        <div class="fb-like" data-href="https://facebook.com/gaffiot" data-layout="button_count" data-action="like"
-             data-size="small" data-show-faces="false" data-share="false"></div>
-
-        <br><br>
-        <div class="alert alert-info alert-dismissable overlay">
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-            <strong>Source données:</strong>
-            <p><a href="http://gerardgreco.free.fr/spip.php?article47" target="_blank">&copy; Gérard Gréco
-                    2015-2016 version komarov-1.1 du 2 mai
-                    2016</a></p>
-            <strong>Licence:</strong>
-            <p>Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</p>
-            <ul>
-                <li>Source file available on this page: http://gerardgreco.free.fr/spip.php?article47</li>
-                <li>Source data fetched: 23.10.2017</li>
-                <li>Authors of the data: Gérard Gréco, Mark De Wilde, Bernard Maréchal et Katsuhiko Ôkubo.</li>
-            </ul>
-        </div>
     </div>
 </div>
 <footer class="footer">
     <div class="container">
         <div class="row hidden-xs hidden-sm">
             <div class="col-md-4">
-                <p class="text-muted">
-                    <a href="https://itunes.apple.com/us/app/gaffiot/id884468481?ls=1&mt=8" target="_blank">
-                        {% image '@AppBundle/Resources/public/images/appstore.png' %}
-                        <img src="{{ asset_url }}" width="100" alt="gaffiot.org">
+                <p class="text-muted text-left">
+                    <a href="https://facebook.com/gaffiot" target="_blank">
+                        {% image '@AppBundle/Resources/public/images/fb.png' %}
+                        <img src="{{ asset_url }}" width="115" alt="gaffiot facebook" style="margin-top: 0px">
                         {% endimage %}
                     </a>
+
                 </p>
             </div>
             <div class="col-md-4">
                 <p class="text-muted text-center">
-                    <a href="mailto:info@fresh.lu" target="_blank" class="text-muted">
-                        <span class="glyphicon glyphicon-envelope"></span> Contact</a>
+                    <a href="{{ path('license') }}" class="text-muted">
+                        <span class="glyphicon glyphicon-file"></span> Source et licence</a>
                 </p>
             </div>
             <div class="col-md-4">
@@ -128,14 +104,10 @@
             </div>
         </div>
 
-        <p class="text-muted visible-xs-* visible-sm-* hidden-md hidden-lg"><a
-                    href="https://itunes.apple.com/us/app/gaffiot/id884468481?ls=1&mt=8" target="_blank">
-                {% image '@AppBundle/Resources/public/images/appstore.png' %}
-                <img src="{{ asset_url }}" width="100" alt="gaffiot.org">
-                {% endimage %}
-            </a> &nbsp;&nbsp;|&nbsp;&nbsp;<a
-                    href="mailto:info@fresh.lu" target="_blank" class="text-muted"><span
-                        class="glyphicon glyphicon-envelope"></span> Contact</a>&nbsp;&nbsp;|&nbsp;&nbsp;powered
+        <p class="text-muted visible-xs-* visible-sm-* hidden-md hidden-lg">{% image '@AppBundle/Resources/public/images/fb.png' %}
+            <img src="{{ asset_url }}" width="115" alt="gaffiot facebook" style="margin-top: 0px">
+            {% endimage %} &nbsp;&nbsp;|&nbsp;&nbsp; <a href="{{ path('license') }}" class="text-muted">
+                <span class="glyphicon glyphicon-file"></span> Source et licence</a>&nbsp;&nbsp;|&nbsp;&nbsp;powered
             by <a href="https://fresh.lu" target="_blank"
                   class="text-muted">  {% image '@AppBundle/Resources/public/images/fresh.png' %}
                 <img src="{{ asset_url }}" height="25px"

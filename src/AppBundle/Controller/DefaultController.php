@@ -53,6 +53,18 @@ class DefaultController extends Controller
 
     }
 
+
+    /**
+     * @Route("/license", name="license")
+     * @Template()
+     */
+    public function licenseAction()
+    {
+        return [
+
+        ];
+    }
+
     /**
      * @Route("/{id}", name="detail")
      * @Template()

@@ -71,6 +71,12 @@ hidden {
     visibility: hidden !important;
 }
 
+.loading {
+    min-height: 50px;
+    border-radius: 4px;
+    border: 1px dashed #eee
+}
+
 .detail {
     font-family: Georgia, "Times New Roman", Times, serif;
 
@@ -132,7 +138,7 @@ footer {
 
 .container {
     width: auto;
-    max-width: 680px;
+    max-width: 700px;
     padding: 0 10px;
 }
 
