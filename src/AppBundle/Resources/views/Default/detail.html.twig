@@ -2,6 +2,13 @@
 {% block title %}
     {{ word.latin }} | Gaffiot.org
 {% endblock title %}
+ {% block graph %}
+     <meta property="og:url" content="https://www.gaffiot.org/{{ word.id }}"/>
+     <meta property="og:type" content="website"/>
+     <meta property="og:title" content="{{ word.latin }} | Gaffiot.org"/>
+     <meta property="og:description"
+           content="{{ word.french }}"/>
+ {% endblock %}
 {% block body %}
     <br>
     <a href="{{ path('home') }}">

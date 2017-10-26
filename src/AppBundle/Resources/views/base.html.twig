@@ -13,6 +13,15 @@
     <meta name="description"
           content="Ce site web permet la recherche dans le dictionnaire Latin-Français de Félix GAFFIOT (1934) vraiment numérisé.">
     <meta name="author" content="fresh.lu">
+
+    {% block graph %}
+        <meta property="og:url" content="https://www.gaffiot.org/"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Gaffiot.org"/>
+        <meta property="og:description"
+              content="Ce site web permet la recherche dans le dictionnaire Latin-Français de Félix GAFFIOT (1934) vraiment numérisé."/>
+    {% endblock %}
+
     {% block stylesheets %}
         <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
         <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
@@ -33,7 +42,15 @@
 
             gtag('config', 'UA-51358608-2');
         </script>
-
+        <div id="fb-root"></div>
+        <script>(function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = 'https://connect.facebook.net/de_DE/sdk.js#xfbml=1&version=v2.10&appId=413432452047165';
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
         <script>
             $(document).ready(function () {
                 $('[data-toggle="offcanvas"]').click(function () {
@@ -55,7 +72,8 @@
             <img src="{{ asset_url }}" width="175" alt="gaffiot.org">
             {% endimage %}
         </a>
-
+        <div class="fb-like" data-href="https://facebook.com/gaffiot" data-layout="button_count" data-action="like"
+             data-size="small" data-show-faces="false" data-share="false"></div>
         {% block body %}
 
         {% endblock %}
@@ -108,7 +126,8 @@
             </div>
         </div>
 
-        <p class="text-muted visible-xs-* visible-sm-* hidden-md hidden-lg"> <a href="https://itunes.apple.com/us/app/gaffiot/id884468481?ls=1&mt=8" target="_blank">
+        <p class="text-muted visible-xs-* visible-sm-* hidden-md hidden-lg"><a
+                    href="https://itunes.apple.com/us/app/gaffiot/id884468481?ls=1&mt=8" target="_blank">
                 {% image '@AppBundle/Resources/public/images/appstore.png' %}
                 <img src="{{ asset_url }}" width="100" alt="gaffiot.org">
                 {% endimage %}

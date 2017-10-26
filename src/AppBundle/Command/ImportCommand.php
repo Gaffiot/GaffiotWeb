@@ -9,6 +9,7 @@ use AppBundle\Entity\Word;
 use Doctrine\ORM\EntityManager;
 use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
 use Symfony\Component\Console\Helper\ProgressBar;
+use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
@@ -24,16 +25,22 @@ class ImportCommand extends ContainerAwareCommand
     {
         $this
             ->setName('import:json')
-            ->setDescription('Import from a JSON file');
+            ->setDescription('Import from a JSON file')
+            ->addArgument(
+                'from',
+                InputArgument::REQUIRED,
+                'start'
+            );
     }
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $this->em = $this->getContainer()->get("doctrine.orm.default_entity_manager");
 
-        $query = $this->em->createQuery('DELETE AppBundle:Word');
-        $query->execute();
+        /*$query = $this->em->createQuery('DELETE AppBundle:Word');
+        $query->execute();*/
 
+        $start = $input->getArgument('from');
         $output->writeln("##################################");
         $output->writeln("Starting import...");
 
@@ -47,7 +54,7 @@ class ImportCommand extends ContainerAwareCommand
         $progress->setMessage("Importing all data...");
 
 
-        for ($i = 0; $i < count($words); $i++) {
+        for ($i = $start; $i < count($words); $i++) {
             $id = $words[$i]['id'];
             $latin_raw = $words[$i]['latin_raw'];
             $latin = $words[$i]['latin'];
