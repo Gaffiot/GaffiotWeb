@@ -9,13 +9,17 @@
             <input id="searchinput" class="form-control" type="search" placeholder="Search..."/>
         </div>
         <div id="searchlist" class="list-group">
-            {% for word in words %}
+            {% for word in words|slice(0, 10000) %}
                 <a class="list-group-item" href="{{ path('detail', {'id': word.id}) }}"><span>{{ word.latin }}</span>
                     <hidden>{{ word.latinRaw }}</hidden>
                 </a>
             {% endfor %}
         </div>
     </form>
+    <p><i>In order to speed up page loading, only the first 10 000 words are being displayed in this list, but search
+            works with
+            all
+            words.</i></p>
     <script>
         $('#searchlist').btsListFilter('#searchinput', {
             internal: false,
@@ -27,7 +31,5 @@
                 });
             }
         });
-
-
     </script>
 {% endblock %}
