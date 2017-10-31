@@ -42,6 +42,11 @@
 
             gtag('config', 'UA-51358608-2');
         </script>
+        <script type="text/javascript">
+            function noenter() {
+                return !(window.event && window.event.keyCode == 13);
+            }
+        </script>
     {% endblock %}
     <title>{% block title %}Gaffiot.LU{% endblock %}</title>
 </head>
@@ -108,8 +113,9 @@
                                                                                target="_blank">{% image '@AppBundle/Resources/public/images/fb.png' %}
                 <img src="{{ asset_url }}" width="115" alt="gaffiot facebook" style="margin-top: 0px">
                 {% endimage %}</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="{{ path('license') }}" class="text-muted">
-                <span class="glyphicon glyphicon-file"></span> Source et licence</a>&nbsp;&nbsp;|&nbsp;&nbsp;by <a href="https://fresh.lu" target="_blank"
-                  class="text-muted">  {% image '@AppBundle/Resources/public/images/fresh.png' %}
+                <span class="glyphicon glyphicon-file"></span> Source et licence</a>&nbsp;&nbsp;|&nbsp;&nbsp;by <a
+                    href="https://fresh.lu" target="_blank"
+                    class="text-muted">  {% image '@AppBundle/Resources/public/images/fresh.png' %}
                 <img src="{{ asset_url }}" height="25px"
                      style="padding-bottom: 7px; margin-left: -3px"
                      alt="fresh.lu"></a>

@@ -6,7 +6,7 @@
     <br>
     <form role="form">
         <div class="form-group">
-            <input id="searchinput" class="form-control" type="search" placeholder="Search..."/>
+            <input id="searchinput" class="form-control" type="search" placeholder="Search..." autocomplete="off"/>
         </div>
         <div id="searchlist" class="list-group">
             {% for word in words|slice(0, 2000) %}
