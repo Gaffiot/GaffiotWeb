@@ -10,8 +10,10 @@
     <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('icons/android-icon-192x192.png') }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('icons/favicon-16x16.png') }}">
     <meta name="keywords" content="gaffiot en ligne, gaffiot numerisé, gaffiot, gaffiot.org, fresh, benoit frisch">
-    <meta name="description"
-          content="{% block description %}Ce site web permet la recherche dans le dictionnaire Latin-Français de Félix GAFFIOT (1934) vraiment numérisé.{% endblock %}">
+    {% block description %}
+        <meta name="description"
+              content="Ce site web permet la recherche dans le dictionnaire Latin-Français de Félix GAFFIOT (1934) vraiment numérisé.">
+    {% endblock %}
     <meta name="author" content="fresh.lu">
 
     {% block graph %}
