@@ -44,7 +44,7 @@ class DefaultController extends Controller
             ->orwhere('a.latin_raw LIKE :query3')
             ->orwhere('a.latin_raw LIKE :query4')
             ->orwhere('a.latin_raw LIKE :query5')
-            ->orderBy('a.latin', 'ASC')
+            ->orderBy('a.id', 'ASC')
             ->setParameter('query', "" . $query . "%")
             ->setParameter('query1', "1 " . $query . "%")
             ->setParameter('query2', "2 " . $query . "%")
