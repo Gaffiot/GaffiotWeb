@@ -39,8 +39,18 @@ class DefaultController extends Controller
 
         $queryWord = $word->createQueryBuilder('a')
             ->where('a.latin_raw LIKE :query')
+            ->orwhere('a.latin_raw LIKE :query1')
+            ->orwhere('a.latin_raw LIKE :query2')
+            ->orwhere('a.latin_raw LIKE :query3')
+            ->orwhere('a.latin_raw LIKE :query4')
+            ->orwhere('a.latin_raw LIKE :query5')
             ->orderBy('a.latin', 'ASC')
-            ->setParameter('query', "%" . $query . "%");
+            ->setParameter('query', "" . $query . "%")
+            ->setParameter('query1', "1 " . $query . "%")
+            ->setParameter('query2', "2 " . $query . "%")
+            ->setParameter('query3', "3 " . $query . "%")
+            ->setParameter('query4', "4 " . $query . "%")
+            ->setParameter('query5', "5 " . $query . "%");
         $words = $queryWord->getQuery()->getResult();
 
         $arr = [];
