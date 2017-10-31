@@ -43,9 +43,14 @@
             gtag('config', 'UA-51358608-2');
         </script>
         <script type="text/javascript">
-            function noenter() {
-                return !(window.event && window.event.keyCode == 13);
-            }
+            $(document).ready(function () {
+                $(window).keydown(function (event) {
+                    if (event.keyCode == 13) {
+                        event.preventDefault();
+                        return false;
+                    }
+                });
+            });
         </script>
     {% endblock %}
     <title>{% block title %}Gaffiot.LU{% endblock %}</title>
