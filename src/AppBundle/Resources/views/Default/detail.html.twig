@@ -2,6 +2,9 @@
 {% block title %}
     {{ word.latin }} | Gaffiot.org
 {% endblock title %}
+{% block description %}
+    {{ word.latin }} {{ word.french }}
+{% endblock title %}
  {% block graph %}
      <meta property="og:url" content="https://www.gaffiot.org/{{ word.id }}"/>
      <meta property="og:type" content="website"/>

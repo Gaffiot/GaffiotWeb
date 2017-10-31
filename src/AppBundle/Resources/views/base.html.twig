@@ -9,9 +9,9 @@
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('icons/apple-icon-180x180.png') }}">
     <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('icons/android-icon-192x192.png') }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('icons/favicon-16x16.png') }}">
-    <meta name="keywords" content="gaffiot, gaffiot.org, fresh, benoit frisch">
+    <meta name="keywords" content="gaffiot en ligne, gaffiot numerisé, gaffiot, gaffiot.org, fresh, benoit frisch">
     <meta name="description"
-          content="Ce site web permet la recherche dans le dictionnaire Latin-Français de Félix GAFFIOT (1934) vraiment numérisé.">
+          content="{% block description %}Ce site web permet la recherche dans le dictionnaire Latin-Français de Félix GAFFIOT (1934) vraiment numérisé.{% endblock %}">
     <meta name="author" content="fresh.lu">
 
     {% block graph %}
@@ -53,7 +53,7 @@
             });
         </script>
     {% endblock %}
-    <title>{% block title %}Gaffiot.LU{% endblock %}</title>
+    <title>{% block title %}Gaffiot.org{% endblock %}</title>
 </head>
 <body>
 <div class="container-narrow">
@@ -62,7 +62,7 @@
             <div class="col-md-6 col-xs-6">
                 <a href="{{ path('home') }}">
                     {% image '@AppBundle/Resources/public/images/gaffiot.png' %}
-                    <img src="{{ asset_url }}" width="175" alt="gaffiot.org">
+                    <img src="{{ asset_url }}" width="175" alt="Gaffiot en ligne">
                     {% endimage %}
                 </a>
             </div>
