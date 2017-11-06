@@ -1,0 +1,5708 @@
+[
+  {
+    "id": 0,
+    "word": "abacus",
+    "paragraph": "1",
+    "image": "abacus1.jpg"
+  },
+  {
+    "id": 1,
+    "word": "abacus",
+    "paragraph": "2",
+    "image": "abacus2.jpg"
+  },
+  {
+    "id": 2,
+    "word": "Abolla",
+    "paragraph": 0,
+    "image": "Abolla.jpg"
+  },
+  {
+    "id": 3,
+    "word": "acanthus",
+    "paragraph": "1",
+    "image": "acanthus1.jpg"
+  },
+  {
+    "id": 4,
+    "word": "acetabulum",
+    "paragraph": "1",
+    "image": "acetabulum1.jpg"
+  },
+  {
+    "id": 5,
+    "word": "Achaia",
+    "paragraph": 0,
+    "image": "Achaia.jpg"
+  },
+  {
+    "id": 6,
+    "word": "Achilles",
+    "paragraph": 0,
+    "image": "Achilles.jpg"
+  },
+  {
+    "id": 7,
+    "word": "acies",
+    "paragraph": "3",
+    "image": "acies3.jpg"
+  },
+  {
+    "id": 8,
+    "word": "Acinaces",
+    "paragraph": 0,
+    "image": "Acinaces.jpg"
+  },
+  {
+    "id": 9,
+    "word": "Acratophoros",
+    "paragraph": 0,
+    "image": "Acratophoros.jpg"
+  },
+  {
+    "id": 10,
+    "word": "acroama",
+    "paragraph": 0,
+    "image": "acroama.jpg"
+  },
+  {
+    "id": 11,
+    "word": "acroteria",
+    "paragraph": "2",
+    "image": "acroteria2.jpg"
+  },
+  {
+    "id": 12,
+    "word": "Actium",
+    "paragraph": 0,
+    "image": "Actium.jpg"
+  },
+  {
+    "id": 13,
+    "word": "Admetus",
+    "paragraph": 0,
+    "image": "Admetus.jpg"
+  },
+  {
+    "id": 14,
+    "word": "Adonis",
+    "paragraph": "1",
+    "image": "Adonis1.jpg"
+  },
+  {
+    "id": 15,
+    "word": "Adoratio",
+    "paragraph": 0,
+    "image": "Adoratio.jpg"
+  },
+  {
+    "id": 16,
+    "word": "adulatio",
+    "paragraph": "2",
+    "image": "adulatio2.jpg"
+  },
+  {
+    "id": 17,
+    "word": "aedicula",
+    "paragraph": "1",
+    "image": "aedicula1.jpg"
+  },
+  {
+    "id": 18,
+    "word": "Aegeum_mare",
+    "paragraph": 0,
+    "image": "Aegeum_mare.jpg"
+  },
+  {
+    "id": 19,
+    "word": "Aegina",
+    "paragraph": "2",
+    "image": "Aegina2.jpg"
+  },
+  {
+    "id": 20,
+    "word": "Aegis",
+    "paragraph": "1",
+    "image": "Aegis1.jpg"
+  },
+  {
+    "id": 21,
+    "word": "Aegyptus",
+    "paragraph": 0,
+    "image": "Aegyptus.jpg"
+  },
+  {
+    "id": 22,
+    "word": "aenum",
+    "paragraph": 0,
+    "image": "aenum.jpg"
+  },
+  {
+    "id": 23,
+    "word": "aequipondia",
+    "paragraph": "1",
+    "image": "aequipondia1.jpg"
+  },
+  {
+    "id": 24,
+    "word": "aerarium_saturni",
+    "paragraph": 0,
+    "image": "aerarium_saturni.jpg"
+  },
+  {
+    "id": 25,
+    "word": "Aeschines",
+    "paragraph": "2",
+    "image": "Aeschines2.jpg"
+  },
+  {
+    "id": 26,
+    "word": "Aeschylus",
+    "paragraph": "1",
+    "image": "Aeschylus1.jpg"
+  },
+  {
+    "id": 27,
+    "word": "Aesculapius",
+    "paragraph": 0,
+    "image": "Aesculapius.jpg"
+  },
+  {
+    "id": 28,
+    "word": "Aesopus",
+    "paragraph": "1",
+    "image": "Aesopus1.jpg"
+  },
+  {
+    "id": 29,
+    "word": "Aethiopia",
+    "paragraph": 0,
+    "image": "Aethiopia.jpg"
+  },
+  {
+    "id": 30,
+    "word": "Aetna",
+    "paragraph": "1",
+    "image": "Aetna1.jpg"
+  },
+  {
+    "id": 31,
+    "word": "Africa",
+    "paragraph": 0,
+    "image": "Africa.jpg"
+  },
+  {
+    "id": 32,
+    "word": "Agamemnon",
+    "paragraph": 0,
+    "image": "Agamemnon.jpg"
+  },
+  {
+    "id": 33,
+    "word": "agape",
+    "paragraph": "2",
+    "image": "agape2.jpg"
+  },
+  {
+    "id": 34,
+    "word": "ager_romanus",
+    "paragraph": 0,
+    "image": "ager_romanus.jpg"
+  },
+  {
+    "id": 35,
+    "word": "agger",
+    "paragraph": "3",
+    "image": "agger3.jpg"
+  },
+  {
+    "id": 36,
+    "word": "Agrigentum",
+    "paragraph": 0,
+    "image": "Agrigentum.jpg"
+  },
+  {
+    "id": 37,
+    "word": "Agrippa",
+    "paragraph": "2",
+    "image": "Agrippa2.jpg"
+  },
+  {
+    "id": 38,
+    "word": "Agrippina",
+    "paragraph": "3",
+    "image": "Agrippina3.jpg"
+  },
+  {
+    "id": 39,
+    "word": "Ajax",
+    "paragraph": "1",
+    "image": "Ajax1.jpg"
+  },
+  {
+    "id": 40,
+    "word": "alabaster",
+    "paragraph": 0,
+    "image": "alabaster.jpg"
+  },
+  {
+    "id": 41,
+    "word": "Alba_Longa",
+    "paragraph": 0,
+    "image": "Alba_Longa.jpg"
+  },
+  {
+    "id": 42,
+    "word": "album",
+    "paragraph": "3",
+    "image": "album3.jpg"
+  },
+  {
+    "id": 43,
+    "word": "Alcibiades",
+    "paragraph": "1",
+    "image": "Alcibiades1.jpg"
+  },
+  {
+    "id": 44,
+    "word": "Alesia",
+    "paragraph": 0,
+    "image": "Alesia.jpg"
+  },
+  {
+    "id": 45,
+    "word": "Alexander",
+    "paragraph": "1",
+    "image": "Alexander1.jpg"
+  },
+  {
+    "id": 46,
+    "word": "Alexandrea",
+    "paragraph": "1",
+    "image": "Alexandrea1.jpg"
+  },
+  {
+    "id": 47,
+    "word": "Alicula",
+    "paragraph": 0,
+    "image": "Alicula.jpg"
+  },
+  {
+    "id": 48,
+    "word": "Alticinctus",
+    "paragraph": 0,
+    "image": "Alticinctus.jpg"
+  },
+  {
+    "id": 49,
+    "word": "alveare",
+    "paragraph": 0,
+    "image": "alveare.jpg"
+  },
+  {
+    "id": 50,
+    "word": "alveolus",
+    "paragraph": "4",
+    "image": "alveolus4.jpg"
+  },
+  {
+    "id": 51,
+    "word": "amalthea",
+    "paragraph": "1",
+    "image": "amalthea1.jpg"
+  },
+  {
+    "id": 52,
+    "word": "amazones",
+    "paragraph": 0,
+    "image": "amazones.jpg"
+  },
+  {
+    "id": 53,
+    "word": "amentum",
+    "paragraph": "1",
+    "image": "amentum1.jpg"
+  },
+  {
+    "id": 54,
+    "word": "amphiprostylos",
+    "paragraph": 0,
+    "image": "amphiprostylos.jpg"
+  },
+  {
+    "id": 55,
+    "word": "amphitheatrum",
+    "paragraph": 0,
+    "image": "amphitheatrum.jpg"
+  },
+  {
+    "id": 56,
+    "word": "Amphitrite",
+    "paragraph": 0,
+    "image": "Amphitrite.jpg"
+  },
+  {
+    "id": 57,
+    "word": "amphorae",
+    "paragraph": 0,
+    "image": "amphorae.jpg"
+  },
+  {
+    "id": 58,
+    "word": "ampulla",
+    "paragraph": 0,
+    "image": "ampulla.jpg"
+  },
+  {
+    "id": 59,
+    "word": "amuleta",
+    "paragraph": 0,
+    "image": "amuleta.jpg"
+  },
+  {
+    "id": 60,
+    "word": "anchilia",
+    "paragraph": "1",
+    "image": "anchilia1.jpg"
+  },
+  {
+    "id": 61,
+    "word": "Anchises_et_Aeneas",
+    "paragraph": 0,
+    "image": "Anchises_et_Aeneas.jpg"
+  },
+  {
+    "id": 62,
+    "word": "ancora",
+    "paragraph": 0,
+    "image": "ancora.jpg"
+  },
+  {
+    "id": 63,
+    "word": "Andromeda",
+    "paragraph": 0,
+    "image": "Andromeda.jpg"
+  },
+  {
+    "id": 64,
+    "word": "anguilla",
+    "paragraph": "2",
+    "image": "anguilla2.jpg"
+  },
+  {
+    "id": 65,
+    "word": "Annona",
+    "paragraph": "2",
+    "image": "Annona2.jpg"
+  },
+  {
+    "id": 66,
+    "word": "Antaeus",
+    "paragraph": 0,
+    "image": "Antaeus.jpg"
+  },
+  {
+    "id": 67,
+    "word": "antefixa",
+    "paragraph": 0,
+    "image": "antefixa.jpg"
+  },
+  {
+    "id": 68,
+    "word": "Antigonus",
+    "paragraph": 0,
+    "image": "Antigonus.jpg"
+  },
+  {
+    "id": 69,
+    "word": "Antinous",
+    "paragraph": "2",
+    "image": "Antinous2.jpg"
+  },
+  {
+    "id": 70,
+    "word": "Antiochus_III",
+    "paragraph": 0,
+    "image": "Antiochus_III.jpg"
+  },
+  {
+    "id": 71,
+    "word": "Antonius",
+    "paragraph": 0,
+    "image": "Antonius.jpg"
+  },
+  {
+    "id": 72,
+    "word": "Anubis",
+    "paragraph": 0,
+    "image": "Anubis.jpg"
+  },
+  {
+    "id": 73,
+    "word": "anulus",
+    "paragraph": 0,
+    "image": "anulus.jpg"
+  },
+  {
+    "id": 74,
+    "word": "apex",
+    "paragraph": 0,
+    "image": "apex.jpg"
+  },
+  {
+    "id": 75,
+    "word": "apiarium",
+    "paragraph": 0,
+    "image": "apiarium.jpg"
+  },
+  {
+    "id": 76,
+    "word": "Apis",
+    "paragraph": 0,
+    "image": "Apis.jpg"
+  },
+  {
+    "id": 77,
+    "word": "aplustre",
+    "paragraph": 0,
+    "image": "aplustre.jpg"
+  },
+  {
+    "id": 78,
+    "word": "Apollo",
+    "paragraph": 0,
+    "image": "Apollo.jpg"
+  },
+  {
+    "id": 79,
+    "word": "Appenninus",
+    "paragraph": 0,
+    "image": "Appenninus.jpg"
+  },
+  {
+    "id": 80,
+    "word": "Appia_via",
+    "paragraph": 0,
+    "image": "Appia_via.jpg"
+  },
+  {
+    "id": 81,
+    "word": "aquilifer",
+    "paragraph": 0,
+    "image": "aquilifer.jpg"
+  },
+  {
+    "id": 82,
+    "word": "Ara",
+    "paragraph": "1",
+    "image": "Ara1.jpg"
+  },
+  {
+    "id": 83,
+    "word": "Arabia",
+    "paragraph": 0,
+    "image": "Arabia.jpg"
+  },
+  {
+    "id": 84,
+    "word": "aratrum",
+    "paragraph": 0,
+    "image": "aratrum.jpg"
+  },
+  {
+    "id": 85,
+    "word": "Arbela",
+    "paragraph": "2",
+    "image": "Arbela2.jpg"
+  },
+  {
+    "id": 86,
+    "word": "arc",
+    "paragraph": 0,
+    "image": "arc.jpg"
+  },
+  {
+    "id": 87,
+    "word": "arca",
+    "paragraph": "1",
+    "image": "arca1.jpg"
+  },
+  {
+    "id": 88,
+    "word": "Arcadia",
+    "paragraph": "1",
+    "image": "Arcadia1.jpg"
+  },
+  {
+    "id": 89,
+    "word": "Archilochus",
+    "paragraph": 0,
+    "image": "Archilochus.jpg"
+  },
+  {
+    "id": 90,
+    "word": "arcuballista",
+    "paragraph": 0,
+    "image": "arcuballista.jpg"
+  },
+  {
+    "id": 91,
+    "word": "arcus",
+    "paragraph": "1",
+    "image": "arcus1.jpg"
+  },
+  {
+    "id": 92,
+    "word": "arcus",
+    "paragraph": "3",
+    "image": "arcus3.jpg"
+  },
+  {
+    "id": 93,
+    "word": "argentarius2b",
+    "paragraph": 0,
+    "image": "argentarius2b.jpg"
+  },
+  {
+    "id": 94,
+    "word": "Argo",
+    "paragraph": "1",
+    "image": "Argo1.jpg"
+  },
+  {
+    "id": 95,
+    "word": "Argolis",
+    "paragraph": 0,
+    "image": "Argolis.jpg"
+  },
+  {
+    "id": 96,
+    "word": "Argus",
+    "paragraph": "1",
+    "image": "Argus1.jpg"
+  },
+  {
+    "id": 97,
+    "word": "Ariadna",
+    "paragraph": 0,
+    "image": "Ariadna.jpg"
+  },
+  {
+    "id": 98,
+    "word": "aries",
+    "paragraph": "2",
+    "image": "aries2.jpg"
+  },
+  {
+    "id": 99,
+    "word": "Arion",
+    "paragraph": "1",
+    "image": "Arion1.jpg"
+  },
+  {
+    "id": 100,
+    "word": "Aristaeus",
+    "paragraph": 0,
+    "image": "Aristaeus.jpg"
+  },
+  {
+    "id": 101,
+    "word": "Aristophanes",
+    "paragraph": "1",
+    "image": "Aristophanes1.jpg"
+  },
+  {
+    "id": 102,
+    "word": "Aristoteles",
+    "paragraph": "1",
+    "image": "Aristoteles1.jpg"
+  },
+  {
+    "id": 103,
+    "word": "armarium",
+    "paragraph": 0,
+    "image": "armarium.jpg"
+  },
+  {
+    "id": 104,
+    "word": "Armenia",
+    "paragraph": 0,
+    "image": "Armenia.jpg"
+  },
+  {
+    "id": 105,
+    "word": "armillae",
+    "paragraph": 0,
+    "image": "armillae.jpg"
+  },
+  {
+    "id": 106,
+    "word": "arundo",
+    "paragraph": "2",
+    "image": "arundo2.jpg"
+  },
+  {
+    "id": 107,
+    "word": "arvalis",
+    "paragraph": 0,
+    "image": "arvalis.jpg"
+  },
+  {
+    "id": 108,
+    "word": "as",
+    "paragraph": "1",
+    "image": "as1.jpg"
+  },
+  {
+    "id": 109,
+    "word": "Asia",
+    "paragraph": 0,
+    "image": "Asia.jpg"
+  },
+  {
+    "id": 110,
+    "word": "Assyria",
+    "paragraph": 0,
+    "image": "Assyria.jpg"
+  },
+  {
+    "id": 111,
+    "word": "Assyrii",
+    "paragraph": 0,
+    "image": "Assyrii.jpg"
+  },
+  {
+    "id": 112,
+    "word": "Astarte",
+    "paragraph": 0,
+    "image": "Astarte.jpg"
+  },
+  {
+    "id": 113,
+    "word": "astragalus",
+    "paragraph": "1",
+    "image": "astragalus1.jpg"
+  },
+  {
+    "id": 114,
+    "word": "atellanus",
+    "paragraph": 0,
+    "image": "atellanus.jpg"
+  },
+  {
+    "id": 115,
+    "word": "Athenae",
+    "paragraph": "1",
+    "image": "Athenae1.jpg"
+  },
+  {
+    "id": 116,
+    "word": "Athene",
+    "paragraph": "1",
+    "image": "Athene1.jpg"
+  },
+  {
+    "id": 117,
+    "word": "athleta",
+    "paragraph": 0,
+    "image": "athleta.jpg"
+  },
+  {
+    "id": 118,
+    "word": "Atlas",
+    "paragraph": "1",
+    "image": "Atlas1.jpg"
+  },
+  {
+    "id": 119,
+    "word": "atramentarium",
+    "paragraph": 0,
+    "image": "atramentarium.jpg"
+  },
+  {
+    "id": 120,
+    "word": "atriensis",
+    "paragraph": 0,
+    "image": "atriensis.jpg"
+  },
+  {
+    "id": 121,
+    "word": "atrium",
+    "paragraph": 0,
+    "image": "atrium.jpg"
+  },
+  {
+    "id": 122,
+    "word": "Attica",
+    "paragraph": 0,
+    "image": "Attica.jpg"
+  },
+  {
+    "id": 123,
+    "word": "augur",
+    "paragraph": "1",
+    "image": "augur1.jpg"
+  },
+  {
+    "id": 124,
+    "word": "Augustus",
+    "paragraph": "1",
+    "image": "Augustus1.jpg"
+  },
+  {
+    "id": 125,
+    "word": "Aurelianus",
+    "paragraph": 0,
+    "image": "Aurelianus.jpg"
+  },
+  {
+    "id": 126,
+    "word": "aureus",
+    "paragraph": 0,
+    "image": "aureus.jpg"
+  },
+  {
+    "id": 127,
+    "word": "auriga",
+    "paragraph": "1",
+    "image": "auriga1.jpg"
+  },
+  {
+    "id": 128,
+    "word": "auriscalpium",
+    "paragraph": 0,
+    "image": "auriscalpium.jpg"
+  },
+  {
+    "id": 129,
+    "word": "Avaricum",
+    "paragraph": 0,
+    "image": "Avaricum.jpg"
+  },
+  {
+    "id": 130,
+    "word": "Aventinus",
+    "paragraph": 0,
+    "image": "Aventinus.jpg"
+  },
+  {
+    "id": 131,
+    "word": "Avernus",
+    "paragraph": 0,
+    "image": "Avernus.jpg"
+  },
+  {
+    "id": 132,
+    "word": "axis",
+    "paragraph": "1",
+    "image": "axis1.jpg"
+  },
+  {
+    "id": 133,
+    "word": "axis",
+    "paragraph": "3",
+    "image": "axis3.jpg"
+  },
+  {
+    "id": 134,
+    "word": "Babylon",
+    "paragraph": 0,
+    "image": "Babylon.jpg"
+  },
+  {
+    "id": 135,
+    "word": "Baccha",
+    "paragraph": 0,
+    "image": "Baccha.jpg"
+  },
+  {
+    "id": 136,
+    "word": "Bacchus",
+    "paragraph": 0,
+    "image": "Bacchus.jpg"
+  },
+  {
+    "id": 137,
+    "word": "Bactriana",
+    "paragraph": 0,
+    "image": "Bactriana.jpg"
+  },
+  {
+    "id": 138,
+    "word": "Baleares",
+    "paragraph": 0,
+    "image": "Baleares.jpg"
+  },
+  {
+    "id": 139,
+    "word": "baljulus",
+    "paragraph": 0,
+    "image": "baljulus.jpg"
+  },
+  {
+    "id": 140,
+    "word": "ballista",
+    "paragraph": "1",
+    "image": "ballista1.jpg"
+  },
+  {
+    "id": 141,
+    "word": "balneum",
+    "paragraph": 0,
+    "image": "balneum.jpg"
+  },
+  {
+    "id": 142,
+    "word": "balteus",
+    "paragraph": 0,
+    "image": "balteus.jpg"
+  },
+  {
+    "id": 143,
+    "word": "basilica",
+    "paragraph": "1",
+    "image": "basilica1.jpg"
+  },
+  {
+    "id": 144,
+    "word": "basilica",
+    "paragraph": "2",
+    "image": "basilica2.jpg"
+  },
+  {
+    "id": 145,
+    "word": "basilique",
+    "paragraph": 0,
+    "image": "basilique.jpg"
+  },
+  {
+    "id": 146,
+    "word": "batillum",
+    "paragraph": 0,
+    "image": "batillum.jpg"
+  },
+  {
+    "id": 147,
+    "word": "baxea",
+    "paragraph": 0,
+    "image": "baxea.jpg"
+  },
+  {
+    "id": 148,
+    "word": "Bellerophon",
+    "paragraph": 0,
+    "image": "Bellerophon.jpg"
+  },
+  {
+    "id": 149,
+    "word": "Bellona",
+    "paragraph": 0,
+    "image": "Bellona.jpg"
+  },
+  {
+    "id": 150,
+    "word": "benna",
+    "paragraph": 0,
+    "image": "benna.jpg"
+  },
+  {
+    "id": 151,
+    "word": "bestiarius",
+    "paragraph": 0,
+    "image": "bestiarius.jpg"
+  },
+  {
+    "id": 152,
+    "word": "biclinium",
+    "paragraph": 0,
+    "image": "biclinium.jpg"
+  },
+  {
+    "id": 153,
+    "word": "bidens",
+    "paragraph": "2",
+    "image": "bidens2.jpg"
+  },
+  {
+    "id": 154,
+    "word": "bidentail",
+    "paragraph": 0,
+    "image": "bidentail.jpg"
+  },
+  {
+    "id": 155,
+    "word": "bifrons",
+    "paragraph": 0,
+    "image": "bifrons.jpg"
+  },
+  {
+    "id": 156,
+    "word": "biga",
+    "paragraph": 0,
+    "image": "biga.jpg"
+  },
+  {
+    "id": 157,
+    "word": "bigatus",
+    "paragraph": 0,
+    "image": "bigatus.jpg"
+  },
+  {
+    "id": 158,
+    "word": "bipennis",
+    "paragraph": "2",
+    "image": "bipennis2.jpg"
+  },
+  {
+    "id": 159,
+    "word": "biremis",
+    "paragraph": 0,
+    "image": "biremis.jpg"
+  },
+  {
+    "id": 160,
+    "word": "bisellium",
+    "paragraph": 0,
+    "image": "bisellium.jpg"
+  },
+  {
+    "id": 161,
+    "word": "Boeotia",
+    "paragraph": 0,
+    "image": "Boeotia.jpg"
+  },
+  {
+    "id": 162,
+    "word": "Bosphorus",
+    "paragraph": 0,
+    "image": "Bosphorus.jpg"
+  },
+  {
+    "id": 163,
+    "word": "bracae",
+    "paragraph": 0,
+    "image": "bracae.jpg"
+  },
+  {
+    "id": 164,
+    "word": "Briseis",
+    "paragraph": 0,
+    "image": "Briseis.jpg"
+  },
+  {
+    "id": 165,
+    "word": "Britannia",
+    "paragraph": 0,
+    "image": "Britannia.jpg"
+  },
+  {
+    "id": 166,
+    "word": "Britannicus",
+    "paragraph": 0,
+    "image": "Britannicus.jpg"
+  },
+  {
+    "id": 167,
+    "word": "Brutus",
+    "paragraph": 0,
+    "image": "Brutus.jpg"
+  },
+  {
+    "id": 168,
+    "word": "Brutus",
+    "paragraph": "2",
+    "image": "Brutus2.jpg"
+  },
+  {
+    "id": 169,
+    "word": "bucina",
+    "paragraph": 0,
+    "image": "bucina.jpg"
+  },
+  {
+    "id": 170,
+    "word": "bucinator",
+    "paragraph": 0,
+    "image": "bucinator.jpg"
+  },
+  {
+    "id": 171,
+    "word": "bulga",
+    "paragraph": "1",
+    "image": "bulga1.jpg"
+  },
+  {
+    "id": 172,
+    "word": "bulla",
+    "paragraph": "6",
+    "image": "bulla6.jpg"
+  },
+  {
+    "id": 173,
+    "word": "bullatus",
+    "paragraph": 0,
+    "image": "bullatus.jpg"
+  },
+  {
+    "id": 174,
+    "word": "Cabirus",
+    "paragraph": "1",
+    "image": "Cabirus1.jpg"
+  },
+  {
+    "id": 175,
+    "word": "caccabus",
+    "paragraph": 0,
+    "image": "caccabus.jpg"
+  },
+  {
+    "id": 176,
+    "word": "Cacus",
+    "paragraph": 0,
+    "image": "Cacus.jpg"
+  },
+  {
+    "id": 177,
+    "word": "Cadmea",
+    "paragraph": 0,
+    "image": "Cadmea.jpg"
+  },
+  {
+    "id": 178,
+    "word": "Cadmus",
+    "paragraph": "1",
+    "image": "Cadmus1.jpg"
+  },
+  {
+    "id": 179,
+    "word": "caduceus",
+    "paragraph": 0,
+    "image": "caduceus.jpg"
+  },
+  {
+    "id": 180,
+    "word": "cadus",
+    "paragraph": "1",
+    "image": "cadus1.jpg"
+  },
+  {
+    "id": 181,
+    "word": "Caecilius",
+    "paragraph": 0,
+    "image": "Caecilius.jpg"
+  },
+  {
+    "id": 182,
+    "word": "caela",
+    "paragraph": 0,
+    "image": "caela.jpg"
+  },
+  {
+    "id": 183,
+    "word": "caelator",
+    "paragraph": 0,
+    "image": "caelator.jpg"
+  },
+  {
+    "id": 184,
+    "word": "Caesar",
+    "paragraph": 0,
+    "image": "Caesar.jpg"
+  },
+  {
+    "id": 185,
+    "word": "caestus",
+    "paragraph": "2",
+    "image": "caestus2.jpg"
+  },
+  {
+    "id": 186,
+    "word": "calamister",
+    "paragraph": 0,
+    "image": "calamister.jpg"
+  },
+  {
+    "id": 187,
+    "word": "calamus",
+    "paragraph": 0,
+    "image": "calamus.jpg"
+  },
+  {
+    "id": 188,
+    "word": "calathus",
+    "paragraph": 0,
+    "image": "calathus.jpg"
+  },
+  {
+    "id": 189,
+    "word": "calcar",
+    "paragraph": 0,
+    "image": "calcar.jpg"
+  },
+  {
+    "id": 190,
+    "word": "calceus",
+    "paragraph": 0,
+    "image": "calceus.jpg"
+  },
+  {
+    "id": 191,
+    "word": "calculator",
+    "paragraph": 0,
+    "image": "calculator.jpg"
+  },
+  {
+    "id": 192,
+    "word": "calendarium",
+    "paragraph": 0,
+    "image": "calendarium.jpg"
+  },
+  {
+    "id": 193,
+    "word": "caliendrum",
+    "paragraph": 0,
+    "image": "caliendrum.jpg"
+  },
+  {
+    "id": 194,
+    "word": "caliga",
+    "paragraph": 0,
+    "image": "caliga.jpg"
+  },
+  {
+    "id": 195,
+    "word": "Caligula",
+    "paragraph": "2",
+    "image": "Caligula2.jpg"
+  },
+  {
+    "id": 196,
+    "word": "calix",
+    "paragraph": 0,
+    "image": "calix.jpg"
+  },
+  {
+    "id": 197,
+    "word": "Calliope",
+    "paragraph": 0,
+    "image": "Calliope.jpg"
+  },
+  {
+    "id": 198,
+    "word": "campagus",
+    "paragraph": 0,
+    "image": "campagus.jpg"
+  },
+  {
+    "id": 199,
+    "word": "campestre",
+    "paragraph": 0,
+    "image": "campestre.jpg"
+  },
+  {
+    "id": 200,
+    "word": "cancellus",
+    "paragraph": 0,
+    "image": "cancellus.jpg"
+  },
+  {
+    "id": 201,
+    "word": "cancer",
+    "paragraph": "2",
+    "image": "cancer2.jpg"
+  },
+  {
+    "id": 202,
+    "word": "candelabrum",
+    "paragraph": 0,
+    "image": "candelabrum.jpg"
+  },
+  {
+    "id": 203,
+    "word": "Canephoros",
+    "paragraph": 0,
+    "image": "Canephoros.jpg"
+  },
+  {
+    "id": 204,
+    "word": "canis",
+    "paragraph": 0,
+    "image": "canis.jpg"
+  },
+  {
+    "id": 205,
+    "word": "canistrum",
+    "paragraph": 0,
+    "image": "canistrum.jpg"
+  },
+  {
+    "id": 206,
+    "word": "Cannae",
+    "paragraph": 0,
+    "image": "Cannae.jpg"
+  },
+  {
+    "id": 207,
+    "word": "Cantabria",
+    "paragraph": 0,
+    "image": "Cantabria.jpg"
+  },
+  {
+    "id": 208,
+    "word": "cantharus",
+    "paragraph": 0,
+    "image": "cantharus.jpg"
+  },
+  {
+    "id": 209,
+    "word": "capedo",
+    "paragraph": "1",
+    "image": "capedo1.jpg"
+  },
+  {
+    "id": 210,
+    "word": "capistrum",
+    "paragraph": 0,
+    "image": "capistrum.jpg"
+  },
+  {
+    "id": 211,
+    "word": "capital",
+    "paragraph": 0,
+    "image": "capital.jpg"
+  },
+  {
+    "id": 212,
+    "word": "Capitolium",
+    "paragraph": 0,
+    "image": "Capitolium.jpg"
+  },
+  {
+    "id": 213,
+    "word": "capitulum",
+    "paragraph": 0,
+    "image": "capitulum.jpg"
+  },
+  {
+    "id": 214,
+    "word": "Capreae",
+    "paragraph": 0,
+    "image": "Capreae.jpg"
+  },
+  {
+    "id": 215,
+    "word": "capsa",
+    "paragraph": 0,
+    "image": "capsa.jpg"
+  },
+  {
+    "id": 216,
+    "word": "capsarius",
+    "paragraph": "1",
+    "image": "capsarius1.jpg"
+  },
+  {
+    "id": 217,
+    "word": "Caracalla",
+    "paragraph": 0,
+    "image": "Caracalla.jpg"
+  },
+  {
+    "id": 218,
+    "word": "carchesium",
+    "paragraph": 0,
+    "image": "carchesium.jpg"
+  },
+  {
+    "id": 219,
+    "word": "cardo",
+    "paragraph": "1",
+    "image": "cardo1.jpg"
+  },
+  {
+    "id": 220,
+    "word": "carpentum",
+    "paragraph": 0,
+    "image": "carpentum.jpg"
+  },
+  {
+    "id": 221,
+    "word": "carruca",
+    "paragraph": 0,
+    "image": "carruca.jpg"
+  },
+  {
+    "id": 222,
+    "word": "carrus",
+    "paragraph": 0,
+    "image": "carrus.jpg"
+  },
+  {
+    "id": 223,
+    "word": "Carthago",
+    "paragraph": 0,
+    "image": "Carthago.jpg"
+  },
+  {
+    "id": 224,
+    "word": "CarthagoNova",
+    "paragraph": 0,
+    "image": "CarthagoNova.jpg"
+  },
+  {
+    "id": 225,
+    "word": "Caryatis",
+    "paragraph": "2",
+    "image": "Caryatis2.jpg"
+  },
+  {
+    "id": 226,
+    "word": "casa",
+    "paragraph": 0,
+    "image": "casa.jpg"
+  },
+  {
+    "id": 227,
+    "word": "Cassandra",
+    "paragraph": 0,
+    "image": "Cassandra.jpg"
+  },
+  {
+    "id": 228,
+    "word": "cassis",
+    "paragraph": "1",
+    "image": "cassis1.jpg"
+  },
+  {
+    "id": 229,
+    "word": "Castor",
+    "paragraph": 0,
+    "image": "Castor.jpg"
+  },
+  {
+    "id": 230,
+    "word": "castra",
+    "paragraph": "1",
+    "image": "castra1.jpg"
+  },
+  {
+    "id": 231,
+    "word": "cataphractus",
+    "paragraph": 0,
+    "image": "cataphractus.jpg"
+  },
+  {
+    "id": 232,
+    "word": "catapulta",
+    "paragraph": "1",
+    "image": "catapulta1.jpg"
+  },
+  {
+    "id": 233,
+    "word": "cataracta",
+    "paragraph": 0,
+    "image": "cataracta.jpg"
+  },
+  {
+    "id": 234,
+    "word": "cathedra",
+    "paragraph": "1",
+    "image": "cathedra1.jpg"
+  },
+  {
+    "id": 235,
+    "word": "catinum",
+    "paragraph": 0,
+    "image": "catinum.jpg"
+  },
+  {
+    "id": 236,
+    "word": "Cato_Uticensis",
+    "paragraph": 0,
+    "image": "Cato_Uticensis.jpg"
+  },
+  {
+    "id": 237,
+    "word": "catullus",
+    "paragraph": "2",
+    "image": "catullus2.jpg"
+  },
+  {
+    "id": 238,
+    "word": "Caucasus",
+    "paragraph": 0,
+    "image": "Caucasus.jpg"
+  },
+  {
+    "id": 239,
+    "word": "Caudium",
+    "paragraph": 0,
+    "image": "Caudium.jpg"
+  },
+  {
+    "id": 240,
+    "word": "caupona",
+    "paragraph": 0,
+    "image": "caupona.jpg"
+  },
+  {
+    "id": 241,
+    "word": "causea",
+    "paragraph": "1",
+    "image": "causea1.jpg"
+  },
+  {
+    "id": 242,
+    "word": "cavaedium",
+    "paragraph": 0,
+    "image": "cavaedium.jpg"
+  },
+  {
+    "id": 243,
+    "word": "cavea",
+    "paragraph": "2",
+    "image": "cavea2.jpg"
+  },
+  {
+    "id": 244,
+    "word": "Cecrops",
+    "paragraph": 0,
+    "image": "Cecrops.jpg"
+  },
+  {
+    "id": 245,
+    "word": "cella_vinaria",
+    "paragraph": 0,
+    "image": "cella_vinaria.jpg"
+  },
+  {
+    "id": 246,
+    "word": "census",
+    "paragraph": "1",
+    "image": "census1.jpg"
+  },
+  {
+    "id": 247,
+    "word": "Centaurus",
+    "paragraph": "1",
+    "image": "Centaurus1.jpg"
+  },
+  {
+    "id": 248,
+    "word": "centurio",
+    "paragraph": "2",
+    "image": "centurio2.jpg"
+  },
+  {
+    "id": 249,
+    "word": "Cerberus",
+    "paragraph": 0,
+    "image": "Cerberus.jpg"
+  },
+  {
+    "id": 250,
+    "word": "Ceres",
+    "paragraph": "1",
+    "image": "Ceres1.jpg"
+  },
+  {
+    "id": 251,
+    "word": "Cernuus",
+    "paragraph": "2",
+    "image": "Cernuus2.jpg"
+  },
+  {
+    "id": 252,
+    "word": "cestrosphendone",
+    "paragraph": 0,
+    "image": "cestrosphendone.jpg"
+  },
+  {
+    "id": 253,
+    "word": "Chalcis",
+    "paragraph": "1",
+    "image": "Chalcis1.jpg"
+  },
+  {
+    "id": 254,
+    "word": "Chaldaea",
+    "paragraph": 0,
+    "image": "Chaldaea.jpg"
+  },
+  {
+    "id": 255,
+    "word": "Chaldaei",
+    "paragraph": 0,
+    "image": "Chaldaei.jpg"
+  },
+  {
+    "id": 256,
+    "word": "Charon",
+    "paragraph": "1",
+    "image": "Charon1.jpg"
+  },
+  {
+    "id": 257,
+    "word": "chepitaculum",
+    "paragraph": 0,
+    "image": "chepitaculum.jpg"
+  },
+  {
+    "id": 258,
+    "word": "Chimaera",
+    "paragraph": 0,
+    "image": "Chimaera.jpg"
+  },
+  {
+    "id": 259,
+    "word": "chlamys",
+    "paragraph": 0,
+    "image": "chlamys.jpg"
+  },
+  {
+    "id": 260,
+    "word": "chorus",
+    "paragraph": "2",
+    "image": "chorus2.jpg"
+  },
+  {
+    "id": 261,
+    "word": "ciborium",
+    "paragraph": 0,
+    "image": "ciborium.jpg"
+  },
+  {
+    "id": 262,
+    "word": "Cicero",
+    "paragraph": 0,
+    "image": "Cicero.jpg"
+  },
+  {
+    "id": 263,
+    "word": "Cilicia",
+    "paragraph": 0,
+    "image": "Cilicia.jpg"
+  },
+  {
+    "id": 264,
+    "word": "cincinnus",
+    "paragraph": 0,
+    "image": "cincinnus.jpg"
+  },
+  {
+    "id": 265,
+    "word": "cinctus_gabinus",
+    "paragraph": 0,
+    "image": "cinctus_gabinus.jpg"
+  },
+  {
+    "id": 266,
+    "word": "circe",
+    "paragraph": 0,
+    "image": "circe.jpg"
+  },
+  {
+    "id": 267,
+    "word": "circinus",
+    "paragraph": "1",
+    "image": "circinus1.jpg"
+  },
+  {
+    "id": 268,
+    "word": "circus",
+    "paragraph": "2",
+    "image": "circus2.jpg"
+  },
+  {
+    "id": 269,
+    "word": "circus2b",
+    "paragraph": 0,
+    "image": "circus2b.jpg"
+  },
+  {
+    "id": 270,
+    "word": "cirrus",
+    "paragraph": 0,
+    "image": "cirrus.jpg"
+  },
+  {
+    "id": 271,
+    "word": "cisium",
+    "paragraph": 0,
+    "image": "cisium.jpg"
+  },
+  {
+    "id": 272,
+    "word": "cista",
+    "paragraph": 0,
+    "image": "cista.jpg"
+  },
+  {
+    "id": 273,
+    "word": "cistophoros",
+    "paragraph": 0,
+    "image": "cistophoros.jpg"
+  },
+  {
+    "id": 274,
+    "word": "cithara",
+    "paragraph": 0,
+    "image": "cithara.jpg"
+  },
+  {
+    "id": 275,
+    "word": "Claudius",
+    "paragraph": "3",
+    "image": "Claudius3.jpg"
+  },
+  {
+    "id": 276,
+    "word": "clava",
+    "paragraph": 0,
+    "image": "clava.jpg"
+  },
+  {
+    "id": 277,
+    "word": "clavis",
+    "paragraph": 0,
+    "image": "clavis.jpg"
+  },
+  {
+    "id": 278,
+    "word": "clavus",
+    "paragraph": 0,
+    "image": "clavus.jpg"
+  },
+  {
+    "id": 279,
+    "word": "Cleopatra",
+    "paragraph": "1",
+    "image": "Cleopatra1.jpg"
+  },
+  {
+    "id": 280,
+    "word": "Clio",
+    "paragraph": 0,
+    "image": "Clio.jpg"
+  },
+  {
+    "id": 281,
+    "word": "clipeus",
+    "paragraph": "1",
+    "image": "clipeus1.jpg"
+  },
+  {
+    "id": 282,
+    "word": "clitellae",
+    "paragraph": "1",
+    "image": "clitellae1.jpg"
+  },
+  {
+    "id": 283,
+    "word": "cloaca",
+    "paragraph": 0,
+    "image": "cloaca.jpg"
+  },
+  {
+    "id": 284,
+    "word": "Clytaemnestra",
+    "paragraph": 0,
+    "image": "Clytaemnestra.jpg"
+  },
+  {
+    "id": 285,
+    "word": "cochlear",
+    "paragraph": 0,
+    "image": "cochlear.jpg"
+  },
+  {
+    "id": 286,
+    "word": "Cocles",
+    "paragraph": 0,
+    "image": "Cocles.jpg"
+  },
+  {
+    "id": 287,
+    "word": "codex",
+    "paragraph": "1",
+    "image": "codex1.jpg"
+  },
+  {
+    "id": 288,
+    "word": "colum",
+    "paragraph": 0,
+    "image": "colum.jpg"
+  },
+  {
+    "id": 289,
+    "word": "columbarium",
+    "paragraph": "3",
+    "image": "columbarium3.jpg"
+  },
+  {
+    "id": 290,
+    "word": "columna",
+    "paragraph": 0,
+    "image": "columna.jpg"
+  },
+  {
+    "id": 291,
+    "word": "colus",
+    "paragraph": "2",
+    "image": "colus2.jpg"
+  },
+  {
+    "id": 292,
+    "word": "comoedia",
+    "paragraph": 0,
+    "image": "comoedia.jpg"
+  },
+  {
+    "id": 293,
+    "word": "compes",
+    "paragraph": 0,
+    "image": "compes.jpg"
+  },
+  {
+    "id": 294,
+    "word": "comptus",
+    "paragraph": 0,
+    "image": "comptus.jpg"
+  },
+  {
+    "id": 295,
+    "word": "concha",
+    "paragraph": "5",
+    "image": "concha5.jpg"
+  },
+  {
+    "id": 296,
+    "word": "conclamatio",
+    "paragraph": 0,
+    "image": "conclamatio.jpg"
+  },
+  {
+    "id": 297,
+    "word": "congiarium",
+    "paragraph": "3",
+    "image": "congiarium3.jpg"
+  },
+  {
+    "id": 298,
+    "word": "congius",
+    "paragraph": 0,
+    "image": "congius.jpg"
+  },
+  {
+    "id": 299,
+    "word": "Constantinopolis",
+    "paragraph": 0,
+    "image": "Constantinopolis.jpg"
+  },
+  {
+    "id": 300,
+    "word": "Constantinus",
+    "paragraph": 0,
+    "image": "Constantinus.jpg"
+  },
+  {
+    "id": 301,
+    "word": "Constantius",
+    "paragraph": 0,
+    "image": "Constantius.jpg"
+  },
+  {
+    "id": 302,
+    "word": "cophinus",
+    "paragraph": 0,
+    "image": "cophinus.jpg"
+  },
+  {
+    "id": 303,
+    "word": "copis",
+    "paragraph": 0,
+    "image": "copis.jpg"
+  },
+  {
+    "id": 304,
+    "word": "corbis",
+    "paragraph": 0,
+    "image": "corbis.jpg"
+  },
+  {
+    "id": 305,
+    "word": "Corinthus",
+    "paragraph": 0,
+    "image": "Corinthus.jpg"
+  },
+  {
+    "id": 306,
+    "word": "cornicen",
+    "paragraph": 0,
+    "image": "cornicen.jpg"
+  },
+  {
+    "id": 307,
+    "word": "cornu_copia",
+    "paragraph": 0,
+    "image": "cornu_copia.jpg"
+  },
+  {
+    "id": 308,
+    "word": "corona",
+    "paragraph": "1",
+    "image": "corona1.jpg"
+  },
+  {
+    "id": 309,
+    "word": "Corsica",
+    "paragraph": 0,
+    "image": "Corsica.jpg"
+  },
+  {
+    "id": 310,
+    "word": "cortina",
+    "paragraph": "1",
+    "image": "cortina1.jpg"
+  },
+  {
+    "id": 311,
+    "word": "Corybantes",
+    "paragraph": 0,
+    "image": "Corybantes.jpg"
+  },
+  {
+    "id": 312,
+    "word": "Corycus",
+    "paragraph": 0,
+    "image": "Corycus.jpg"
+  },
+  {
+    "id": 313,
+    "word": "cothurnus",
+    "paragraph": "1",
+    "image": "cothurnus1.jpg"
+  },
+  {
+    "id": 314,
+    "word": "cotyla",
+    "paragraph": 0,
+    "image": "cotyla.jpg"
+  },
+  {
+    "id": 315,
+    "word": "crater",
+    "paragraph": 0,
+    "image": "crater.jpg"
+  },
+  {
+    "id": 316,
+    "word": "craticula",
+    "paragraph": 0,
+    "image": "craticula.jpg"
+  },
+  {
+    "id": 317,
+    "word": "crepida",
+    "paragraph": 0,
+    "image": "crepida.jpg"
+  },
+  {
+    "id": 318,
+    "word": "crepitaculum",
+    "paragraph": 0,
+    "image": "crepitaculum.jpg"
+  },
+  {
+    "id": 319,
+    "word": "crepundia",
+    "paragraph": 0,
+    "image": "crepundia.jpg"
+  },
+  {
+    "id": 320,
+    "word": "Creta",
+    "paragraph": 0,
+    "image": "Creta.jpg"
+  },
+  {
+    "id": 321,
+    "word": "cribrum",
+    "paragraph": 0,
+    "image": "cribrum.jpg"
+  },
+  {
+    "id": 322,
+    "word": "crinale",
+    "paragraph": 0,
+    "image": "crinale.jpg"
+  },
+  {
+    "id": 323,
+    "word": "crista",
+    "paragraph": 0,
+    "image": "crista.jpg"
+  },
+  {
+    "id": 324,
+    "word": "crotalum",
+    "paragraph": 0,
+    "image": "crotalum.jpg"
+  },
+  {
+    "id": 325,
+    "word": "crumena",
+    "paragraph": 0,
+    "image": "crumena.jpg"
+  },
+  {
+    "id": 326,
+    "word": "cucullus",
+    "paragraph": "1",
+    "image": "cucullus1.jpg"
+  },
+  {
+    "id": 327,
+    "word": "culter",
+    "paragraph": "2",
+    "image": "culter2.jpg"
+  },
+  {
+    "id": 328,
+    "word": "cunabula",
+    "paragraph": 0,
+    "image": "cunabula.jpg"
+  },
+  {
+    "id": 329,
+    "word": "cuneus",
+    "paragraph": 0,
+    "image": "cuneus.jpg"
+  },
+  {
+    "id": 330,
+    "word": "currus",
+    "paragraph": "1",
+    "image": "currus1.jpg"
+  },
+  {
+    "id": 331,
+    "word": "cyathus",
+    "paragraph": 0,
+    "image": "cyathus.jpg"
+  },
+  {
+    "id": 332,
+    "word": "Cybele",
+    "paragraph": 0,
+    "image": "Cybele.jpg"
+  },
+  {
+    "id": 333,
+    "word": "cyclas",
+    "paragraph": 0,
+    "image": "cyclas.jpg"
+  },
+  {
+    "id": 334,
+    "word": "cymba",
+    "paragraph": 0,
+    "image": "cymba.jpg"
+  },
+  {
+    "id": 335,
+    "word": "cymbalum",
+    "paragraph": 0,
+    "image": "cymbalum.jpg"
+  },
+  {
+    "id": 336,
+    "word": "cymbium",
+    "paragraph": 0,
+    "image": "cymbium.jpg"
+  },
+  {
+    "id": 337,
+    "word": "Cypros",
+    "paragraph": 0,
+    "image": "Cypros.jpg"
+  },
+  {
+    "id": 338,
+    "word": "Cyrenaica",
+    "paragraph": 0,
+    "image": "Cyrenaica.jpg"
+  },
+  {
+    "id": 339,
+    "word": "Cyrus",
+    "paragraph": "1",
+    "image": "Cyrus1.jpg"
+  },
+  {
+    "id": 340,
+    "word": "Dacus",
+    "paragraph": 0,
+    "image": "Dacus.jpg"
+  },
+  {
+    "id": 341,
+    "word": "Daedalus",
+    "paragraph": 0,
+    "image": "Daedalus.jpg"
+  },
+  {
+    "id": 342,
+    "word": "Danaides",
+    "paragraph": 0,
+    "image": "Danaides.jpg"
+  },
+  {
+    "id": 343,
+    "word": "Darius",
+    "paragraph": "1",
+    "image": "Darius1.jpg"
+  },
+  {
+    "id": 344,
+    "word": "darius",
+    "paragraph": "2",
+    "image": "darius2.jpg"
+  },
+  {
+    "id": 345,
+    "word": "decemjugis",
+    "paragraph": 0,
+    "image": "decemjugis.jpg"
+  },
+  {
+    "id": 346,
+    "word": "decimates",
+    "paragraph": 0,
+    "image": "decimates.jpg"
+  },
+  {
+    "id": 347,
+    "word": "decursus",
+    "paragraph": "4",
+    "image": "decursus4.jpg"
+  },
+  {
+    "id": 348,
+    "word": "Delos",
+    "paragraph": 0,
+    "image": "Delos.jpg"
+  },
+  {
+    "id": 349,
+    "word": "Delphi",
+    "paragraph": 0,
+    "image": "Delphi.jpg"
+  },
+  {
+    "id": 350,
+    "word": "Demetrius_Poliorcetes",
+    "paragraph": 0,
+    "image": "Demetrius_Poliorcetes.jpg"
+  },
+  {
+    "id": 351,
+    "word": "Democritus",
+    "paragraph": 0,
+    "image": "Democritus.jpg"
+  },
+  {
+    "id": 352,
+    "word": "Demosthenes",
+    "paragraph": 0,
+    "image": "Demosthenes.jpg"
+  },
+  {
+    "id": 353,
+    "word": "denarius",
+    "paragraph": "2",
+    "image": "denarius2.jpg"
+  },
+  {
+    "id": 354,
+    "word": "desultor",
+    "paragraph": 0,
+    "image": "desultor.jpg"
+  },
+  {
+    "id": 355,
+    "word": "diadema",
+    "paragraph": 0,
+    "image": "diadema.jpg"
+  },
+  {
+    "id": 356,
+    "word": "Diadumenus",
+    "paragraph": 0,
+    "image": "Diadumenus.jpg"
+  },
+  {
+    "id": 357,
+    "word": "Diocletianus",
+    "paragraph": 0,
+    "image": "Diocletianus.jpg"
+  },
+  {
+    "id": 358,
+    "word": "Diogenes",
+    "paragraph": "2",
+    "image": "Diogenes2.jpg"
+  },
+  {
+    "id": 359,
+    "word": "Dionysus",
+    "paragraph": 0,
+    "image": "Dionysus.jpg"
+  },
+  {
+    "id": 360,
+    "word": "discobolos",
+    "paragraph": 0,
+    "image": "discobolos.jpg"
+  },
+  {
+    "id": 361,
+    "word": "dolabra",
+    "paragraph": 0,
+    "image": "dolabra.jpg"
+  },
+  {
+    "id": 362,
+    "word": "dolium",
+    "paragraph": 0,
+    "image": "dolium.jpg"
+  },
+  {
+    "id": 363,
+    "word": "Domitianus",
+    "paragraph": 0,
+    "image": "Domitianus.jpg"
+  },
+  {
+    "id": 364,
+    "word": "domus",
+    "paragraph": 0,
+    "image": "domus.jpg"
+  },
+  {
+    "id": 365,
+    "word": "domus",
+    "paragraph": "2",
+    "image": "domus2.jpg"
+  },
+  {
+    "id": 366,
+    "word": "domus",
+    "paragraph": "3",
+    "image": "domus3.jpg"
+  },
+  {
+    "id": 367,
+    "word": "Doricum_genus",
+    "paragraph": 0,
+    "image": "Doricum_genus.jpg"
+  },
+  {
+    "id": 368,
+    "word": "Doris",
+    "paragraph": "4",
+    "image": "Doris4.jpg"
+  },
+  {
+    "id": 369,
+    "word": "drachma",
+    "paragraph": 0,
+    "image": "drachma.jpg"
+  },
+  {
+    "id": 370,
+    "word": "Drusus",
+    "paragraph": 0,
+    "image": "Drusus.jpg"
+  },
+  {
+    "id": 371,
+    "word": "Dyrrachium",
+    "paragraph": 0,
+    "image": "Dyrrachium.jpg"
+  },
+  {
+    "id": 372,
+    "word": "Echo_et_Narcisse",
+    "paragraph": 0,
+    "image": "Echo_et_Narcisse.jpg"
+  },
+  {
+    "id": 373,
+    "word": "Elis",
+    "paragraph": 0,
+    "image": "Elis.jpg"
+  },
+  {
+    "id": 374,
+    "word": "Ephebus",
+    "paragraph": 0,
+    "image": "Ephebus.jpg"
+  },
+  {
+    "id": 375,
+    "word": "Ephesus",
+    "paragraph": 0,
+    "image": "Ephesus.jpg"
+  },
+  {
+    "id": 376,
+    "word": "Epicurus",
+    "paragraph": 0,
+    "image": "Epicurus.jpg"
+  },
+  {
+    "id": 377,
+    "word": "Epirus",
+    "paragraph": 0,
+    "image": "Epirus.jpg"
+  },
+  {
+    "id": 378,
+    "word": "eques",
+    "paragraph": 0,
+    "image": "eques.jpg"
+  },
+  {
+    "id": 379,
+    "word": "eques",
+    "paragraph": "2",
+    "image": "eques2.jpg"
+  },
+  {
+    "id": 380,
+    "word": "Erato",
+    "paragraph": 0,
+    "image": "Erato.jpg"
+  },
+  {
+    "id": 381,
+    "word": "Erechteus",
+    "paragraph": 0,
+    "image": "Erechteus.jpg"
+  },
+  {
+    "id": 382,
+    "word": "Erinnys",
+    "paragraph": 0,
+    "image": "Erinnys.jpg"
+  },
+  {
+    "id": 383,
+    "word": "Eryx",
+    "paragraph": 0,
+    "image": "Eryx.jpg"
+  },
+  {
+    "id": 384,
+    "word": "essedum",
+    "paragraph": 0,
+    "image": "essedum.jpg"
+  },
+  {
+    "id": 385,
+    "word": "Eteocles_et_Polynices",
+    "paragraph": 0,
+    "image": "Eteocles_et_Polynices.jpg"
+  },
+  {
+    "id": 386,
+    "word": "Etruria",
+    "paragraph": 0,
+    "image": "Etruria.jpg"
+  },
+  {
+    "id": 387,
+    "word": "Etruscus",
+    "paragraph": 0,
+    "image": "Etruscus.jpg"
+  },
+  {
+    "id": 388,
+    "word": "Euboea",
+    "paragraph": 0,
+    "image": "Euboea.jpg"
+  },
+  {
+    "id": 389,
+    "word": "Eumenides",
+    "paragraph": 0,
+    "image": "Eumenides.jpg"
+  },
+  {
+    "id": 390,
+    "word": "Euripides",
+    "paragraph": 0,
+    "image": "Euripides.jpg"
+  },
+  {
+    "id": 391,
+    "word": "Euripus",
+    "paragraph": "1",
+    "image": "Euripus1.jpg"
+  },
+  {
+    "id": 392,
+    "word": "Europa",
+    "paragraph": "1",
+    "image": "Europa1.jpg"
+  },
+  {
+    "id": 393,
+    "word": "Eurydice_et_Orpheus",
+    "paragraph": 0,
+    "image": "Eurydice_et_Orpheus.jpg"
+  },
+  {
+    "id": 394,
+    "word": "Euterpe",
+    "paragraph": 0,
+    "image": "Euterpe.jpg"
+  },
+  {
+    "id": 395,
+    "word": "examen",
+    "paragraph": "3",
+    "image": "examen3.jpg"
+  },
+  {
+    "id": 396,
+    "word": "exsequiae",
+    "paragraph": 0,
+    "image": "exsequiae.jpg"
+  },
+  {
+    "id": 397,
+    "word": "exta",
+    "paragraph": 0,
+    "image": "exta.jpg"
+  },
+  {
+    "id": 398,
+    "word": "faber",
+    "paragraph": "1",
+    "image": "faber1.jpg"
+  },
+  {
+    "id": 399,
+    "word": "falx",
+    "paragraph": 0,
+    "image": "falx.jpg"
+  },
+  {
+    "id": 400,
+    "word": "fascia",
+    "paragraph": 0,
+    "image": "fascia.jpg"
+  },
+  {
+    "id": 401,
+    "word": "fascis",
+    "paragraph": 0,
+    "image": "fascis.jpg"
+  },
+  {
+    "id": 402,
+    "word": "Faunus",
+    "paragraph": 0,
+    "image": "Faunus.jpg"
+  },
+  {
+    "id": 403,
+    "word": "Faustina",
+    "paragraph": "1",
+    "image": "Faustina1.jpg"
+  },
+  {
+    "id": 404,
+    "word": "ferculum",
+    "paragraph": "2",
+    "image": "ferculum2.jpg"
+  },
+  {
+    "id": 405,
+    "word": "ferula",
+    "paragraph": 0,
+    "image": "ferula.jpg"
+  },
+  {
+    "id": 406,
+    "word": "fibula",
+    "paragraph": 0,
+    "image": "fibula.jpg"
+  },
+  {
+    "id": 407,
+    "word": "fiscella",
+    "paragraph": 0,
+    "image": "fiscella.jpg"
+  },
+  {
+    "id": 408,
+    "word": "fistuca",
+    "paragraph": 0,
+    "image": "fistuca.jpg"
+  },
+  {
+    "id": 409,
+    "word": "fistula",
+    "paragraph": "6",
+    "image": "fistula6.jpg"
+  },
+  {
+    "id": 410,
+    "word": "flabellum",
+    "paragraph": 0,
+    "image": "flabellum.jpg"
+  },
+  {
+    "id": 411,
+    "word": "flagellum",
+    "paragraph": 0,
+    "image": "flagellum.jpg"
+  },
+  {
+    "id": 412,
+    "word": "flagrum",
+    "paragraph": 0,
+    "image": "flagrum.jpg"
+  },
+  {
+    "id": 413,
+    "word": "flamen",
+    "paragraph": "1",
+    "image": "flamen1.jpg"
+  },
+  {
+    "id": 414,
+    "word": "Flaminius",
+    "paragraph": 0,
+    "image": "Flaminius.jpg"
+  },
+  {
+    "id": 415,
+    "word": "Flora",
+    "paragraph": 0,
+    "image": "Flora.jpg"
+  },
+  {
+    "id": 416,
+    "word": "flumen",
+    "paragraph": 0,
+    "image": "flumen.jpg"
+  },
+  {
+    "id": 417,
+    "word": "focus",
+    "paragraph": 0,
+    "image": "focus.jpg"
+  },
+  {
+    "id": 418,
+    "word": "follis",
+    "paragraph": 0,
+    "image": "follis.jpg"
+  },
+  {
+    "id": 419,
+    "word": "fornax",
+    "paragraph": 0,
+    "image": "fornax.jpg"
+  },
+  {
+    "id": 420,
+    "word": "Fortuna",
+    "paragraph": "2",
+    "image": "Fortuna2.jpg"
+  },
+  {
+    "id": 421,
+    "word": "Forum_Romanum",
+    "paragraph": 0,
+    "image": "Forum_Romanum.jpg"
+  },
+  {
+    "id": 422,
+    "word": "Romanum",
+    "paragraph": "2",
+    "image": "Forum_Romanum2.jpg"
+  },
+  {
+    "id": 423,
+    "word": "Forums_Imperiaux",
+    "paragraph": 0,
+    "image": "Forums_Imperiaux.jpg"
+  },
+  {
+    "id": 424,
+    "word": "fossa",
+    "paragraph": 0,
+    "image": "fossa.jpg"
+  },
+  {
+    "id": 425,
+    "word": "frenum",
+    "paragraph": 0,
+    "image": "frenum.jpg"
+  },
+  {
+    "id": 426,
+    "word": "frontalia",
+    "paragraph": "1",
+    "image": "frontalia1.jpg"
+  },
+  {
+    "id": 427,
+    "word": "fullo",
+    "paragraph": 0,
+    "image": "fullo.jpg"
+  },
+  {
+    "id": 428,
+    "word": "fulmen",
+    "paragraph": 0,
+    "image": "fulmen.jpg"
+  },
+  {
+    "id": 429,
+    "word": "funambulus",
+    "paragraph": 0,
+    "image": "funambulus.jpg"
+  },
+  {
+    "id": 430,
+    "word": "funditor",
+    "paragraph": 0,
+    "image": "funditor.jpg"
+  },
+  {
+    "id": 431,
+    "word": "furca",
+    "paragraph": "2",
+    "image": "furca2.jpg"
+  },
+  {
+    "id": 432,
+    "word": "Furia",
+    "paragraph": 0,
+    "image": "Furia.jpg"
+  },
+  {
+    "id": 433,
+    "word": "gaffiot_json",
+    "paragraph": 0,
+    "image": "gaffiot_json.txt"
+  },
+  {
+    "id": 434,
+    "word": "Galatia",
+    "paragraph": 0,
+    "image": "Galatia.jpg"
+  },
+  {
+    "id": 435,
+    "word": "Galba",
+    "paragraph": "3",
+    "image": "Galba3.jpg"
+  },
+  {
+    "id": 436,
+    "word": "galea",
+    "paragraph": 0,
+    "image": "galea.jpg"
+  },
+  {
+    "id": 437,
+    "word": "galeatus",
+    "paragraph": 0,
+    "image": "galeatus.jpg"
+  },
+  {
+    "id": 438,
+    "word": "galeritus",
+    "paragraph": 0,
+    "image": "galeritus.jpg"
+  },
+  {
+    "id": 439,
+    "word": "Gallia",
+    "paragraph": 0,
+    "image": "Gallia.jpg"
+  },
+  {
+    "id": 440,
+    "word": "Gallus",
+    "paragraph": "3",
+    "image": "Gallus3.jpg"
+  },
+  {
+    "id": 441,
+    "word": "Ganymedes",
+    "paragraph": 0,
+    "image": "Ganymedes.jpg"
+  },
+  {
+    "id": 442,
+    "word": "Gergovia",
+    "paragraph": 0,
+    "image": "Gergovia.jpg"
+  },
+  {
+    "id": 443,
+    "word": "Germania",
+    "paragraph": 0,
+    "image": "Germania.jpg"
+  },
+  {
+    "id": 444,
+    "word": "Germanicus",
+    "paragraph": 0,
+    "image": "Germanicus.jpg"
+  },
+  {
+    "id": 445,
+    "word": "Germanicus",
+    "paragraph": "1",
+    "image": "Germanicus1.jpg"
+  },
+  {
+    "id": 446,
+    "word": "gladiator",
+    "paragraph": 0,
+    "image": "gladiator.jpg"
+  },
+  {
+    "id": 447,
+    "word": "gladius",
+    "paragraph": 0,
+    "image": "gladius.jpg"
+  },
+  {
+    "id": 448,
+    "word": "glans",
+    "paragraph": "3",
+    "image": "glans3.jpg"
+  },
+  {
+    "id": 449,
+    "word": "Gorgon",
+    "paragraph": 0,
+    "image": "Gorgon.jpg"
+  },
+  {
+    "id": 450,
+    "word": "Graecia",
+    "paragraph": 0,
+    "image": "Graecia.jpg"
+  },
+  {
+    "id": 451,
+    "word": "Graecia",
+    "paragraph": "2",
+    "image": "Graecia2.jpg"
+  },
+  {
+    "id": 452,
+    "word": "Graecus",
+    "paragraph": 0,
+    "image": "Graecus.jpg"
+  },
+  {
+    "id": 453,
+    "word": "Granicus",
+    "paragraph": 0,
+    "image": "Granicus.jpg"
+  },
+  {
+    "id": 454,
+    "word": "Hadrianus",
+    "paragraph": "2",
+    "image": "Hadrianus2.jpg"
+  },
+  {
+    "id": 455,
+    "word": "Hannibal",
+    "paragraph": 0,
+    "image": "Hannibal.jpg"
+  },
+  {
+    "id": 456,
+    "word": "harpago",
+    "paragraph": 0,
+    "image": "harpago.jpg"
+  },
+  {
+    "id": 457,
+    "word": "Harpyia",
+    "paragraph": 0,
+    "image": "Harpyia.jpg"
+  },
+  {
+    "id": 458,
+    "word": "haruspex",
+    "paragraph": 0,
+    "image": "haruspex.jpg"
+  },
+  {
+    "id": 459,
+    "word": "hastatus",
+    "paragraph": 0,
+    "image": "hastatus.jpg"
+  },
+  {
+    "id": 460,
+    "word": "Hercules",
+    "paragraph": 0,
+    "image": "Hercules.jpg"
+  },
+  {
+    "id": 461,
+    "word": "Herodotus",
+    "paragraph": 0,
+    "image": "Herodotus.jpg"
+  },
+  {
+    "id": 462,
+    "word": "Hiero_II",
+    "paragraph": 0,
+    "image": "Hiero_II.jpg"
+  },
+  {
+    "id": 463,
+    "word": "Hieronymus",
+    "paragraph": "2",
+    "image": "Hieronymus2.jpg"
+  },
+  {
+    "id": 464,
+    "word": "Hierosolyma",
+    "paragraph": 0,
+    "image": "Hierosolyma.jpg"
+  },
+  {
+    "id": 465,
+    "word": "Hipparchus",
+    "paragraph": "2",
+    "image": "Hipparchus2.jpg"
+  },
+  {
+    "id": 466,
+    "word": "Hippocrates",
+    "paragraph": "1",
+    "image": "Hippocrates1.jpg"
+  },
+  {
+    "id": 467,
+    "word": "Hispania",
+    "paragraph": 0,
+    "image": "Hispania.jpg"
+  },
+  {
+    "id": 468,
+    "word": "Homerus",
+    "paragraph": 0,
+    "image": "Homerus.jpg"
+  },
+  {
+    "id": 469,
+    "word": "Honorius",
+    "paragraph": 0,
+    "image": "Honorius.jpg"
+  },
+  {
+    "id": 470,
+    "word": "hoplites",
+    "paragraph": 0,
+    "image": "hoplites.jpg"
+  },
+  {
+    "id": 471,
+    "word": "Horae",
+    "paragraph": 0,
+    "image": "Horae.jpg"
+  },
+  {
+    "id": 472,
+    "word": "Horatius",
+    "paragraph": "3",
+    "image": "Horatius3.jpg"
+  },
+  {
+    "id": 473,
+    "word": "Hydria",
+    "paragraph": 0,
+    "image": "Hydria.jpg"
+  },
+  {
+    "id": 474,
+    "word": "Hypocauston",
+    "paragraph": 0,
+    "image": "Hypocauston.jpg"
+  },
+  {
+    "id": 475,
+    "word": "Iason",
+    "paragraph": 0,
+    "image": "Iason.jpg"
+  },
+  {
+    "id": 476,
+    "word": "Icarus",
+    "paragraph": 0,
+    "image": "Icarus.jpg"
+  },
+  {
+    "id": 477,
+    "word": "Ilium",
+    "paragraph": 0,
+    "image": "Ilium.jpg"
+  },
+  {
+    "id": 478,
+    "word": "Illyricum",
+    "paragraph": 0,
+    "image": "Illyricum.jpg"
+  },
+  {
+    "id": 479,
+    "word": "imago",
+    "paragraph": "2",
+    "image": "imago2.jpg"
+  },
+  {
+    "id": 480,
+    "word": "impedimentum",
+    "paragraph": 0,
+    "image": "impedimentum.jpg"
+  },
+  {
+    "id": 481,
+    "word": "inauris",
+    "paragraph": 0,
+    "image": "inauris.jpg"
+  },
+  {
+    "id": 482,
+    "word": "Indus",
+    "paragraph": "2",
+    "image": "Indus2.jpg"
+  },
+  {
+    "id": 483,
+    "word": "indusium",
+    "paragraph": 0,
+    "image": "indusium.jpg"
+  },
+  {
+    "id": 484,
+    "word": "infula",
+    "paragraph": 0,
+    "image": "infula.jpg"
+  },
+  {
+    "id": 485,
+    "word": "infundibulum",
+    "paragraph": 0,
+    "image": "infundibulum.jpg"
+  },
+  {
+    "id": 486,
+    "word": "Iphigeia",
+    "paragraph": 0,
+    "image": "Iphigeia.jpg"
+  },
+  {
+    "id": 487,
+    "word": "Iris",
+    "paragraph": "1",
+    "image": "Iris1.jpg"
+  },
+  {
+    "id": 488,
+    "word": "Isiacus",
+    "paragraph": 0,
+    "image": "Isiacus.jpg"
+  },
+  {
+    "id": 489,
+    "word": "Isis",
+    "paragraph": "1",
+    "image": "Isis1.jpg"
+  },
+  {
+    "id": 490,
+    "word": "Isocrates",
+    "paragraph": 0,
+    "image": "Isocrates.jpg"
+  },
+  {
+    "id": 491,
+    "word": "Issus",
+    "paragraph": 0,
+    "image": "Issus.jpg"
+  },
+  {
+    "id": 492,
+    "word": "Ixion",
+    "paragraph": 0,
+    "image": "Ixion.jpg"
+  },
+  {
+    "id": 493,
+    "word": "jaculum",
+    "paragraph": 0,
+    "image": "jaculum.jpg"
+  },
+  {
+    "id": 494,
+    "word": "janua",
+    "paragraph": 0,
+    "image": "janua.jpg"
+  },
+  {
+    "id": 495,
+    "word": "Janus",
+    "paragraph": 0,
+    "image": "Janus.jpg"
+  },
+  {
+    "id": 496,
+    "word": "Juba",
+    "paragraph": "1",
+    "image": "Juba1.jpg"
+  },
+  {
+    "id": 497,
+    "word": "Jugurtha",
+    "paragraph": 0,
+    "image": "Jugurtha.jpg"
+  },
+  {
+    "id": 498,
+    "word": "Julia",
+    "paragraph": 0,
+    "image": "Julia.jpg"
+  },
+  {
+    "id": 499,
+    "word": "Julianus",
+    "paragraph": "2",
+    "image": "Julianus2.jpg"
+  },
+  {
+    "id": 500,
+    "word": "Juno",
+    "paragraph": 0,
+    "image": "Juno.jpg"
+  },
+  {
+    "id": 501,
+    "word": "Jupiter",
+    "paragraph": 0,
+    "image": "Jupiter.jpg"
+  },
+  {
+    "id": 502,
+    "word": "labarum",
+    "paragraph": 0,
+    "image": "labarum.jpg"
+  },
+  {
+    "id": 503,
+    "word": "labrum",
+    "paragraph": 0,
+    "image": "labrum.jpg"
+  },
+  {
+    "id": 504,
+    "word": "lacerna",
+    "paragraph": 0,
+    "image": "lacerna.jpg"
+  },
+  {
+    "id": 505,
+    "word": "Lacinia",
+    "paragraph": 0,
+    "image": "Lacinia.jpg"
+  },
+  {
+    "id": 506,
+    "word": "Laconia",
+    "paragraph": 0,
+    "image": "Laconia.jpg"
+  },
+  {
+    "id": 507,
+    "word": "lacunar",
+    "paragraph": 0,
+    "image": "lacunar.jpg"
+  },
+  {
+    "id": 508,
+    "word": "lagoena",
+    "paragraph": 0,
+    "image": "lagoena.jpg"
+  },
+  {
+    "id": 509,
+    "word": "lanipendens",
+    "paragraph": 0,
+    "image": "lanipendens.jpg"
+  },
+  {
+    "id": 510,
+    "word": "lapidarius",
+    "paragraph": 0,
+    "image": "lapidarius.jpg"
+  },
+  {
+    "id": 511,
+    "word": "Lapithae",
+    "paragraph": 0,
+    "image": "Lapithae.jpg"
+  },
+  {
+    "id": 512,
+    "word": "Lar",
+    "paragraph": 0,
+    "image": "Lar.jpg"
+  },
+  {
+    "id": 513,
+    "word": "laterna",
+    "paragraph": 0,
+    "image": "laterna.jpg"
+  },
+  {
+    "id": 514,
+    "word": "laticlavus",
+    "paragraph": 0,
+    "image": "laticlavus.jpg"
+  },
+  {
+    "id": 515,
+    "word": "Latium",
+    "paragraph": 0,
+    "image": "Latium.jpg"
+  },
+  {
+    "id": 516,
+    "word": "latomiae",
+    "paragraph": 0,
+    "image": "latomiae.jpg"
+  },
+  {
+    "id": 517,
+    "word": "Latona",
+    "paragraph": 0,
+    "image": "Latona.jpg"
+  },
+  {
+    "id": 518,
+    "word": "latrunculus",
+    "paragraph": 0,
+    "image": "latrunculus.jpg"
+  },
+  {
+    "id": 519,
+    "word": "lebes",
+    "paragraph": 0,
+    "image": "lebes.jpg"
+  },
+  {
+    "id": 520,
+    "word": "lectica",
+    "paragraph": 0,
+    "image": "lectica.jpg"
+  },
+  {
+    "id": 521,
+    "word": "lectisternium",
+    "paragraph": 0,
+    "image": "lectisternium.jpg"
+  },
+  {
+    "id": 522,
+    "word": "lectus",
+    "paragraph": 0,
+    "image": "lectus.jpg"
+  },
+  {
+    "id": 523,
+    "word": "legionarius_miles",
+    "paragraph": 0,
+    "image": "legionarius_miles.jpg"
+  },
+  {
+    "id": 524,
+    "word": "lemniscatus",
+    "paragraph": 0,
+    "image": "lemniscatus.jpg"
+  },
+  {
+    "id": 525,
+    "word": "Lepidus",
+    "paragraph": 0,
+    "image": "Lepidus.jpg"
+  },
+  {
+    "id": 526,
+    "word": "Lernaeus_Anguis",
+    "paragraph": 0,
+    "image": "Lernaeus_Anguis.jpg"
+  },
+  {
+    "id": 527,
+    "word": "Lesbos",
+    "paragraph": 0,
+    "image": "Lesbos.jpg"
+  },
+  {
+    "id": 528,
+    "word": "Libanus",
+    "paragraph": 0,
+    "image": "Libanus.jpg"
+  },
+  {
+    "id": 529,
+    "word": "libella",
+    "paragraph": "2",
+    "image": "libella2.jpg"
+  },
+  {
+    "id": 530,
+    "word": "libellus",
+    "paragraph": "5",
+    "image": "libellus5.jpg"
+  },
+  {
+    "id": 531,
+    "word": "libra",
+    "paragraph": "3",
+    "image": "libra3.jpg"
+  },
+  {
+    "id": 532,
+    "word": "librarius",
+    "paragraph": 0,
+    "image": "librarius.jpg"
+  },
+  {
+    "id": 533,
+    "word": "liburna",
+    "paragraph": 0,
+    "image": "liburna.jpg"
+  },
+  {
+    "id": 534,
+    "word": "lictor",
+    "paragraph": 0,
+    "image": "lictor.jpg"
+  },
+  {
+    "id": 535,
+    "word": "ligo",
+    "paragraph": 0,
+    "image": "ligo.jpg"
+  },
+  {
+    "id": 536,
+    "word": "ligula",
+    "paragraph": "3",
+    "image": "ligula3.jpg"
+  },
+  {
+    "id": 537,
+    "word": "limus",
+    "paragraph": "3",
+    "image": "limus3.jpg"
+  },
+  {
+    "id": 538,
+    "word": "linter",
+    "paragraph": 0,
+    "image": "linter.jpg"
+  },
+  {
+    "id": 539,
+    "word": "liticen",
+    "paragraph": 0,
+    "image": "liticen.jpg"
+  },
+  {
+    "id": 540,
+    "word": "lituus",
+    "paragraph": "1",
+    "image": "lituus1.jpg"
+  },
+  {
+    "id": 541,
+    "word": "Livia_Drusilla",
+    "paragraph": 0,
+    "image": "Livia_Drusilla.jpg"
+  },
+  {
+    "id": 542,
+    "word": "loculus",
+    "paragraph": 0,
+    "image": "loculus.jpg"
+  },
+  {
+    "id": 543,
+    "word": "lorarius",
+    "paragraph": 0,
+    "image": "lorarius.jpg"
+  },
+  {
+    "id": 544,
+    "word": "lorica",
+    "paragraph": "1",
+    "image": "lorica1.jpg"
+  },
+  {
+    "id": 545,
+    "word": "lucerna",
+    "paragraph": 0,
+    "image": "lucerna.jpg"
+  },
+  {
+    "id": 546,
+    "word": "Lugdunum",
+    "paragraph": 0,
+    "image": "Lugdunum.jpg"
+  },
+  {
+    "id": 547,
+    "word": "Luperca",
+    "paragraph": 0,
+    "image": "Luperca.jpg"
+  },
+  {
+    "id": 548,
+    "word": "Lutetia",
+    "paragraph": 0,
+    "image": "Lutetia.jpg"
+  },
+  {
+    "id": 549,
+    "word": "Lycaonia",
+    "paragraph": 0,
+    "image": "Lycaonia.jpg"
+  },
+  {
+    "id": 550,
+    "word": "Lycia",
+    "paragraph": 0,
+    "image": "Lycia.jpg"
+  },
+  {
+    "id": 551,
+    "word": "Lycurgus",
+    "paragraph": "3",
+    "image": "Lycurgus3.jpg"
+  },
+  {
+    "id": 552,
+    "word": "lyra",
+    "paragraph": 0,
+    "image": "lyra.jpg"
+  },
+  {
+    "id": 553,
+    "word": "Lysias",
+    "paragraph": 0,
+    "image": "Lysias.jpg"
+  },
+  {
+    "id": 554,
+    "word": "Macedonia",
+    "paragraph": 0,
+    "image": "Macedonia.jpg"
+  },
+  {
+    "id": 555,
+    "word": "machaerum",
+    "paragraph": 0,
+    "image": "machaerum.jpg"
+  },
+  {
+    "id": 556,
+    "word": "Macrinus",
+    "paragraph": 0,
+    "image": "Macrinus.jpg"
+  },
+  {
+    "id": 557,
+    "word": "Maecenas",
+    "paragraph": 0,
+    "image": "Maecenas.jpg"
+  },
+  {
+    "id": 558,
+    "word": "maenas",
+    "paragraph": "1",
+    "image": "maenas1.jpg"
+  },
+  {
+    "id": 559,
+    "word": "maenianum",
+    "paragraph": 0,
+    "image": "maenianum.jpg"
+  },
+  {
+    "id": 560,
+    "word": "manducus",
+    "paragraph": 0,
+    "image": "manducus.jpg"
+  },
+  {
+    "id": 561,
+    "word": "manica",
+    "paragraph": "3",
+    "image": "manica3.jpg"
+  },
+  {
+    "id": 562,
+    "word": "mantica",
+    "paragraph": 0,
+    "image": "mantica.jpg"
+  },
+  {
+    "id": 563,
+    "word": "manumissio",
+    "paragraph": 0,
+    "image": "manumissio.jpg"
+  },
+  {
+    "id": 564,
+    "word": "Marathon",
+    "paragraph": 0,
+    "image": "Marathon.jpg"
+  },
+  {
+    "id": 565,
+    "word": "Marcellus",
+    "paragraph": "2",
+    "image": "Marcellus2.jpg"
+  },
+  {
+    "id": 566,
+    "word": "Marius",
+    "paragraph": 0,
+    "image": "Marius.jpg"
+  },
+  {
+    "id": 567,
+    "word": "marsupium",
+    "paragraph": 0,
+    "image": "marsupium.jpg"
+  },
+  {
+    "id": 568,
+    "word": "Masinissa",
+    "paragraph": 0,
+    "image": "Masinissa.jpg"
+  },
+  {
+    "id": 569,
+    "word": "matrona",
+    "paragraph": 0,
+    "image": "matrona.jpg"
+  },
+  {
+    "id": 570,
+    "word": "Mauretania",
+    "paragraph": 0,
+    "image": "Mauretania.jpg"
+  },
+  {
+    "id": 571,
+    "word": "Mausolus",
+    "paragraph": 0,
+    "image": "Mausolus.jpg"
+  },
+  {
+    "id": 572,
+    "word": "Medus",
+    "paragraph": 0,
+    "image": "Medus.jpg"
+  },
+  {
+    "id": 573,
+    "word": "Medusa",
+    "paragraph": 0,
+    "image": "Medusa.jpg"
+  },
+  {
+    "id": 574,
+    "word": "Megara",
+    "paragraph": 0,
+    "image": "Megara.jpg"
+  },
+  {
+    "id": 575,
+    "word": "Meleager",
+    "paragraph": 0,
+    "image": "Meleager.jpg"
+  },
+  {
+    "id": 576,
+    "word": "Melpomene",
+    "paragraph": 0,
+    "image": "Melpomene.jpg"
+  },
+  {
+    "id": 577,
+    "word": "Menander",
+    "paragraph": "1",
+    "image": "Menander1.jpg"
+  },
+  {
+    "id": 578,
+    "word": "Menelaus",
+    "paragraph": "1",
+    "image": "Menelaus1.jpg"
+  },
+  {
+    "id": 579,
+    "word": "mensa",
+    "paragraph": 0,
+    "image": "mensa.jpg"
+  },
+  {
+    "id": 580,
+    "word": "Mercurius",
+    "paragraph": 0,
+    "image": "Mercurius.jpg"
+  },
+  {
+    "id": 581,
+    "word": "Mesopotamia",
+    "paragraph": 0,
+    "image": "Mesopotamia.jpg"
+  },
+  {
+    "id": 582,
+    "word": "Messalina",
+    "paragraph": "1",
+    "image": "Messalina1.jpg"
+  },
+  {
+    "id": 583,
+    "word": "Metapontum",
+    "paragraph": 0,
+    "image": "Metapontum.jpg"
+  },
+  {
+    "id": 584,
+    "word": "metopa",
+    "paragraph": 0,
+    "image": "metopa.jpg"
+  },
+  {
+    "id": 585,
+    "word": "Miletus",
+    "paragraph": 0,
+    "image": "Miletus.jpg"
+  },
+  {
+    "id": 586,
+    "word": "milliarium",
+    "paragraph": 0,
+    "image": "milliarium.jpg"
+  },
+  {
+    "id": 587,
+    "word": "Miltiades",
+    "paragraph": 0,
+    "image": "Miltiades.jpg"
+  },
+  {
+    "id": 588,
+    "word": "mimus",
+    "paragraph": "1",
+    "image": "mimus1.jpg"
+  },
+  {
+    "id": 589,
+    "word": "mina",
+    "paragraph": 0,
+    "image": "mina.jpg"
+  },
+  {
+    "id": 590,
+    "word": "Minerva",
+    "paragraph": 0,
+    "image": "Minerva.jpg"
+  },
+  {
+    "id": 591,
+    "word": "Minotaurus",
+    "paragraph": 0,
+    "image": "Minotaurus.jpg"
+  },
+  {
+    "id": 592,
+    "word": "Mithridates",
+    "paragraph": 0,
+    "image": "Mithridates.jpg"
+  },
+  {
+    "id": 593,
+    "word": "mitra",
+    "paragraph": "1",
+    "image": "mitra1.jpg"
+  },
+  {
+    "id": 594,
+    "word": "modius",
+    "paragraph": 0,
+    "image": "modius.jpg"
+  },
+  {
+    "id": 595,
+    "word": "Moesia",
+    "paragraph": 0,
+    "image": "Moesia.jpg"
+  },
+  {
+    "id": 596,
+    "word": "mola",
+    "paragraph": 0,
+    "image": "mola.jpg"
+  },
+  {
+    "id": 597,
+    "word": "monile",
+    "paragraph": 0,
+    "image": "monile.jpg"
+  },
+  {
+    "id": 598,
+    "word": "mortarium",
+    "paragraph": "1",
+    "image": "mortarium1.jpg"
+  },
+  {
+    "id": 599,
+    "word": "munitio",
+    "paragraph": "1",
+    "image": "munitio1.jpg"
+  },
+  {
+    "id": 600,
+    "word": "murex",
+    "paragraph": 0,
+    "image": "murex.jpg"
+  },
+  {
+    "id": 601,
+    "word": "murus",
+    "paragraph": 0,
+    "image": "murus.jpg"
+  },
+  {
+    "id": 602,
+    "word": "murus_aureliani",
+    "paragraph": 0,
+    "image": "murus_aureliani.jpg"
+  },
+  {
+    "id": 603,
+    "word": "Musa",
+    "paragraph": 0,
+    "image": "Musa.jpg"
+  },
+  {
+    "id": 604,
+    "word": "musculus",
+    "paragraph": "4",
+    "image": "musculus4.jpg"
+  },
+  {
+    "id": 605,
+    "word": "naumachia",
+    "paragraph": 0,
+    "image": "naumachia.jpg"
+  },
+  {
+    "id": 606,
+    "word": "Nausicaa",
+    "paragraph": 0,
+    "image": "Nausicaa.jpg"
+  },
+  {
+    "id": 607,
+    "word": "nautae",
+    "paragraph": 0,
+    "image": "nautae.jpg"
+  },
+  {
+    "id": 608,
+    "word": "navis",
+    "paragraph": 0,
+    "image": "navis.jpg"
+  },
+  {
+    "id": 609,
+    "word": "Neapolis",
+    "paragraph": "1",
+    "image": "Neapolis1.jpg"
+  },
+  {
+    "id": 610,
+    "word": "Nemeaeus_Leo",
+    "paragraph": 0,
+    "image": "Nemeaeus_Leo.jpg"
+  },
+  {
+    "id": 611,
+    "word": "Neptunus",
+    "paragraph": 0,
+    "image": "Neptunus.jpg"
+  },
+  {
+    "id": 612,
+    "word": "Nero",
+    "paragraph": "2",
+    "image": "Nero2.jpg"
+  },
+  {
+    "id": 613,
+    "word": "Niobe",
+    "paragraph": "1",
+    "image": "Niobe1.jpg"
+  },
+  {
+    "id": 614,
+    "word": "Noricum",
+    "paragraph": 0,
+    "image": "Noricum.jpg"
+  },
+  {
+    "id": 615,
+    "word": "norma",
+    "paragraph": 0,
+    "image": "norma.jpg"
+  },
+  {
+    "id": 616,
+    "word": "novacula",
+    "paragraph": 0,
+    "image": "novacula.jpg"
+  },
+  {
+    "id": 617,
+    "word": "numella",
+    "paragraph": 0,
+    "image": "numella.jpg"
+  },
+  {
+    "id": 618,
+    "word": "Numidae",
+    "paragraph": 0,
+    "image": "Numidae.jpg"
+  },
+  {
+    "id": 619,
+    "word": "Numidia",
+    "paragraph": 0,
+    "image": "Numidia.jpg"
+  },
+  {
+    "id": 620,
+    "word": "nupta",
+    "paragraph": 0,
+    "image": "nupta.jpg"
+  },
+  {
+    "id": 621,
+    "word": "obolus",
+    "paragraph": 0,
+    "image": "obolus.jpg"
+  },
+  {
+    "id": 622,
+    "word": "ocrea",
+    "paragraph": 0,
+    "image": "ocrea.jpg"
+  },
+  {
+    "id": 623,
+    "word": "Octavia",
+    "paragraph": "1",
+    "image": "Octavia1.jpg"
+  },
+  {
+    "id": 624,
+    "word": "Octavius",
+    "paragraph": 0,
+    "image": "Octavius.jpg"
+  },
+  {
+    "id": 625,
+    "word": "olla",
+    "paragraph": "2",
+    "image": "olla2.jpg"
+  },
+  {
+    "id": 626,
+    "word": "Olympus",
+    "paragraph": 0,
+    "image": "Olympus.jpg"
+  },
+  {
+    "id": 627,
+    "word": "onager",
+    "paragraph": "2",
+    "image": "onager2.jpg"
+  },
+  {
+    "id": 628,
+    "word": "orator",
+    "paragraph": 0,
+    "image": "orator.jpg"
+  },
+  {
+    "id": 629,
+    "word": "Ortygia",
+    "paragraph": "2",
+    "image": "Ortygia2.jpg"
+  },
+  {
+    "id": 630,
+    "word": "oscillum",
+    "paragraph": "1",
+    "image": "oscillum1.jpg"
+  },
+  {
+    "id": 631,
+    "word": "Osiris",
+    "paragraph": 0,
+    "image": "Osiris.jpg"
+  },
+  {
+    "id": 632,
+    "word": "Ostia",
+    "paragraph": 0,
+    "image": "Ostia.jpg"
+  },
+  {
+    "id": 633,
+    "word": "Paestum",
+    "paragraph": 0,
+    "image": "Paestum.jpg"
+  },
+  {
+    "id": 634,
+    "word": "pala",
+    "paragraph": 0,
+    "image": "pala.jpg"
+  },
+  {
+    "id": 635,
+    "word": "Palaestina",
+    "paragraph": 0,
+    "image": "Palaestina.jpg"
+  },
+  {
+    "id": 636,
+    "word": "Palatium",
+    "paragraph": "1",
+    "image": "Palatium1.jpg"
+  },
+  {
+    "id": 637,
+    "word": "palla",
+    "paragraph": 0,
+    "image": "palla.jpg"
+  },
+  {
+    "id": 638,
+    "word": "Palladium",
+    "paragraph": 0,
+    "image": "Palladium.jpg"
+  },
+  {
+    "id": 639,
+    "word": "Pallium",
+    "paragraph": "2",
+    "image": "Pallium2.jpg"
+  },
+  {
+    "id": 640,
+    "word": "Palmyra",
+    "paragraph": 0,
+    "image": "Palmyra.jpg"
+  },
+  {
+    "id": 641,
+    "word": "paludamentum",
+    "paragraph": 0,
+    "image": "paludamentum.jpg"
+  },
+  {
+    "id": 642,
+    "word": "Pan",
+    "paragraph": 0,
+    "image": "Pan.jpg"
+  },
+  {
+    "id": 643,
+    "word": "Pannonia",
+    "paragraph": 0,
+    "image": "Pannonia.jpg"
+  },
+  {
+    "id": 644,
+    "word": "Pantheon",
+    "paragraph": 0,
+    "image": "Pantheon.jpg"
+  },
+  {
+    "id": 645,
+    "word": "parceolus",
+    "paragraph": 0,
+    "image": "parceolus.jpg"
+  },
+  {
+    "id": 646,
+    "word": "Parmatus",
+    "paragraph": 0,
+    "image": "Parmatus.jpg"
+  },
+  {
+    "id": 647,
+    "word": "paro",
+    "paragraph": 0,
+    "image": "paro.jpg"
+  },
+  {
+    "id": 648,
+    "word": "Parthenon",
+    "paragraph": 0,
+    "image": "Parthenon.jpg"
+  },
+  {
+    "id": 649,
+    "word": "Parthicum_Regnum",
+    "paragraph": 0,
+    "image": "Parthicum_Regnum.jpg"
+  },
+  {
+    "id": 650,
+    "word": "Parthus",
+    "paragraph": 0,
+    "image": "Parthus.jpg"
+  },
+  {
+    "id": 651,
+    "word": "patagium",
+    "paragraph": 0,
+    "image": "patagium.jpg"
+  },
+  {
+    "id": 652,
+    "word": "patella",
+    "paragraph": "1",
+    "image": "patella1.jpg"
+  },
+  {
+    "id": 653,
+    "word": "patera",
+    "paragraph": 0,
+    "image": "patera.jpg"
+  },
+  {
+    "id": 654,
+    "word": "pecten",
+    "paragraph": "1",
+    "image": "pecten1.jpg"
+  },
+  {
+    "id": 655,
+    "word": "pectoralis",
+    "paragraph": 0,
+    "image": "pectoralis.jpg"
+  },
+  {
+    "id": 656,
+    "word": "pedica",
+    "paragraph": "2",
+    "image": "pedica2.jpg"
+  },
+  {
+    "id": 657,
+    "word": "pedum",
+    "paragraph": 0,
+    "image": "pedum.jpg"
+  },
+  {
+    "id": 658,
+    "word": "Peloponnesus",
+    "paragraph": 0,
+    "image": "Peloponnesus.jpg"
+  },
+  {
+    "id": 659,
+    "word": "peltastae",
+    "paragraph": 0,
+    "image": "peltastae.jpg"
+  },
+  {
+    "id": 660,
+    "word": "pelvis",
+    "paragraph": 0,
+    "image": "pelvis.jpg"
+  },
+  {
+    "id": 661,
+    "word": "penates",
+    "paragraph": 0,
+    "image": "penates.jpg"
+  },
+  {
+    "id": 662,
+    "word": "peplum",
+    "paragraph": "1",
+    "image": "peplum1.jpg"
+  },
+  {
+    "id": 663,
+    "word": "pera",
+    "paragraph": 0,
+    "image": "pera.jpg"
+  },
+  {
+    "id": 664,
+    "word": "pergula",
+    "paragraph": 0,
+    "image": "pergula.jpg"
+  },
+  {
+    "id": 665,
+    "word": "pergula",
+    "paragraph": "2",
+    "image": "pergula2.jpg"
+  },
+  {
+    "id": 666,
+    "word": "Periander",
+    "paragraph": 0,
+    "image": "Periander.jpg"
+  },
+  {
+    "id": 667,
+    "word": "Pericles",
+    "paragraph": 0,
+    "image": "Pericles.jpg"
+  },
+  {
+    "id": 668,
+    "word": "periscelis",
+    "paragraph": 0,
+    "image": "periscelis.jpg"
+  },
+  {
+    "id": 669,
+    "word": "peristylum",
+    "paragraph": 0,
+    "image": "peristylum.jpg"
+  },
+  {
+    "id": 670,
+    "word": "pero",
+    "paragraph": 0,
+    "image": "pero.jpg"
+  },
+  {
+    "id": 671,
+    "word": "Perseus",
+    "paragraph": "2",
+    "image": "Perseus2.jpg"
+  },
+  {
+    "id": 672,
+    "word": "Perseus_et_Medusa",
+    "paragraph": 0,
+    "image": "Perseus_et_Medusa.jpg"
+  },
+  {
+    "id": 673,
+    "word": "Persona",
+    "paragraph": 0,
+    "image": "Persona.jpg"
+  },
+  {
+    "id": 674,
+    "word": "petasus",
+    "paragraph": "1",
+    "image": "petasus1.jpg"
+  },
+  {
+    "id": 675,
+    "word": "petauristes",
+    "paragraph": 0,
+    "image": "petauristes.jpg"
+  },
+  {
+    "id": 676,
+    "word": "phalangae",
+    "paragraph": 0,
+    "image": "phalangae.jpg"
+  },
+  {
+    "id": 677,
+    "word": "phalerae",
+    "paragraph": "1",
+    "image": "phalerae1.jpg"
+  },
+  {
+    "id": 678,
+    "word": "phalerae",
+    "paragraph": "2",
+    "image": "phalerae2.jpg"
+  },
+  {
+    "id": 679,
+    "word": "Pharaates",
+    "paragraph": 0,
+    "image": "Pharaates.jpg"
+  },
+  {
+    "id": 680,
+    "word": "Pharsalus",
+    "paragraph": 0,
+    "image": "Pharsalus.jpg"
+  },
+  {
+    "id": 681,
+    "word": "phaselus",
+    "paragraph": "1",
+    "image": "phaselus1.jpg"
+  },
+  {
+    "id": 682,
+    "word": "phiala",
+    "paragraph": 0,
+    "image": "phiala.jpg"
+  },
+  {
+    "id": 683,
+    "word": "Philippi",
+    "paragraph": 0,
+    "image": "Philippi.jpg"
+  },
+  {
+    "id": 684,
+    "word": "Philippus",
+    "paragraph": "1",
+    "image": "Philippus1.jpg"
+  },
+  {
+    "id": 685,
+    "word": "Philoctetes",
+    "paragraph": 0,
+    "image": "Philoctetes.jpg"
+  },
+  {
+    "id": 686,
+    "word": "Phoenice",
+    "paragraph": 0,
+    "image": "Phoenice.jpg"
+  },
+  {
+    "id": 687,
+    "word": "photos",
+    "paragraph": 0,
+    "image": "photos.php"
+  },
+  {
+    "id": 688,
+    "word": "Phrygia",
+    "paragraph": 0,
+    "image": "Phrygia.jpg"
+  },
+  {
+    "id": 689,
+    "word": "pileus",
+    "paragraph": "1",
+    "image": "pileus1.jpg"
+  },
+  {
+    "id": 690,
+    "word": "pilum",
+    "paragraph": 0,
+    "image": "pilum.jpg"
+  },
+  {
+    "id": 691,
+    "word": "Piraeus",
+    "paragraph": 0,
+    "image": "Piraeus.jpg"
+  },
+  {
+    "id": 692,
+    "word": "pistor",
+    "paragraph": 0,
+    "image": "pistor.jpg"
+  },
+  {
+    "id": 693,
+    "word": "Pistrinum",
+    "paragraph": 0,
+    "image": "Pistrinum.jpg"
+  },
+  {
+    "id": 694,
+    "word": "Plataeae",
+    "paragraph": 0,
+    "image": "Plataeae.jpg"
+  },
+  {
+    "id": 695,
+    "word": "Plato",
+    "paragraph": "1",
+    "image": "Plato1.jpg"
+  },
+  {
+    "id": 696,
+    "word": "plaustrum",
+    "paragraph": 0,
+    "image": "plaustrum.jpg"
+  },
+  {
+    "id": 697,
+    "word": "pluteus",
+    "paragraph": "1",
+    "image": "pluteus1.jpg"
+  },
+  {
+    "id": 698,
+    "word": "Pluto",
+    "paragraph": 0,
+    "image": "Pluto.jpg"
+  },
+  {
+    "id": 699,
+    "word": "Pompeii",
+    "paragraph": 0,
+    "image": "Pompeii.jpg"
+  },
+  {
+    "id": 700,
+    "word": "Pompeius",
+    "paragraph": 0,
+    "image": "Pompeius.jpg"
+  },
+  {
+    "id": 701,
+    "word": "Pompitinae_pauludes",
+    "paragraph": 0,
+    "image": "Pompitinae_pauludes.jpg"
+  },
+  {
+    "id": 702,
+    "word": "pons",
+    "paragraph": 0,
+    "image": "pons.jpg"
+  },
+  {
+    "id": 703,
+    "word": "pontifex",
+    "paragraph": "1",
+    "image": "pontifex1.jpg"
+  },
+  {
+    "id": 704,
+    "word": "pontificatus",
+    "paragraph": 0,
+    "image": "pontificatus.jpg"
+  },
+  {
+    "id": 705,
+    "word": "Pontus",
+    "paragraph": 0,
+    "image": "Pontus.jpg"
+  },
+  {
+    "id": 706,
+    "word": "porta",
+    "paragraph": 0,
+    "image": "porta.jpg"
+  },
+  {
+    "id": 707,
+    "word": "Postumius",
+    "paragraph": 0,
+    "image": "Postumius.jpg"
+  },
+  {
+    "id": 708,
+    "word": "praeco",
+    "paragraph": 0,
+    "image": "praeco.jpg"
+  },
+  {
+    "id": 709,
+    "word": "praetorianus",
+    "paragraph": 0,
+    "image": "praetorianus.jpg"
+  },
+  {
+    "id": 710,
+    "word": "prora",
+    "paragraph": 0,
+    "image": "prora.jpg"
+  },
+  {
+    "id": 711,
+    "word": "Proserpina",
+    "paragraph": 0,
+    "image": "Proserpina.jpg"
+  },
+  {
+    "id": 712,
+    "word": "Provincia",
+    "paragraph": 0,
+    "image": "Provincia.jpg"
+  },
+  {
+    "id": 713,
+    "word": "Ptolemaeus",
+    "paragraph": 0,
+    "image": "Ptolemaeus.jpg"
+  },
+  {
+    "id": 714,
+    "word": "pugil",
+    "paragraph": 0,
+    "image": "pugil.jpg"
+  },
+  {
+    "id": 715,
+    "word": "pugio",
+    "paragraph": 0,
+    "image": "pugio.jpg"
+  },
+  {
+    "id": 716,
+    "word": "pullus",
+    "paragraph": 0,
+    "image": "pullus.jpg"
+  },
+  {
+    "id": 717,
+    "word": "pulpitum",
+    "paragraph": 0,
+    "image": "pulpitum.jpg"
+  },
+  {
+    "id": 718,
+    "word": "puteal",
+    "paragraph": "1",
+    "image": "puteal1.jpg"
+  },
+  {
+    "id": 719,
+    "word": "puteus",
+    "paragraph": "2",
+    "image": "puteus2.jpg"
+  },
+  {
+    "id": 720,
+    "word": "Pydna",
+    "paragraph": 0,
+    "image": "Pydna.jpg"
+  },
+  {
+    "id": 721,
+    "word": "Pylos",
+    "paragraph": 0,
+    "image": "Pylos.jpg"
+  },
+  {
+    "id": 722,
+    "word": "Pyramides",
+    "paragraph": 0,
+    "image": "Pyramides.jpg"
+  },
+  {
+    "id": 723,
+    "word": "pyrrhicha",
+    "paragraph": 0,
+    "image": "pyrrhicha.jpg"
+  },
+  {
+    "id": 724,
+    "word": "Pyrrhus",
+    "paragraph": "2",
+    "image": "Pyrrhus2.jpg"
+  },
+  {
+    "id": 725,
+    "word": "Pythia",
+    "paragraph": 0,
+    "image": "Pythia.jpg"
+  },
+  {
+    "id": 726,
+    "word": "Pythius",
+    "paragraph": 0,
+    "image": "Pythius.jpg"
+  },
+  {
+    "id": 727,
+    "word": "pyxis",
+    "paragraph": 0,
+    "image": "pyxis.jpg"
+  },
+  {
+    "id": 728,
+    "word": "quadrans",
+    "paragraph": "2",
+    "image": "quadrans2.jpg"
+  },
+  {
+    "id": 729,
+    "word": "quadratus",
+    "paragraph": 0,
+    "image": "quadratus.jpg"
+  },
+  {
+    "id": 730,
+    "word": "quadrigae",
+    "paragraph": 0,
+    "image": "quadrigae.jpg"
+  },
+  {
+    "id": 731,
+    "word": "quadrigatus",
+    "paragraph": 0,
+    "image": "quadrigatus.jpg"
+  },
+  {
+    "id": 732,
+    "word": "quinarius",
+    "paragraph": 0,
+    "image": "quinarius.jpg"
+  },
+  {
+    "id": 733,
+    "word": "raster",
+    "paragraph": 0,
+    "image": "raster.jpg"
+  },
+  {
+    "id": 734,
+    "word": "Regium",
+    "paragraph": "2",
+    "image": "Regium2.jpg"
+  },
+  {
+    "id": 735,
+    "word": "Regulus",
+    "paragraph": "1",
+    "image": "Regulus1.jpg"
+  },
+  {
+    "id": 736,
+    "word": "remigium",
+    "paragraph": "1",
+    "image": "remigium1.jpg"
+  },
+  {
+    "id": 737,
+    "word": "remigium",
+    "paragraph": "3",
+    "image": "remigium3.jpg"
+  },
+  {
+    "id": 738,
+    "word": "repagula",
+    "paragraph": "1",
+    "image": "repagula1.jpg"
+  },
+  {
+    "id": 739,
+    "word": "rete",
+    "paragraph": 0,
+    "image": "rete.jpg"
+  },
+  {
+    "id": 740,
+    "word": "retiarius",
+    "paragraph": 0,
+    "image": "retiarius.jpg"
+  },
+  {
+    "id": 741,
+    "word": "reticulata_structura",
+    "paragraph": 0,
+    "image": "reticulata_structura.jpg"
+  },
+  {
+    "id": 742,
+    "word": "reticulum",
+    "paragraph": "2",
+    "image": "reticulum2.jpg"
+  },
+  {
+    "id": 743,
+    "word": "reticulum",
+    "paragraph": "3",
+    "image": "reticulum3.jpg"
+  },
+  {
+    "id": 744,
+    "word": "Rhaetia",
+    "paragraph": 0,
+    "image": "Rhaetia.jpg"
+  },
+  {
+    "id": 745,
+    "word": "rheda",
+    "paragraph": 0,
+    "image": "rheda.jpg"
+  },
+  {
+    "id": 746,
+    "word": "Rhodos",
+    "paragraph": 0,
+    "image": "Rhodos.jpg"
+  },
+  {
+    "id": 747,
+    "word": "rogus",
+    "paragraph": 0,
+    "image": "rogus.jpg"
+  },
+  {
+    "id": 748,
+    "word": "Roma",
+    "paragraph": 0,
+    "image": "Roma.jpg"
+  },
+  {
+    "id": 749,
+    "word": "roma",
+    "paragraph": "2",
+    "image": "roma2.jpg"
+  },
+  {
+    "id": 750,
+    "word": "rostrata_columna",
+    "paragraph": 0,
+    "image": "rostrata_columna.jpg"
+  },
+  {
+    "id": 751,
+    "word": "rostrum",
+    "paragraph": "2",
+    "image": "rostrum2.jpg"
+  },
+  {
+    "id": 752,
+    "word": "Rubico",
+    "paragraph": 0,
+    "image": "Rubico.jpg"
+  },
+  {
+    "id": 753,
+    "word": "runcina",
+    "paragraph": "1",
+    "image": "runcina1.jpg"
+  },
+  {
+    "id": 754,
+    "word": "runco",
+    "paragraph": "2",
+    "image": "runco2.jpg"
+  },
+  {
+    "id": 755,
+    "word": "sacra_via",
+    "paragraph": 0,
+    "image": "sacra_via.jpg"
+  },
+  {
+    "id": 756,
+    "word": "sacrificium",
+    "paragraph": 0,
+    "image": "sacrificium.jpg"
+  },
+  {
+    "id": 757,
+    "word": "sagittarius",
+    "paragraph": "1",
+    "image": "sagittarius1.jpg"
+  },
+  {
+    "id": 758,
+    "word": "sagittarius",
+    "paragraph": "3",
+    "image": "sagittarius3.jpg"
+  },
+  {
+    "id": 759,
+    "word": "sagum",
+    "paragraph": "1",
+    "image": "sagum1.jpg"
+  },
+  {
+    "id": 760,
+    "word": "Salamis",
+    "paragraph": "1",
+    "image": "Salamis1.jpg"
+  },
+  {
+    "id": 761,
+    "word": "Salii",
+    "paragraph": "1",
+    "image": "Salii1.jpg"
+  },
+  {
+    "id": 762,
+    "word": "Sallustius",
+    "paragraph": 0,
+    "image": "Sallustius.jpg"
+  },
+  {
+    "id": 763,
+    "word": "salutatio",
+    "paragraph": "1",
+    "image": "salutatio1.jpg"
+  },
+  {
+    "id": 764,
+    "word": "Samnis",
+    "paragraph": 0,
+    "image": "Samnis.jpg"
+  },
+  {
+    "id": 765,
+    "word": "Samnis",
+    "paragraph": "2",
+    "image": "Samnis2.jpg"
+  },
+  {
+    "id": 766,
+    "word": "Samos",
+    "paragraph": "1",
+    "image": "Samos1.jpg"
+  },
+  {
+    "id": 767,
+    "word": "Samothracia",
+    "paragraph": 0,
+    "image": "Samothracia.jpg"
+  },
+  {
+    "id": 768,
+    "word": "sarcina",
+    "paragraph": 0,
+    "image": "sarcina.jpg"
+  },
+  {
+    "id": 769,
+    "word": "sarculum",
+    "paragraph": 0,
+    "image": "sarculum.jpg"
+  },
+  {
+    "id": 770,
+    "word": "Sardinia",
+    "paragraph": 0,
+    "image": "Sardinia.jpg"
+  },
+  {
+    "id": 771,
+    "word": "Sardis",
+    "paragraph": 0,
+    "image": "Sardis.jpg"
+  },
+  {
+    "id": 772,
+    "word": "sartago",
+    "paragraph": "1",
+    "image": "sartago1.jpg"
+  },
+  {
+    "id": 773,
+    "word": "Saturnus",
+    "paragraph": 0,
+    "image": "Saturnus.jpg"
+  },
+  {
+    "id": 774,
+    "word": "Satyrus",
+    "paragraph": "1",
+    "image": "Satyrus1.jpg"
+  },
+  {
+    "id": 775,
+    "word": "scabellum",
+    "paragraph": "2",
+    "image": "scabellum2.jpg"
+  },
+  {
+    "id": 776,
+    "word": "scapha",
+    "paragraph": 0,
+    "image": "scapha.jpg"
+  },
+  {
+    "id": 777,
+    "word": "scaphium",
+    "paragraph": 0,
+    "image": "scaphium.jpg"
+  },
+  {
+    "id": 778,
+    "word": "sceptrum",
+    "paragraph": 0,
+    "image": "sceptrum.jpg"
+  },
+  {
+    "id": 779,
+    "word": "Scipio",
+    "paragraph": 0,
+    "image": "Scipio.jpg"
+  },
+  {
+    "id": 780,
+    "word": "scorpio",
+    "paragraph": "4",
+    "image": "scorpio4.jpg"
+  },
+  {
+    "id": 781,
+    "word": "scutum",
+    "paragraph": 0,
+    "image": "scutum.jpg"
+  },
+  {
+    "id": 782,
+    "word": "scyphus",
+    "paragraph": 0,
+    "image": "scyphus.jpg"
+  },
+  {
+    "id": 783,
+    "word": "Scythes",
+    "paragraph": 0,
+    "image": "Scythes.jpg"
+  },
+  {
+    "id": 784,
+    "word": "securis",
+    "paragraph": 0,
+    "image": "securis.jpg"
+  },
+  {
+    "id": 785,
+    "word": "Segesta",
+    "paragraph": 0,
+    "image": "Segesta.jpg"
+  },
+  {
+    "id": 786,
+    "word": "segmentum",
+    "paragraph": 0,
+    "image": "segmentum.jpg"
+  },
+  {
+    "id": 787,
+    "word": "sella",
+    "paragraph": 0,
+    "image": "sella.jpg"
+  },
+  {
+    "id": 788,
+    "word": "sella_gestatoria",
+    "paragraph": 0,
+    "image": "sella_gestatoria.jpg"
+  },
+  {
+    "id": 789,
+    "word": "Seneca",
+    "paragraph": "1",
+    "image": "Seneca1.jpg"
+  },
+  {
+    "id": 790,
+    "word": "Septimius_Severus",
+    "paragraph": 0,
+    "image": "Septimius_Severus.jpg"
+  },
+  {
+    "id": 791,
+    "word": "Septizonium_Severi",
+    "paragraph": 0,
+    "image": "Septizonium_Severi.jpg"
+  },
+  {
+    "id": 792,
+    "word": "sepulcrum",
+    "paragraph": 0,
+    "image": "sepulcrum.jpg"
+  },
+  {
+    "id": 793,
+    "word": "sera",
+    "paragraph": "1",
+    "image": "sera1.jpg"
+  },
+  {
+    "id": 794,
+    "word": "Serapis",
+    "paragraph": 0,
+    "image": "Serapis.jpg"
+  },
+  {
+    "id": 795,
+    "word": "serratus_nummus",
+    "paragraph": 0,
+    "image": "serratus_nummus.jpg"
+  },
+  {
+    "id": 796,
+    "word": "sertum",
+    "paragraph": 0,
+    "image": "sertum.jpg"
+  },
+  {
+    "id": 797,
+    "word": "sextans",
+    "paragraph": "1",
+    "image": "sextans1.jpg"
+  },
+  {
+    "id": 798,
+    "word": "Sibylla",
+    "paragraph": 0,
+    "image": "Sibylla.jpg"
+  },
+  {
+    "id": 799,
+    "word": "sica",
+    "paragraph": "1",
+    "image": "sica1.jpg"
+  },
+  {
+    "id": 800,
+    "word": "Sicilia",
+    "paragraph": 0,
+    "image": "Sicilia.jpg"
+  },
+  {
+    "id": 801,
+    "word": "sigillum",
+    "paragraph": 0,
+    "image": "sigillum.jpg"
+  },
+  {
+    "id": 802,
+    "word": "signum",
+    "paragraph": "4",
+    "image": "signum4.jpg"
+  },
+  {
+    "id": 803,
+    "word": "Silenus",
+    "paragraph": "1",
+    "image": "Silenus1.jpg"
+  },
+  {
+    "id": 804,
+    "word": "Siren",
+    "paragraph": "1",
+    "image": "Siren1.jpg"
+  },
+  {
+    "id": 805,
+    "word": "sistrum",
+    "paragraph": 0,
+    "image": "sistrum.jpg"
+  },
+  {
+    "id": 806,
+    "word": "situla",
+    "paragraph": 0,
+    "image": "situla.jpg"
+  },
+  {
+    "id": 807,
+    "word": "soccus",
+    "paragraph": 0,
+    "image": "soccus.jpg"
+  },
+  {
+    "id": 808,
+    "word": "Socrates",
+    "paragraph": "1",
+    "image": "Socrates1.jpg"
+  },
+  {
+    "id": 809,
+    "word": "solarium",
+    "paragraph": "3",
+    "image": "solarium3.jpg"
+  },
+  {
+    "id": 810,
+    "word": "solea",
+    "paragraph": "1",
+    "image": "solea1.jpg"
+  },
+  {
+    "id": 811,
+    "word": "solium",
+    "paragraph": "1",
+    "image": "solium1.jpg"
+  },
+  {
+    "id": 812,
+    "word": "Solon",
+    "paragraph": "1",
+    "image": "Solon1.jpg"
+  },
+  {
+    "id": 813,
+    "word": "Sophocles",
+    "paragraph": 0,
+    "image": "Sophocles.jpg"
+  },
+  {
+    "id": 814,
+    "word": "sors",
+    "paragraph": "2",
+    "image": "sors2.jpg"
+  },
+  {
+    "id": 815,
+    "word": "sparus",
+    "paragraph": "1",
+    "image": "sparus1.jpg"
+  },
+  {
+    "id": 816,
+    "word": "spatha",
+    "paragraph": 0,
+    "image": "spatha.jpg"
+  },
+  {
+    "id": 817,
+    "word": "speculum",
+    "paragraph": "1",
+    "image": "speculum1.jpg"
+  },
+  {
+    "id": 818,
+    "word": "sphinx",
+    "paragraph": 0,
+    "image": "sphinx.jpg"
+  },
+  {
+    "id": 819,
+    "word": "sphinx",
+    "paragraph": "2",
+    "image": "sphinx2.jpg"
+  },
+  {
+    "id": 820,
+    "word": "Sporades",
+    "paragraph": 0,
+    "image": "Sporades.jpg"
+  },
+  {
+    "id": 821,
+    "word": "stadium",
+    "paragraph": "2",
+    "image": "stadium2.jpg"
+  },
+  {
+    "id": 822,
+    "word": "stela",
+    "paragraph": 0,
+    "image": "stela.jpg"
+  },
+  {
+    "id": 823,
+    "word": "stibadium",
+    "paragraph": 0,
+    "image": "stibadium.jpg"
+  },
+  {
+    "id": 824,
+    "word": "stilus",
+    "paragraph": 0,
+    "image": "stilus.jpg"
+  },
+  {
+    "id": 825,
+    "word": "stola",
+    "paragraph": 0,
+    "image": "stola.jpg"
+  },
+  {
+    "id": 826,
+    "word": "strigilis",
+    "paragraph": "1",
+    "image": "strigilis1.jpg"
+  },
+  {
+    "id": 827,
+    "word": "sublicius_pons",
+    "paragraph": 0,
+    "image": "sublicius_pons.jpg"
+  },
+  {
+    "id": 828,
+    "word": "subligar",
+    "paragraph": 0,
+    "image": "subligar.jpg"
+  },
+  {
+    "id": 829,
+    "word": "subsellium",
+    "paragraph": 0,
+    "image": "subsellium.jpg"
+  },
+  {
+    "id": 830,
+    "word": "sufflamen",
+    "paragraph": 0,
+    "image": "sufflamen.jpg"
+  },
+  {
+    "id": 831,
+    "word": "suggestum",
+    "paragraph": "2",
+    "image": "suggestum2.jpg"
+  },
+  {
+    "id": 832,
+    "word": "Sulla",
+    "paragraph": "1",
+    "image": "Sulla1.jpg"
+  },
+  {
+    "id": 833,
+    "word": "Sunium",
+    "paragraph": 0,
+    "image": "Sunium.jpg"
+  },
+  {
+    "id": 834,
+    "word": "suovetaurilia",
+    "paragraph": 0,
+    "image": "suovetaurilia.jpg"
+  },
+  {
+    "id": 835,
+    "word": "supplex",
+    "paragraph": 0,
+    "image": "supplex.jpg"
+  },
+  {
+    "id": 836,
+    "word": "synthesis",
+    "paragraph": "3",
+    "image": "synthesis3.jpg"
+  },
+  {
+    "id": 837,
+    "word": "Syracusae",
+    "paragraph": 0,
+    "image": "Syracusae.jpg"
+  },
+  {
+    "id": 838,
+    "word": "Syria",
+    "paragraph": 0,
+    "image": "Syria.jpg"
+  },
+  {
+    "id": 839,
+    "word": "syrinx",
+    "paragraph": 0,
+    "image": "syrinx.jpg"
+  },
+  {
+    "id": 840,
+    "word": "syrma",
+    "paragraph": 0,
+    "image": "syrma.jpg"
+  },
+  {
+    "id": 841,
+    "word": "Syrtis",
+    "paragraph": 0,
+    "image": "Syrtis.jpg"
+  },
+  {
+    "id": 842,
+    "word": "tabella",
+    "paragraph": "3",
+    "image": "tabella3.jpg"
+  },
+  {
+    "id": 843,
+    "word": "talus",
+    "paragraph": "3",
+    "image": "talus3.jpg"
+  },
+  {
+    "id": 844,
+    "word": "Tamesis",
+    "paragraph": 0,
+    "image": "Tamesis.jpg"
+  },
+  {
+    "id": 845,
+    "word": "Tarentum",
+    "paragraph": 0,
+    "image": "Tarentum.jpg"
+  },
+  {
+    "id": 846,
+    "word": "Tarpeius_Mons",
+    "paragraph": 0,
+    "image": "Tarpeius_Mons.jpg"
+  },
+  {
+    "id": 847,
+    "word": "Tempe",
+    "paragraph": 0,
+    "image": "Tempe.jpg"
+  },
+  {
+    "id": 848,
+    "word": "templum",
+    "paragraph": 0,
+    "image": "templum.jpg"
+  },
+  {
+    "id": 849,
+    "word": "templum",
+    "paragraph": "2",
+    "image": "templum2.jpg"
+  },
+  {
+    "id": 850,
+    "word": "templum",
+    "paragraph": "3",
+    "image": "templum3.jpg"
+  },
+  {
+    "id": 851,
+    "word": "tensa",
+    "paragraph": 0,
+    "image": "tensa.jpg"
+  },
+  {
+    "id": 852,
+    "word": "tentorium",
+    "paragraph": 0,
+    "image": "tentorium.jpg"
+  },
+  {
+    "id": 853,
+    "word": "terebra",
+    "paragraph": 0,
+    "image": "terebra.jpg"
+  },
+  {
+    "id": 854,
+    "word": "Terentius",
+    "paragraph": 0,
+    "image": "Terentius.jpg"
+  },
+  {
+    "id": 855,
+    "word": "Terminus",
+    "paragraph": "2",
+    "image": "Terminus2.jpg"
+  },
+  {
+    "id": 856,
+    "word": "Terpsichore",
+    "paragraph": 0,
+    "image": "Terpsichore.jpg"
+  },
+  {
+    "id": 857,
+    "word": "tessera",
+    "paragraph": "1",
+    "image": "tessera1.jpg"
+  },
+  {
+    "id": 858,
+    "word": "tessera",
+    "paragraph": "3",
+    "image": "tessera3.jpg"
+  },
+  {
+    "id": 859,
+    "word": "tessera",
+    "paragraph": "4",
+    "image": "tessera4.jpg"
+  },
+  {
+    "id": 860,
+    "word": "testudo",
+    "paragraph": 0,
+    "image": "testudo.jpg"
+  },
+  {
+    "id": 861,
+    "word": "Thales",
+    "paragraph": 0,
+    "image": "Thales.jpg"
+  },
+  {
+    "id": 862,
+    "word": "Thalia",
+    "paragraph": 0,
+    "image": "Thalia.jpg"
+  },
+  {
+    "id": 863,
+    "word": "theatrum",
+    "paragraph": 0,
+    "image": "theatrum.jpg"
+  },
+  {
+    "id": 864,
+    "word": "Themistocles",
+    "paragraph": 0,
+    "image": "Themistocles.jpg"
+  },
+  {
+    "id": 865,
+    "word": "Theodora",
+    "paragraph": "2",
+    "image": "Theodora2.jpg"
+  },
+  {
+    "id": 866,
+    "word": "Theophrastus",
+    "paragraph": 0,
+    "image": "Theophrastus.jpg"
+  },
+  {
+    "id": 867,
+    "word": "Thermopylae",
+    "paragraph": 0,
+    "image": "Thermopylae.jpg"
+  },
+  {
+    "id": 868,
+    "word": "Theseus",
+    "paragraph": 0,
+    "image": "Theseus.jpg"
+  },
+  {
+    "id": 869,
+    "word": "Thessalia",
+    "paragraph": 0,
+    "image": "Thessalia.jpg"
+  },
+  {
+    "id": 870,
+    "word": "Thetis",
+    "paragraph": 0,
+    "image": "Thetis.jpg"
+  },
+  {
+    "id": 871,
+    "word": "Thracia",
+    "paragraph": 0,
+    "image": "Thracia.jpg"
+  },
+  {
+    "id": 872,
+    "word": "Thraex",
+    "paragraph": 0,
+    "image": "Thraex.jpg"
+  },
+  {
+    "id": 873,
+    "word": "Thucydides",
+    "paragraph": 0,
+    "image": "Thucydides.jpg"
+  },
+  {
+    "id": 874,
+    "word": "thyrsus",
+    "paragraph": 0,
+    "image": "thyrsus.jpg"
+  },
+  {
+    "id": 875,
+    "word": "tiara",
+    "paragraph": 0,
+    "image": "tiara.jpg"
+  },
+  {
+    "id": 876,
+    "word": "Tiberius",
+    "paragraph": 0,
+    "image": "Tiberius.jpg"
+  },
+  {
+    "id": 877,
+    "word": "tibia",
+    "paragraph": "2",
+    "image": "tibia2.jpg"
+  },
+  {
+    "id": 878,
+    "word": "tibicen",
+    "paragraph": 0,
+    "image": "tibicen.jpg"
+  },
+  {
+    "id": 879,
+    "word": "Tigrantes",
+    "paragraph": 0,
+    "image": "Tigrantes.jpg"
+  },
+  {
+    "id": 880,
+    "word": "Titan",
+    "paragraph": 0,
+    "image": "Titan.jpg"
+  },
+  {
+    "id": 881,
+    "word": "Titus",
+    "paragraph": "2",
+    "image": "Titus2.jpg"
+  },
+  {
+    "id": 882,
+    "word": "toga",
+    "paragraph": 0,
+    "image": "toga.jpg"
+  },
+  {
+    "id": 883,
+    "word": "tolleno",
+    "paragraph": "2",
+    "image": "tolleno2.jpg"
+  },
+  {
+    "id": 884,
+    "word": "Torquis",
+    "paragraph": "1",
+    "image": "Torquis1.jpg"
+  },
+  {
+    "id": 885,
+    "word": "trabea",
+    "paragraph": 0,
+    "image": "trabea.jpg"
+  },
+  {
+    "id": 886,
+    "word": "tragoedus",
+    "paragraph": 0,
+    "image": "tragoedus.jpg"
+  },
+  {
+    "id": 887,
+    "word": "Trajanus",
+    "paragraph": 0,
+    "image": "Trajanus.jpg"
+  },
+  {
+    "id": 888,
+    "word": "trapetum",
+    "paragraph": 0,
+    "image": "trapetum.jpg"
+  },
+  {
+    "id": 889,
+    "word": "Trasumenus",
+    "paragraph": 0,
+    "image": "Trasumenus.jpg"
+  },
+  {
+    "id": 890,
+    "word": "tribulus",
+    "paragraph": "1",
+    "image": "tribulus1.jpg"
+  },
+  {
+    "id": 891,
+    "word": "triclinium",
+    "paragraph": "1",
+    "image": "triclinium1.jpg"
+  },
+  {
+    "id": 892,
+    "word": "triclinium",
+    "paragraph": "2",
+    "image": "triclinium2.jpg"
+  },
+  {
+    "id": 893,
+    "word": "tridens",
+    "paragraph": 0,
+    "image": "tridens.jpg"
+  },
+  {
+    "id": 894,
+    "word": "triga",
+    "paragraph": 0,
+    "image": "triga.jpg"
+  },
+  {
+    "id": 895,
+    "word": "triobolus",
+    "paragraph": 0,
+    "image": "triobolus.jpg"
+  },
+  {
+    "id": 896,
+    "word": "tripus",
+    "paragraph": 0,
+    "image": "tripus.jpg"
+  },
+  {
+    "id": 897,
+    "word": "triremis",
+    "paragraph": 0,
+    "image": "triremis.jpg"
+  },
+  {
+    "id": 898,
+    "word": "triumphus",
+    "paragraph": 0,
+    "image": "triumphus.jpg"
+  },
+  {
+    "id": 899,
+    "word": "Troja",
+    "paragraph": "1",
+    "image": "Troja1.jpg"
+  },
+  {
+    "id": 900,
+    "word": "tropaeum",
+    "paragraph": 0,
+    "image": "tropaeum.jpg"
+  },
+  {
+    "id": 901,
+    "word": "trutina",
+    "paragraph": "2",
+    "image": "trutina2.jpg"
+  },
+  {
+    "id": 902,
+    "word": "tuba",
+    "paragraph": "1",
+    "image": "tuba1.jpg"
+  },
+  {
+    "id": 903,
+    "word": "tugurium",
+    "paragraph": 0,
+    "image": "tugurium.jpg"
+  },
+  {
+    "id": 904,
+    "word": "Tullianum",
+    "paragraph": 0,
+    "image": "Tullianum.jpg"
+  },
+  {
+    "id": 905,
+    "word": "tunica",
+    "paragraph": "1",
+    "image": "tunica1.jpg"
+  },
+  {
+    "id": 906,
+    "word": "turbo",
+    "paragraph": "2",
+    "image": "turbo2.jpg"
+  },
+  {
+    "id": 907,
+    "word": "turibulum",
+    "paragraph": 0,
+    "image": "turibulum.jpg"
+  },
+  {
+    "id": 908,
+    "word": "turris",
+    "paragraph": "1",
+    "image": "turris1.jpg"
+  },
+  {
+    "id": 909,
+    "word": "turris",
+    "paragraph": "2",
+    "image": "turris2.jpg"
+  },
+  {
+    "id": 910,
+    "word": "Tusculum",
+    "paragraph": 0,
+    "image": "Tusculum.jpg"
+  },
+  {
+    "id": 911,
+    "word": "tympanum",
+    "paragraph": "1",
+    "image": "tympanum1.jpg"
+  },
+  {
+    "id": 912,
+    "word": "Tyrus",
+    "paragraph": "1",
+    "image": "Tyrus1.jpg"
+  },
+  {
+    "id": 913,
+    "word": "umbella",
+    "paragraph": 0,
+    "image": "umbella.jpg"
+  },
+  {
+    "id": 914,
+    "word": "umbo",
+    "paragraph": 0,
+    "image": "umbo.jpg"
+  },
+  {
+    "id": 915,
+    "word": "uncia",
+    "paragraph": "1",
+    "image": "uncia1.jpg"
+  },
+  {
+    "id": 916,
+    "word": "Urania",
+    "paragraph": "1",
+    "image": "Urania1.jpg"
+  },
+  {
+    "id": 917,
+    "word": "urna",
+    "paragraph": 0,
+    "image": "urna.jpg"
+  },
+  {
+    "id": 918,
+    "word": "Utica",
+    "paragraph": 0,
+    "image": "Utica.jpg"
+  },
+  {
+    "id": 919,
+    "word": "Uxellodunum",
+    "paragraph": 0,
+    "image": "Uxellodunum.jpg"
+  },
+  {
+    "id": 920,
+    "word": "vagina",
+    "paragraph": "1",
+    "image": "vagina1.jpg"
+  },
+  {
+    "id": 921,
+    "word": "Valens",
+    "paragraph": "2",
+    "image": "Valens2.jpg"
+  },
+  {
+    "id": 922,
+    "word": "vallum",
+    "paragraph": "1",
+    "image": "vallum1.jpg"
+  },
+  {
+    "id": 923,
+    "word": "vannus",
+    "paragraph": 0,
+    "image": "vannus.jpg"
+  },
+  {
+    "id": 924,
+    "word": "Veii",
+    "paragraph": 0,
+    "image": "Veii.jpg"
+  },
+  {
+    "id": 925,
+    "word": "veles",
+    "paragraph": 0,
+    "image": "veles.jpg"
+  },
+  {
+    "id": 926,
+    "word": "veru",
+    "paragraph": 0,
+    "image": "veru.jpg"
+  },
+  {
+    "id": 927,
+    "word": "verutum",
+    "paragraph": 0,
+    "image": "verutum.jpg"
+  },
+  {
+    "id": 928,
+    "word": "Vespasianus",
+    "paragraph": 0,
+    "image": "Vespasianus.jpg"
+  },
+  {
+    "id": 929,
+    "word": "Vestalis",
+    "paragraph": 0,
+    "image": "Vestalis.jpg"
+  },
+  {
+    "id": 930,
+    "word": "Vetellius",
+    "paragraph": 0,
+    "image": "Vetellius.jpg"
+  },
+  {
+    "id": 931,
+    "word": "vexillum",
+    "paragraph": 0,
+    "image": "vexillum.jpg"
+  },
+  {
+    "id": 932,
+    "word": "via_romana",
+    "paragraph": 0,
+    "image": "via_romana.jpg"
+  },
+  {
+    "id": 933,
+    "word": "Victoria",
+    "paragraph": 0,
+    "image": "Victoria.jpg"
+  },
+  {
+    "id": 934,
+    "word": "Victoria",
+    "paragraph": "2",
+    "image": "Victoria2.jpg"
+  },
+  {
+    "id": 935,
+    "word": "villa",
+    "paragraph": "1",
+    "image": "villa1.jpg"
+  },
+  {
+    "id": 936,
+    "word": "villula",
+    "paragraph": 0,
+    "image": "villula.jpg"
+  },
+  {
+    "id": 937,
+    "word": "vinculum",
+    "paragraph": 0,
+    "image": "vinculum.jpg"
+  },
+  {
+    "id": 938,
+    "word": "vindicta",
+    "paragraph": "1",
+    "image": "vindicta1.jpg"
+  },
+  {
+    "id": 939,
+    "word": "vinea",
+    "paragraph": "3",
+    "image": "vinea3.jpg"
+  },
+  {
+    "id": 940,
+    "word": "Virgilius_Maro",
+    "paragraph": 0,
+    "image": "Virgilius_Maro.jpg"
+  },
+  {
+    "id": 941,
+    "word": "vitis",
+    "paragraph": "2",
+    "image": "vitis2.jpg"
+  },
+  {
+    "id": 942,
+    "word": "vitta",
+    "paragraph": "2",
+    "image": "vitta2.jpg"
+  },
+  {
+    "id": 943,
+    "word": "volsella",
+    "paragraph": 0,
+    "image": "volsella.jpg"
+  },
+  {
+    "id": 944,
+    "word": "volumen",
+    "paragraph": "1",
+    "image": "volumen1.jpg"
+  },
+  {
+    "id": 945,
+    "word": "vomer",
+    "paragraph": 0,
+    "image": "vomer.jpg"
+  },
+  {
+    "id": 946,
+    "word": "vomitoria",
+    "paragraph": 0,
+    "image": "vomitoria.jpg"
+  },
+  {
+    "id": 947,
+    "word": "Vulcanus",
+    "paragraph": 0,
+    "image": "Vulcanus.jpg"
+  },
+  {
+    "id": 948,
+    "word": "Zenobia",
+    "paragraph": 0,
+    "image": "Zenobia.jpg"
+  },
+  {
+    "id": 949,
+    "word": "zodiacus",
+    "paragraph": 0,
+    "image": "zodiacus.jpg"
+  },
+  {
+    "id": 950,
+    "word": "zotheca",
+    "paragraph": "2",
+    "image": "zotheca2.jpg"
+  }
+]

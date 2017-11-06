@@ -39,6 +39,13 @@ class Word
     private $french;
 
     /**
+     * One Section has Many Subjects.
+     * @ORM\OneToMany(targetEntity="Image", mappedBy="word")
+     * @ORM\OrderBy({"paragraph" = "ASC"})
+     */
+    private $images;
+
+    /**
      * @return int
      */
     public function getId()
