@@ -74,16 +74,15 @@ class ImportImagesCommand extends ContainerAwareCommand
                 ->setParameter('query4', "4 " . $wordRaw . "%")
                 ->setParameter('query5', "5 " . $wordRaw . "%");
             $word = $queryWord->getQuery()->getResult();
-    var_dump($words);
 
             echo $id . " " . $word[0]->getLatin() . "\n";
-/*
+
             $image = new Image();
-            $image->setWord($word);
+            $image->setWord($word[0]);
             $image->setParagraph($paragraph);
             $image->setFile($file);
             $this->em->persist($image);
-            $this->em->flush();*/
+            $this->em->flush();
 
             $progress->advance();
         }
