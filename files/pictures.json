@@ -205,7 +205,7 @@
   },
   {
     "id": 34,
-    "word": "ager_romanus",
+    "word": "ager",
     "paragraph": 0,
     "image": "ager_romanus.jpg"
   },
@@ -247,7 +247,7 @@
   },
   {
     "id": 41,
-    "word": "Alba_Longa",
+    "word": "Alba",
     "paragraph": 0,
     "image": "Alba_Longa.jpg"
   },
@@ -367,7 +367,7 @@
   },
   {
     "id": 61,
-    "word": "Anchises_et_Aeneas",
+    "word": "Anchisa",
     "paragraph": 0,
     "image": "Anchises_et_Aeneas.jpg"
   },
@@ -421,7 +421,7 @@
   },
   {
     "id": 70,
-    "word": "Antiochus_III",
+    "word": "Antiochus",
     "paragraph": 0,
     "image": "Antiochus_III.jpg"
   },
@@ -481,7 +481,7 @@
   },
   {
     "id": 80,
-    "word": "Appia_via",
+    "word": "Appia via",
     "paragraph": 0,
     "image": "Appia_via.jpg"
   },
@@ -1417,7 +1417,7 @@
   },
   {
     "id": 236,
-    "word": "Cato_Uticensis",
+    "word": "Cato",
     "paragraph": 0,
     "image": "Cato_Uticensis.jpg"
   },
@@ -1471,7 +1471,7 @@
   },
   {
     "id": 245,
-    "word": "cella_vinaria",
+    "word": "cella",
     "paragraph": 0,
     "image": "cella_vinaria.jpg"
   },
@@ -1591,7 +1591,7 @@
   },
   {
     "id": 265,
-    "word": "cinctus_gabinus",
+    "word": "2 cinctus",
     "paragraph": 0,
     "image": "cinctus_gabinus.jpg"
   },
@@ -2101,7 +2101,7 @@
   },
   {
     "id": 350,
-    "word": "Demetrius_Poliorcetes",
+    "word": "Demetrius",
     "paragraph": 0,
     "image": "Demetrius_Poliorcetes.jpg"
   },
@@ -2203,7 +2203,7 @@
   },
   {
     "id": 367,
-    "word": "Doricum_genus",
+    "word": "Doricum",
     "paragraph": 0,
     "image": "Doricum_genus.jpg"
   },
@@ -2233,7 +2233,7 @@
   },
   {
     "id": 372,
-    "word": "Echo_et_Narcisse",
+    "word": "2 Echo",
     "paragraph": 0,
     "image": "Echo_et_Narcisse.jpg"
   },
@@ -2311,7 +2311,7 @@
   },
   {
     "id": 385,
-    "word": "Eteocles_et_Polynices",
+    "word": "Eteocles",
     "paragraph": 0,
     "image": "Eteocles_et_Polynices.jpg"
   },
@@ -2359,7 +2359,7 @@
   },
   {
     "id": 393,
-    "word": "Eurydice_et_Orpheus",
+    "word": "Eurydice",
     "paragraph": 0,
     "image": "Eurydice_et_Orpheus.jpg"
   },
@@ -2527,19 +2527,19 @@
   },
   {
     "id": 421,
-    "word": "Forum_Romanum",
+    "word": "1 forum",
     "paragraph": 0,
     "image": "Forum_Romanum.jpg"
   },
   {
     "id": 422,
-    "word": "Romanum",
+    "word": "1 forum",
     "paragraph": "2",
     "image": "Forum_Romanum2.jpg"
   },
   {
     "id": 423,
-    "word": "Forums_Imperiaux",
+    "word": "1 forum",
     "paragraph": 0,
     "image": "Forums_Imperiaux.jpg"
   },
@@ -2596,12 +2596,6 @@
     "word": "Furia",
     "paragraph": 0,
     "image": "Furia.jpg"
-  },
-  {
-    "id": 433,
-    "word": "gaffiot_json",
-    "paragraph": 0,
-    "image": "gaffiot_json.txt"
   },
   {
     "id": 434,
@@ -2773,7 +2767,7 @@
   },
   {
     "id": 462,
-    "word": "Hiero_II",
+    "word": "Hiero",
     "paragraph": 0,
     "image": "Hiero_II.jpg"
   },
@@ -3139,7 +3133,7 @@
   },
   {
     "id": 523,
-    "word": "legionarius_miles",
+    "word": "legionarius",
     "paragraph": 0,
     "image": "legionarius_miles.jpg"
   },
@@ -3157,7 +3151,7 @@
   },
   {
     "id": 526,
-    "word": "Lernaeus_Anguis",
+    "word": "Lerna",
     "paragraph": 0,
     "image": "Lernaeus_Anguis.jpg"
   },
@@ -3247,7 +3241,7 @@
   },
   {
     "id": 541,
-    "word": "Livia_Drusilla",
+    "word": "Livia",
     "paragraph": 0,
     "image": "Livia_Drusilla.jpg"
   },
@@ -3613,7 +3607,7 @@
   },
   {
     "id": 602,
-    "word": "murus_aureliani",
+    "word": "murus",
     "paragraph": 0,
     "image": "murus_aureliani.jpg"
   },
@@ -3661,7 +3655,7 @@
   },
   {
     "id": 610,
-    "word": "Nemeaeus_Leo",
+    "word": "Nemeaeus",
     "paragraph": 0,
     "image": "Nemeaeus_Leo.jpg"
   },
@@ -3895,7 +3889,7 @@
   },
   {
     "id": 649,
-    "word": "Parthicum_Regnum",
+    "word": "Parthicus",
     "paragraph": 0,
     "image": "Parthicum_Regnum.jpg"
   },
@@ -4033,7 +4027,7 @@
   },
   {
     "id": 672,
-    "word": "Perseus_et_Medusa",
+    "word": "Perseus",
     "paragraph": 0,
     "image": "Perseus_et_Medusa.jpg"
   },
@@ -4204,12 +4198,6 @@
     "word": "Pompeius",
     "paragraph": 0,
     "image": "Pompeius.jpg"
-  },
-  {
-    "id": 701,
-    "word": "Pompitinae_pauludes",
-    "paragraph": 0,
-    "image": "Pompitinae_pauludes.jpg"
   },
   {
     "id": 702,
@@ -4447,7 +4435,7 @@
   },
   {
     "id": 741,
-    "word": "reticulata_structura",
+    "word": "reticulatus",
     "paragraph": 0,
     "image": "reticulata_structura.jpg"
   },
@@ -4501,7 +4489,7 @@
   },
   {
     "id": 750,
-    "word": "rostrata_columna",
+    "word": "rostratus",
     "paragraph": 0,
     "image": "rostrata_columna.jpg"
   },
@@ -4531,8 +4519,8 @@
   },
   {
     "id": 755,
-    "word": "sacra_via",
-    "paragraph": 0,
+    "word": "via",
+    "paragraph": "2",
     "image": "sacra_via.jpg"
   },
   {
@@ -4729,7 +4717,7 @@
   },
   {
     "id": 788,
-    "word": "sella_gestatoria",
+    "word": "sella",
     "paragraph": 0,
     "image": "sella_gestatoria.jpg"
   },
@@ -4741,13 +4729,13 @@
   },
   {
     "id": 790,
-    "word": "Septimius_Severus",
+    "word": "2 Septimius",
     "paragraph": 0,
     "image": "Septimius_Severus.jpg"
   },
   {
     "id": 791,
-    "word": "Septizonium_Severi",
+    "word": "Septizonium",
     "paragraph": 0,
     "image": "Septizonium_Severi.jpg"
   },
@@ -4771,7 +4759,7 @@
   },
   {
     "id": 795,
-    "word": "serratus_nummus",
+    "word": "serratus",
     "paragraph": 0,
     "image": "serratus_nummus.jpg"
   },
@@ -4963,7 +4951,7 @@
   },
   {
     "id": 827,
-    "word": "sublicius_pons",
+    "word": "sublicius pons",
     "paragraph": 0,
     "image": "sublicius_pons.jpg"
   },
@@ -5077,7 +5065,7 @@
   },
   {
     "id": 846,
-    "word": "Tarpeius_Mons",
+    "word": "Tarpeius",
     "paragraph": 0,
     "image": "Tarpeius_Mons.jpg"
   },
@@ -5593,7 +5581,7 @@
   },
   {
     "id": 932,
-    "word": "via_romana",
+    "word": "via",
     "paragraph": 0,
     "image": "via_romana.jpg"
   },
@@ -5641,7 +5629,7 @@
   },
   {
     "id": 940,
-    "word": "Virgilius_Maro",
+    "word": "Virgilius",
     "paragraph": 0,
     "image": "Virgilius_Maro.jpg"
   },
