@@ -21,6 +21,10 @@
         </button>
     </a>
     <br><br>
+    {% for s in scan|slice(0,2) %}
+        <img src="{{ asset('/data/'~ s.file) }}" width="100%">
+    {% endfor %}
+
     <div class="detail">
         <b>{{ word.latin }}</b> {{ word.french|raw }}
     </div>

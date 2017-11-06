@@ -2,6 +2,7 @@
 
 namespace AppBundle\Controller;
 
+use AppBundle\Entity\File;
 use AppBundle\Entity\Word;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
@@ -84,8 +85,35 @@ class DefaultController extends Controller
         $em = $this->getDoctrine()->getManager();
         $word = $em->getRepository('AppBundle:Word')->find($id);
 
+        $file = $em
+            ->getRepository(File::class);
+
+        $query = preg_match("/(\d{1}\s{1})/", $word->getLatinRaw()) ? substr($word->getLatinRaw(), 2) : $word->getLatinRaw();
+
+        $queryFile = $file->createQueryBuilder('a')
+            ->where('a.word LIKE :query')
+            ->orderBy('a.word', 'ASC')
+            ->setParameter('query', "" . $query . "%");
+
+        $wordReturn = [];
+        $wordFile = $queryFile->getQuery()->getResult();
+        if (count($wordFile) > 0) {
+            $wordReturn[0] = $wordFile[0];
+            if (strlen($query) < strlen($wordReturn[0]->getWord())) {
+                echo "yes";
+
+                $wordReturn[0] = $em->getRepository('AppBundle:File')->find($wordReturn[0]->getId() - 1);
+            }
+        } else {
+
+        }
+
+        echo $query;
+        var_dump($wordReturn);
+
         return [
-            'word' => $word
+            'word' => $word,
+            'scan' => $wordReturn
         ];
     }
 }
