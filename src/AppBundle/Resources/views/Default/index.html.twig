@@ -2,6 +2,28 @@
 {% block title %}
     Gaffiot.org
 {% endblock title %}
+
+{% block graph %}
+    <meta property="og:url" content="https://www.gaffiot.org/"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Gaffiot.org"/>
+    <meta property="og:description"
+          content="Ce site web permet la recherche dans le dictionnaire Latin-Français de Félix GAFFIOT (1934) vraiment numérisé."/>
+    <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "CreativeWork",
+  "url": "https://www.gaffiot.org/",
+  "keywords": "gaffiot en ligne, gaffiot",
+  "name": "Gaffiot.org",
+  "headline": "Ce site web permet la recherche dans le dictionnaire Latin-Français de Félix GAFFIOT (1934) vraiment numérisé.",
+}
+
+
+
+    </script>
+{% endblock %}
+
 {% block body %}
     <br>
     <form role="form">

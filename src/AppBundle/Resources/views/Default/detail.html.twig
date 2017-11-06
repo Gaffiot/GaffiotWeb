@@ -13,6 +13,18 @@
     <meta property="og:title" content="{{ word.latin }} | Gaffiot.org"/>
     <meta property="og:description"
           content="{{ word.french|striptags }}"/>
+    <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "CreativeWork",
+  "url": "https://www.gaffiot.org/{{ word.id }}",
+  "keywords": "gaffiot en ligne, gaffiot",
+  "name": "{{ word.latinRaw }}",
+  "headline": "{{ word.latin }}",
+  "text": "{{ word.french|striptags }}"
+}
+
+    </script>
 {% endblock %}
 {% block body %}
     <br>
