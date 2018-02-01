@@ -30,14 +30,14 @@
             <input id="searchinput" class="form-control" type="search" placeholder="Search..." autocomplete="off"/>
         </div>
         <div id="searchlist" class="list-group">
-            {% for word in words|slice(0, 2000) %}
+            {% for word in words|slice(0, 100) %}
                 <a class="list-group-item" href="{{ path('detail', {'id': word.id}) }}"><span>{{ word.latin }}</span>
                     <hidden>{{ word.latinRaw }}</hidden>
                 </a>
             {% endfor %}
         </div>
     </form>
-    <p><i>In order to speed up page loading, only the first 2 000 of 72 165 words are being displayed in this list, but
+    <p><i>In order to speed up page loading, only the first 100 of 72 165 words are being displayed in this list, but
             search
             includes
             all
