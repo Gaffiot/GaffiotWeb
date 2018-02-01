@@ -9,19 +9,20 @@
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('icons/apple-icon-180x180.png') }}">
     <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('icons/android-icon-192x192.png') }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('icons/favicon-16x16.png') }}">
-    <meta name="keywords" content="gaffiot en ligne, gaffiot numerisé, gaffiot, gaffiot.org, fresh, benoit frisch">
+    <meta name="keywords"
+          content="gaffiot en ligne, le gaffiot en ligne, gaffiot numerisé, gaffiot, gaffiot.org, fresh, benoit frisch">
     {% block description %}
         <meta name="description"
-              content="Ce site web permet la recherche dans le dictionnaire Latin-Français de Félix GAFFIOT (1934) vraiment numérisé.">
+              content="Dictionnaire Gaffiot en ligne disponible dans la version digitale du Gaffiot 2016.">
     {% endblock %}
     <meta name="author" content="fresh.lu">
 
     {% block graph %}
         <meta property="og:url" content="https://www.gaffiot.org/"/>
         <meta property="og:type" content="website"/>
-        <meta property="og:title" content="Gaffiot.org"/>
+        <meta property="og:title" content="Gaffiot en ligne | Gaffiot.org"/>
         <meta property="og:description"
-              content="Ce site web permet la recherche dans le dictionnaire Latin-Français de Félix GAFFIOT (1934) vraiment numérisé."/>
+              content="Dictionnaire Gaffiot en ligne disponible dans la version digitale du Gaffiot 2016."/>
     {% endblock %}
 
     {% block stylesheets %}
@@ -72,7 +73,8 @@
                 <p class="text-muted text-right">
                     <a href="https://itunes.apple.com/us/app/gaffiot/id884468481?ls=1&mt=8" target="_blank">
                         {% image '@AppBundle/Resources/public/images/appstore.png' %}
-                        <img src="{{ asset_url }}" width="115" alt="gaffiot.org" style="margin-top: 15px">
+                        <img src="{{ asset_url }}" width="115" alt="Gaffiot en ligne App Store"
+                             style="margin-top: 15px">
                         {% endimage %}
                     </a>
                 </p>
@@ -92,7 +94,7 @@
                 <p class="text-muted text-left">
                     <a href="https://facebook.com/gaffiot" target="_blank">
                         {% image '@AppBundle/Resources/public/images/fb.png' %}
-                        <img src="{{ asset_url }}" width="115" alt="gaffiot facebook" style="margin-top: 0px">
+                        <img src="{{ asset_url }}" width="115" alt="Gaffiot en ligne Facebook" style="margin-top: 0px">
                         {% endimage %}
                     </a>
 

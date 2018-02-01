@@ -1,6 +1,6 @@
 {% extends 'AppBundle::base.html.twig' %}
 {% block title %}
-    {{ word.latin }} | Gaffiot.org
+    {{ word.latin }} | Gaffiot en ligne | Gaffiot.org
 {% endblock title %}
 {% block description %}
     <meta name="description"
@@ -10,7 +10,7 @@
 {% block graph %}
     <meta property="og:url" content="https://www.gaffiot.org/{{ word.id }}"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:title" content="{{ word.latin }} | Gaffiot.org"/>
+    <meta property="og:title" content="{{ word.latin }} | Gaffiot en ligne | Gaffiot.org"/>
     <meta property="og:description"
           content="{{ word.french|striptags }}"/>
     <script type="application/ld+json">
@@ -23,6 +23,7 @@
   "headline": "{{ word.latin }}",
   "text": "{{ word.french|striptags }}"
 }
+
 
     </script>
 {% endblock %}
