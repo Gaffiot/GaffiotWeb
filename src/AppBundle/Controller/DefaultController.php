@@ -17,8 +17,12 @@ class DefaultController extends Controller
      */
     public function indexAction()
     {
-        $em = $this->getDoctrine()->getManager();
-        $words = $em->getRepository('AppBundle:Word')->findAll();
+        $words = $this->getDoctrine()->getManager()
+            ->getRepository(Word::class)
+            ->createQueryBuilder('a')
+            ->orderBy('a.id', 'ASC')
+            ->setMaxResults(100)
+            ->getQuery()->getResult();
 
         return [
             'words' => $words

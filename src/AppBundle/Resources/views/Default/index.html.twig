@@ -20,6 +20,7 @@
   "headline": "Dictionnaire Gaffiot en ligne disponible dans la version digitale du Gaffiot 2016."
 }
 
+
     </script>
 {% endblock %}
 
@@ -30,7 +31,7 @@
             <input id="searchinput" class="form-control" type="search" placeholder="Search..." autocomplete="off"/>
         </div>
         <div id="searchlist" class="list-group">
-            {% for word in words|slice(0, 100) %}
+            {% for word in words %}
                 <a class="list-group-item" href="{{ path('detail', {'id': word.id}) }}"><span>{{ word.latin }}</span>
                     <hidden>{{ word.latinRaw }}</hidden>
                 </a>
