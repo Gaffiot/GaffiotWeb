@@ -39,11 +39,18 @@ class Word
     private $french;
 
     /**
-     * One Section has Many Subjects.
+     * One Word has Many Images.
      * @ORM\OneToMany(targetEntity="Image", mappedBy="word")
      * @ORM\OrderBy({"paragraph" = "ASC"})
      */
     private $images;
+
+    /**
+     * Many Words have Many Pages.
+     * @ORM\ManyToMany(targetEntity="Page", inversedBy="words")
+     * @ORM\JoinTable(name="words_pages")
+     */
+    private $pages;
 
     /**
      * @return int
@@ -117,4 +124,39 @@ class Word
         return $this;
     }
 
+    /**
+     * @return mixed
+     */
+    public function getImages()
+    {
+        return $this->images;
+    }
+
+    /**
+     * @param mixed $images
+     * @return Word
+     */
+    public function setImages($images)
+    {
+        $this->images = $images;
+        return $this;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getPages()
+    {
+        return $this->pages;
+    }
+
+    /**
+     * @param mixed $pages
+     * @return Word
+     */
+    public function setPages($pages)
+    {
+        $this->pages = $pages;
+        return $this;
+    }
 }

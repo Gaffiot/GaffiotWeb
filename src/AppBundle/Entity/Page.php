@@ -8,9 +8,9 @@ use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * @ORM\Entity()
- * @ORM\Table(name="images")
+ * @ORM\Table(name="pages")
  */
-class Image
+class Page
 {
     /**
      * @var int
@@ -22,17 +22,17 @@ class Image
     private $id;
 
     /**
-     * Many Images have One sWord.
-     * @ORM\ManyToOne(targetEntity="Word", inversedBy="images")
-     * @ORM\JoinColumn(name="word_id", referencedColumnName="id")
+     * Many Words have Many Pages.
+     * @ORM\ManyToMany(targetEntity="Word", mappedBy="pages")
      */
-    private $word;
+    private $words;
 
     /**
+     * First word on top of page
      * @Assert\NotBlank()
-     * @ORM\Column(type="integer",  nullable=false)
+     * @ORM\Column(type="text",  nullable=false)
      */
-    private $paragraph;
+    private $firstWord;
 
     /**
      * @Assert\NotBlank()
@@ -112,5 +112,40 @@ class Image
         return $this;
     }
 
+    /**
+     * @return mixed
+     */
+    public function getWords()
+    {
+        return $this->words;
+    }
+
+    /**
+     * @param mixed $words
+     * @return Page
+     */
+    public function setWords($words)
+    {
+        $this->words = $words;
+        return $this;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getFirstWord()
+    {
+        return $this->firstWord;
+    }
+
+    /**
+     * @param mixed $firstWord
+     * @return Page
+     */
+    public function setFirstWord($firstWord)
+    {
+        $this->firstWord = $firstWord;
+        return $this;
+    }
 
 }
