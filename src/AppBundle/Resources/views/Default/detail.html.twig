@@ -23,14 +23,15 @@
   "headline": "{{ word.latin }}",
   "text": "{{ word.french|striptags }}"
 }
+
+
     </script>
 {% endblock %}
 {% block body %}
     <br>
-    <a href="{{ path('home') }}">
-        <button type="button" class="btn btn-outline-dark btn-sm"><span class="oi oi-chevron-left"></span> Retour
-        </button>
-    </a>
+    <button type="button" class="btn btn-outline-dark btn-sm" onclick="goBack()"><span
+                class="oi oi-chevron-left"></span> Retour
+    </button>
 
     <br><br>
     <p>
