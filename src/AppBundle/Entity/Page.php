@@ -40,6 +40,29 @@ class Page
      */
     private $file;
 
+    public function __toString()
+    {
+        return $this->getFirstWord();
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getFirstWord()
+    {
+        return $this->firstWord;
+    }
+
+    /**
+     * @param mixed $firstWord
+     * @return Page
+     */
+    public function setFirstWord($firstWord)
+    {
+        $this->firstWord = $firstWord;
+        return $this;
+    }
+
     /**
      * @return int
      */
@@ -127,24 +150,6 @@ class Page
     public function setWords($words)
     {
         $this->words = $words;
-        return $this;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getFirstWord()
-    {
-        return $this->firstWord;
-    }
-
-    /**
-     * @param mixed $firstWord
-     * @return Page
-     */
-    public function setFirstWord($firstWord)
-    {
-        $this->firstWord = $firstWord;
         return $this;
     }
 

@@ -143,6 +143,21 @@ class Word
     }
 
     /**
+     * @param mixed $pages
+     * @return Word
+     */
+    public function updatePages($pages)
+    {
+        if ($this->getPages() == null) {
+            $this->pages = $pages;
+            return $this;
+        } else if ($pages > $this->getPages()->getValues()) {
+            $this->pages = $pages;
+            return $this;
+        }
+    }
+
+    /**
      * @return mixed
      */
     public function getPages()
