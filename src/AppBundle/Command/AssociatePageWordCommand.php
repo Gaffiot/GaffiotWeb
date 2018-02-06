@@ -71,7 +71,7 @@ class AssociatePageWordCommand extends ContainerAwareCommand
         $words = $this->em
             ->getRepository(Word::class)
             ->createQueryBuilder('a')
-            ->where('a.id > :id')
+            ->where('a.id >= :id')
             ->orderBy('a.id', 'ASC')
             ->setParameter('id', $id)
             ->setMaxResults($count)
