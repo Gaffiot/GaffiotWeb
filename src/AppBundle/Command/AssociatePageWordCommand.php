@@ -101,36 +101,43 @@ class AssociatePageWordCommand extends ContainerAwareCommand
                 substr($latin, 0, 2) == "5 ") {
                 $latin = substr($latin, 2);
             }
-            $page = $pages[$j];
-            $next = $pages[$j + 1];
-            $comp = strnatcmp($latin, $next);
+            if ($j + 1 < 1698) {
+                $page = $pages[$j];
+                $next = $pages[$j + 1];
+                $comp = strnatcmp($latin, $next);
 
-            echo $comp;
-            if (isset($next)) {
+                echo $comp;
+
                 if (strnatcmp($latin, $next) == 0) {
                     echo "-count up-";
                     $page = $next;
                     $j = $j + 1;
                 }
-            }
-            echo "-j:" . $j . "-";
 
-            $this->currentWord->setPages([$page]);
-            $this->em->persist($this->currentWord);
-            $this->em->flush();
+                echo "-j:" . $j . "-";
 
-            if ($lastComparison == -1 && $comp == 1) {
-                echo "2 pages...and count up";
-                $page = $next;
-
-                $this->lastWord->updatePages([$page]);
+                $this->currentWord->setPages([$page]);
                 $this->em->persist($this->currentWord);
                 $this->em->flush();
 
-                $j = $j + 1;
-            }
+                if ($lastComparison == -1 && $comp == 1) {
+                    echo "2 pages...and count up";
+                    $page = $next;
 
-            $lastComparison = $comp;
+                    $this->lastWord->updatePages([$page]);
+                    $this->em->persist($this->currentWord);
+                    $this->em->flush();
+
+                    $j = $j + 1;
+                }
+
+                $lastComparison = $comp;
+            } else {
+                $page = $pages[1697];
+                $this->currentWord->setPages([$page]);
+                $this->em->persist($this->currentWord);
+                $this->em->flush();
+            }
             echo " " . $this->currentWord->getId() . "-" . $latin . " " . $page . "\n";
             $progress->advance();
         }
