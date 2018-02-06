@@ -26,9 +26,15 @@
     {% endblock %}
 
     {% block stylesheets %}
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+                integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+                crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+                integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+                integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                crossorigin="anonymous"></script>
         <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
         <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
         <script src="{{ asset('assets/js/bootstrap-popover.js') }}"></script>
@@ -65,24 +71,19 @@
 <body>
 <div class="container-narrow">
     <div class="main">
-        <div class="row">
-            <div class="col-md-6 col-xs-6">
-                <a href="{{ path('home') }}">
-                    {% image '@AppBundle/Resources/public/images/gaffiot.png' %}
-                    <img src="{{ asset_url }}" width="175" alt="Gaffiot en ligne">
-                    {% endimage %}
-                </a>
-            </div>
-            <div class="col-md-6 col-xs-6">
-                <p class="text-muted text-right">
-                    <a href="https://itunes.apple.com/us/app/gaffiot/id884468481?ls=1&mt=8" target="_blank">
-                        {% image '@AppBundle/Resources/public/images/appstore.png' %}
-                        <img src="{{ asset_url }}" width="115" alt="Gaffiot en ligne App Store"
-                             style="margin-top: 15px">
-                        {% endimage %}
-                    </a>
-                </p>
-            </div>
+        <div class="clearfix">
+
+            <a href="{{ path('home') }}">
+                {% image '@AppBundle/Resources/public/images/gaffiot.png' %}
+                <img src="{{ asset_url }}" width="175" alt="Gaffiot en ligne" class="float-left">
+                {% endimage %}
+            </a>
+            <a href="https://itunes.apple.com/us/app/gaffiot/id884468481?ls=1&mt=8" target="_blank">
+                {% image '@AppBundle/Resources/public/images/appstore.png' %}
+                <img src="{{ asset_url }}" width="115" alt="Gaffiot en ligne App Store" class="float-right"
+                     style="margin-top: 15px">
+                {% endimage %}
+            </a>
         </div>
 
         {% block body %}
@@ -93,8 +94,8 @@
 </div>
 <footer class="footer">
     <div class="container">
-        <div class="row hidden-xs hidden-sm">
-            <div class="col-md-4">
+        <div class="row">
+            <div class="col">
                 <p class="text-muted text-left">
                     <a href="https://facebook.com/gaffiot" target="_blank">
                         {% image '@AppBundle/Resources/public/images/fb.png' %}
@@ -104,13 +105,13 @@
 
                 </p>
             </div>
-            <div class="col-md-4">
+            <div class="col">
                 <p class="text-muted text-center">
                     <a href="{{ path('license') }}" class="text-muted">
                         <span class="glyphicon glyphicon-file"></span> Source et licence</a>
                 </p>
             </div>
-            <div class="col-md-4">
+            <div class="col">
                 <p class="text-muted text-right">powered by <a href="https://fresh.lu" target="_blank"
                                                                class="text-muted">
                         {% image '@AppBundle/Resources/public/images/fresh.png' %}
@@ -121,19 +122,6 @@
                 </p>
             </div>
         </div>
-
-        <p class="text-muted visible-xs-* visible-sm-* hidden-md hidden-lg"><a href="https://facebook.com/gaffiot"
-                                                                               target="_blank">{% image '@AppBundle/Resources/public/images/fb.png' %}
-                <img src="{{ asset_url }}" width="115" alt="gaffiot facebook" style="margin-top: 0px">
-                {% endimage %}</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="{{ path('license') }}" class="text-muted">
-                <span class="glyphicon glyphicon-file"></span> Source et licence</a>&nbsp;&nbsp;|&nbsp;&nbsp;by <a
-                    href="https://fresh.lu" target="_blank"
-                    class="text-muted">  {% image '@AppBundle/Resources/public/images/fresh.png' %}
-                <img src="{{ asset_url }}" height="25px"
-                     style="padding-bottom: 7px; margin-left: -3px"
-                     alt="fresh.lu"></a>
-            {% endimage %}</a></p>
-
     </div>
 </footer>
 
