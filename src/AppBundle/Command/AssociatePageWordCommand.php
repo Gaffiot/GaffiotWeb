@@ -106,13 +106,13 @@ class AssociatePageWordCommand extends ContainerAwareCommand
             $comp = strnatcmp($latin, $next);
 
             echo $comp;
-
-            if (strnatcmp($latin, $next) == 0) {
-                echo "-count up-";
-                $page = $next;
-                $j = $j + 1;
+            if (isset($next)) {
+                if (strnatcmp($latin, $next) == 0) {
+                    echo "-count up-";
+                    $page = $next;
+                    $j = $j + 1;
+                }
             }
-
             echo "-j:" . $j . "-";
 
             $this->currentWord->setPages([$page]);
