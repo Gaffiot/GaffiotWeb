@@ -2,10 +2,7 @@
 
 namespace AppBundle\Command;
 
-use AppBundle\Entity\Exam;
 use AppBundle\Entity\Page;
-use AppBundle\Entity\Subject;
-use AppBundle\Entity\Type;
 use Doctrine\ORM\EntityManager;
 use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
 use Symfony\Component\Console\Helper\ProgressBar;

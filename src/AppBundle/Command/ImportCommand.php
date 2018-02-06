@@ -2,9 +2,6 @@
 
 namespace AppBundle\Command;
 
-use AppBundle\Entity\Exam;
-use AppBundle\Entity\Subject;
-use AppBundle\Entity\Type;
 use AppBundle\Entity\Word;
 use Doctrine\ORM\EntityManager;
 use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
