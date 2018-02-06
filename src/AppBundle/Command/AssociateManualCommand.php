@@ -42,7 +42,7 @@ class AssociateManualCommand extends ContainerAwareCommand
         $wordId = $input->getArgument('word');
         $pageId = $input->getArgument('page');
 
-        $word = $this->em->getRepository('AppBundle:Page')->find($wordId);
+        $word = $this->em->getRepository('AppBundle:Word')->find($wordId);
         $page = $this->em->getRepository('AppBundle:Page')->find($pageId);
 
 
