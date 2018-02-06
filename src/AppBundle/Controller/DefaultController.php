@@ -56,13 +56,15 @@ class DefaultController extends Controller
         if ($number >= 711) {
             $start = 711;
             $end = 721;
+        } else {
+            $end = $number + 11;
         }
 
         return [
             'words' => $words,
             'current' => $number + 1,
             'start' => $start,
-            'end' => $number + 11
+            'end' => $end
         ];
     }
 
