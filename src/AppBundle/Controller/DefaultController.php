@@ -25,7 +25,44 @@ class DefaultController extends Controller
             ->getQuery()->getResult();
 
         return [
-            'words' => $words
+            'words' => $words,
+            'current' => 1,
+            'start' => 1,
+            'end' => 10
+        ];
+    }
+
+    /**
+     * @Route("/p/{number}", name="page")
+     * @Template()
+     */
+    public function pageAction($number)
+    {
+        $number = $number - 1;
+        $words = $this->getDoctrine()->getManager()
+            ->getRepository(Word::class)
+            ->createQueryBuilder('a')
+            ->orderBy('a.id', 'ASC')
+            ->setFirstResult($number * 100)
+            ->setMaxResults($number * 100 + 100)
+            ->getQuery()->getResult();
+
+        if ($number == 0) {
+            $start = 1;
+        } else {
+            $start = $number;
+        }
+
+        if ($number >= 711) {
+            $start = 711;
+            $end = 721;
+        }
+
+        return [
+            'words' => $words,
+            'current' => $number + 1,
+            'start' => $start,
+            'end' => $number + 11
         ];
     }
 
