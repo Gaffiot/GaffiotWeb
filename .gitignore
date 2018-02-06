@@ -17,3 +17,5 @@
 /web/bundles/
 .idea
 /web/images/
+/composer.phar
+/phpunit.xml.dist
