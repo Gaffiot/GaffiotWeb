@@ -9,6 +9,8 @@ use AppBundle\Entity\Type;
 use AppBundle\Entity\Word;
 use Doctrine\ORM\EntityManager;
 use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
+use Symfony\Component\Console\Helper\ProgressBar;
+use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
@@ -34,12 +36,32 @@ class AssociatePageWordCommand extends ContainerAwareCommand
     {
         $this
             ->setName('associate:pages')
-            ->setDescription('Add a scan to a word');
+            ->setDescription('Add a scan to a word')
+            ->addArgument(
+                'start',
+                InputArgument::REQUIRED,
+                'Start int'
+            )
+            ->addArgument(
+                'end',
+                InputArgument::REQUIRED,
+                'End int'
+            )
+            ->addArgument(
+                'scan',
+                InputArgument::REQUIRED,
+                'Start int'
+            );
     }
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $this->em = $this->getContainer()->get("doctrine.orm.default_entity_manager");
+
+
+        $start = $input->getArgument('start');
+        $end = $input->getArgument('end');
+        $scanStart = $input->getArgument('scan');
 
         $output->writeln("##################################");
         $output->writeln("Starting import...");
@@ -48,16 +70,16 @@ class AssociatePageWordCommand extends ContainerAwareCommand
         $words = $this->em->getRepository('AppBundle:Word')->findAll();
         $pages = $this->em->getRepository('AppBundle:Page')->findAll();
 
-        /*
-                $progress = new ProgressBar($output, count($words));
-                // start and displays the progress bar
-                $progress->start();
-                $progress->setFormat("normal");
-                $progress->setMessage("Associating all data...");*/
+
+        $progress = new ProgressBar($output, $end - $start);
+        // start and displays the progress bar
+        $progress->start();
+        $progress->setFormat("normal");
+        $progress->setMessage("Associating all data...");
 
         $lastComparison = 0;
-        $j = 0;
-        for ($i = 0; $i < count($words); $i++) {
+        $j = $scanStart;
+        for ($i = $start; $i < $end; $i++) {
             $this->lastWord = $this->currentWord;
             $this->currentWord = $words[$i];
 
@@ -72,23 +94,24 @@ class AssociatePageWordCommand extends ContainerAwareCommand
             }
             $page = $pages[$j];
             $next = $pages[$j + 1];
+            $comp = strnatcmp($latin, $next);
 
-            echo $latin . "\n";
-            echo $page . "\n";
-            echo $next . "\n";
-            echo $comp = strnatcmp($latin, $next);
+            echo $comp;
+
             if (strnatcmp($latin, $next) == 0) {
-                echo $latin . ' found in string';
+                echo "-count up-";
                 $page = $next;
                 $j = $j + 1;
             }
+
+            echo "-j:" . $j . "-";
 
             $this->currentWord->setPages([$page]);
             $this->em->persist($this->currentWord);
             $this->em->flush();
 
             if ($lastComparison == -1 && $comp == 1) {
-                echo "we need to add 2 pages...and count up";
+                echo "2 pages...and count up";
                 $page = $next;
 
                 $this->lastWord->updatePages([$page]);
@@ -97,14 +120,13 @@ class AssociatePageWordCommand extends ContainerAwareCommand
 
                 $j = $j + 1;
             }
-            echo $page . "\n";
-            echo "---\n";
-            $lastComparison = $comp;
 
-            //$progress->advance();
-        }/*
+            $lastComparison = $comp;
+            echo " " . $latin . " " . $page . "\n";
+            $progress->advance();
+        }
         $progress->finish();
         $output->writeln("Finished associating.");
-        $output->writeln("##################################");*/
+        $output->writeln("##################################");
     }
 }
