@@ -28,7 +28,7 @@ class DefaultController extends Controller
             'words' => $words,
             'current' => 1,
             'start' => 1,
-            'end' => 10
+            'end' => 3
         ];
     }
 
@@ -44,7 +44,7 @@ class DefaultController extends Controller
             ->createQueryBuilder('a')
             ->orderBy('a.id', 'ASC')
             ->setFirstResult($number * 100)
-            ->setMaxResults($number * 100 + 100)
+            ->setMaxResults(100)
             ->getQuery()->getResult();
 
         if ($number == 0) {
@@ -53,11 +53,11 @@ class DefaultController extends Controller
             $start = $number;
         }
 
-        if ($number >= 711) {
-            $start = 711;
+        if ($number >= 719) {
+            $start = 719;
             $end = 721;
         } else {
-            $end = $number + 11;
+            $end = $number + 2;
         }
 
         return [
