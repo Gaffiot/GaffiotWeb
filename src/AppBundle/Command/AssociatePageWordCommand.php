@@ -38,20 +38,21 @@ class AssociatePageWordCommand extends ContainerAwareCommand
             ->setName('associate:pages')
             ->setDescription('Add a scan to a word')
             ->addArgument(
-                'start',
+                'id',
                 InputArgument::REQUIRED,
                 'Start int'
             )
             ->addArgument(
-                'end',
+                'count',
                 InputArgument::REQUIRED,
-                'End int'
+                'Start int'
             )
             ->addArgument(
                 'scan',
                 InputArgument::REQUIRED,
                 'Start int'
             );
+
     }
 
     protected function execute(InputInterface $input, OutputInterface $output)
@@ -59,19 +60,27 @@ class AssociatePageWordCommand extends ContainerAwareCommand
         $this->em = $this->getContainer()->get("doctrine.orm.default_entity_manager");
 
 
-        $start = $input->getArgument('start');
-        $end = $input->getArgument('end');
+        $id = $input->getArgument('id');
+        $count = $input->getArgument('count');
         $scanStart = $input->getArgument('scan');
 
         $output->writeln("##################################");
         $output->writeln("Starting import...");
 
 
-        $words = $this->em->getRepository('AppBundle:Word')->findAll();
+        $words = $this->em
+            ->getRepository(Word::class)
+            ->createQueryBuilder('a')
+            ->where('a.id > :id')
+            ->orderBy('a.id', 'ASC')
+            ->setParameter('id', $id)
+            ->setMaxResults($count)
+            ->getQuery()->getResult();
+
         $pages = $this->em->getRepository('AppBundle:Page')->findAll();
 
 
-        $progress = new ProgressBar($output, $end - $start);
+        $progress = new ProgressBar($output, count($words));
         // start and displays the progress bar
         $progress->start();
         $progress->setFormat("normal");
@@ -79,7 +88,7 @@ class AssociatePageWordCommand extends ContainerAwareCommand
 
         $lastComparison = 0;
         $j = $scanStart;
-        for ($i = $start; $i < $end; $i++) {
+        for ($i = 0; $i < count($words); $i++) {
             $this->lastWord = $this->currentWord;
             $this->currentWord = $words[$i];
 
@@ -122,7 +131,7 @@ class AssociatePageWordCommand extends ContainerAwareCommand
             }
 
             $lastComparison = $comp;
-            echo " " . $latin . " " . $page . "\n";
+            echo " " . $this->currentWord->getId() . "-" . $latin . " " . $page . "\n";
             $progress->advance();
         }
         $progress->finish();
