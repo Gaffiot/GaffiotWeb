@@ -148,13 +148,13 @@ class Word
      */
     public function updatePages($pages)
     {
-        if ($this->getPages() == null) {
-            $this->pages = $pages;
-            return $this;
-        } else if ($pages > $this->getPages()->getValues()) {
-            $this->pages = $pages;
-            return $this;
+        if (!empty($this->getPages())) {
+            $new = array_merge($pages, $this->getPages()->getValues());
+        } else {
+            $new = $pages;
         }
+        $this->pages = $new;
+        return $this;
     }
 
     /**
