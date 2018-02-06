@@ -1,12 +1,12 @@
 {% extends 'AppBundle::base.html.twig' %}
 {% block title %}
-    Gaffiot en ligne | Gaffiot.org
+    Page {{ current }} | Gaffiot en ligne | Gaffiot.org
 {% endblock title %}
 
 {% block graph %}
     <meta property="og:url" content="https://www.gaffiot.org/"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:title" content="Gaffiot en ligne | Gaffiot.org"/>
+    <meta property="og:title" content="Page {{ current }} | Gaffiot en ligne | Gaffiot.org"/>
     <meta property="og:description"
           content="Dictionnaire Gaffiot en ligne disponible dans la version digitale du Gaffiot 2016."/>
 
@@ -16,7 +16,7 @@
   "@type": "CreativeWork",
   "url": "https://www.gaffiot.org/",
   "keywords": "gaffiot en ligne, gaffiot",
-  "name": "Gaffiot en ligne | Gaffiot.org",
+  "name": "Page {{ current }} | Gaffiot en ligne | Gaffiot.org",
   "headline": "Dictionnaire Gaffiot en ligne disponible dans la version digitale du Gaffiot 2016."
 }
 

@@ -8,6 +8,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\BrowserKit\Response;
 use Symfony\Component\HttpFoundation\JsonResponse;
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 class DefaultController extends Controller
 {
@@ -59,10 +60,14 @@ class DefaultController extends Controller
         } else {
             $end = $number + 2;
         }
+        $current = $number + 1;
 
+        if ($current < 0 || $current > 721) {
+            throw new NotFoundHttpException();
+        }
         return [
             'words' => $words,
-            'current' => $number + 1,
+            'current' => $current,
             'start' => $start,
             'end' => $end
         ];
