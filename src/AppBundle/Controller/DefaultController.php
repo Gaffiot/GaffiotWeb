@@ -133,7 +133,37 @@ class DefaultController extends Controller
         $word = $em->getRepository('AppBundle:Word')->find($id);
 
         return [
-            'word' => $word
+            'word' => $word,
+            'previous' => $this->getPreviousWord($id),
+            'next' => $this->getNextWord($id)
         ];
+    }
+
+    public function getPreviousWord($id)
+    {
+        return $this->getDoctrine()->getManager()->getRepository(Word::class)
+            ->createQueryBuilder('a')
+            ->select('a')
+            ->where('a.id < :id')
+            ->setParameter(':id', $id)
+            ->orderBy('a.id', 'DESC')
+            ->setFirstResult(0)
+            ->setMaxResults(1)
+            ->getQuery()
+            ->getOneOrNullResult();
+    }
+
+    public function getNextWord($id)
+    {
+        return $this->getDoctrine()->getManager()->getRepository(Word::class)
+            ->createQueryBuilder('a')
+            ->select('a')
+            ->where('a.id > :id')
+            ->setParameter(':id', $id)
+            ->orderBy('a.id', 'ASC')
+            ->setFirstResult(0)
+            ->setMaxResults(1)
+            ->getQuery()
+            ->getOneOrNullResult();
     }
 }

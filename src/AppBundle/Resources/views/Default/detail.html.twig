@@ -23,6 +23,17 @@
   "headline": "{{ word.latin }}",
   "text": "{{ word.french|striptags }}"
 }
+
+
+
+
+
+
+
+
+
+
+
     </script>
 {% endblock %}
 {% block body %}
@@ -32,17 +43,42 @@
     </button>
 
     <br><br>
-    <p>
-        <a class="btn btn-outline-primary btn-sm" data-toggle="collapse" href="#scan" role="button"
-           aria-expanded="false"
-           aria-controls="scan">
-            {% if word.pages|length > 1 %}
-                <span class="oi oi-document"></span> Pages numérisées <span class="oi oi-chevron-bottom"></span>
-            {% else %}
-                <span class="oi oi-document"></span> Page numérisée <span class="oi oi-chevron-bottom"></span>
+    <div class="row">
+        <div class="col">
+            {% if previous %}
+                <a href="{{ path('detail', {'id': previous.id}) }}">
+                    <button type="button" class="btn btn-outline-danger btn-sm float-left"><span
+                                class="oi oi-chevron-left"></span> {{ previous.latin }}
+                    </button>
+                </a>
             {% endif %}
-        </a>
-    </p>
+        </div>
+        <div class="col">
+            <center><a class="btn btn-outline-primary btn-sm" data-toggle="collapse" href="#scan"
+                       role="button"
+                       aria-expanded="false"
+                       aria-controls="scan">
+                    {% if word.pages|length > 1 %}
+                        <span class="oi oi-document"></span> Pages numérisées <span class="oi oi-chevron-bottom"></span>
+                    {% else %}
+                        <span class="oi oi-document"></span> Page numérisée <span class="oi oi-chevron-bottom"></span>
+                    {% endif %}
+                </a></center>
+        </div>
+        <div class="col">
+            {% if next %}
+                <a href="{{ path('detail', {'id': next.id}) }}">
+                    <button type="button" class="btn btn-outline-danger btn-sm float-right"
+                            onclick="goBack()">{{ next.latin }} <span
+                                class="oi oi-chevron-right"></span>
+                    </button>
+                </a>
+            {% endif %}
+        </div>
+    </div>
+    <br>
+
+
     <div class="collapse" id="scan">
         <div class="card card-body">
             {% for page in word.pages %}
@@ -59,8 +95,9 @@
                 <p>Veuillez envoyer un message à info [at] gaffiot [dot] org afin de signaler une page manquante.</p>
             {% endfor %}
         </div>
-    </div>
+    </div><br>
     <div class="detail">
         <b>{{ word.latin }}</b> {{ word.french|raw }}
     </div>
+    <br>
 {% endblock %}
