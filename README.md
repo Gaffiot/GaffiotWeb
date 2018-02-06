@@ -1,5 +1,4 @@
-Gaffiot.org
-=================================
+![Gaffiot.org](gaffiot.png)
 
 Source code of the Gaffiot.org website.
 
