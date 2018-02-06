@@ -36,7 +36,11 @@
         <a class="btn btn-outline-primary btn-sm" data-toggle="collapse" href="#scan" role="button"
            aria-expanded="false"
            aria-controls="scan">
-            <span class="oi oi-document"></span> Page numérisée <span class="oi oi-chevron-bottom"></span>
+            {% if word.pages|length > 1 %}
+                <span class="oi oi-document"></span> Pages numérisées <span class="oi oi-chevron-bottom"></span>
+            {% else %}
+                <span class="oi oi-document"></span> Page numérisée <span class="oi oi-chevron-bottom"></span>
+            {% endif %}
         </a>
     </p>
     <div class="collapse" id="scan">
