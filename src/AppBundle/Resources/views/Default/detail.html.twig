@@ -45,7 +45,7 @@
             {% for page in word.pages %}
                 <a href="{{ asset('data/'~page.file) }}" target="_blank"><img src="{{ asset('data/'~page.file) }}"
                                                                               width="100%"
-                                                                              alt="{{ word.latin }}"><br><br>
+                                                                              alt="{{ page.firstWord }}"><br><br>
                     <center>
                         <button type="button" class="btn btn-outline-secondary btn-sm">Ouvrir <span
                                     class="oi oi-share"></span>
