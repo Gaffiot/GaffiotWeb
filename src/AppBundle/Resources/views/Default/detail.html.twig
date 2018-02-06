@@ -43,8 +43,8 @@
     </button>
 
     <br><br>
-    <div class="row clearfix">
-        <div class="col">
+    <div class="d-flex justify-content-between bd-highlight mb-3">
+        <div class="p-2 bd-highlight">
             {% if previous %}
                 <a href="{{ path('detail', {'id': previous.id}) }}">
                     <button type="button" class="btn btn-outline-danger btn-sm float-left"><span
@@ -53,7 +53,7 @@
                 </a>
             {% endif %}
         </div>
-        <div class="col">
+        <div class="p-2 bd-highlight">
             <center><a class="btn btn-outline-primary btn-sm" data-toggle="collapse" href="#scan"
                        role="button"
                        aria-expanded="false"
@@ -65,7 +65,7 @@
                     {% endif %}
                 </a></center>
         </div>
-        <div class="col">
+        <div class="p-2 bd-highlight">
             {% if next %}
                 <a href="{{ path('detail', {'id': next.id}) }}">
                     <button type="button" class="btn btn-outline-danger btn-sm float-right"
