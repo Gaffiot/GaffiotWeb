@@ -23,7 +23,6 @@
   "headline": "{{ word.latin }}",
   "text": "{{ word.french|striptags }}"
 }
-
     </script>
 {% endblock %}
 {% block body %}
@@ -52,6 +51,8 @@
                         </button>
                     </center>
                 </a>
+            {% else %}
+                <p>Veuillez envoyer un message à info [at] gaffiot [dot] org afin de signaler une page manquante.</p>
             {% endfor %}
         </div>
     </div>
