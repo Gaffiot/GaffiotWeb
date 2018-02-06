@@ -24,7 +24,6 @@
   "text": "{{ word.french|striptags }}"
 }
 
-
     </script>
 {% endblock %}
 {% block body %}
@@ -44,7 +43,15 @@
     <div class="collapse" id="scan">
         <div class="card card-body">
             {% for page in word.pages %}
-                <img src="{{ asset('data/'~page.file) }}" width="100%" alt="{{ word.latin }}">
+                <a href="{{ asset('data/'~page.file) }}" target="_blank"><img src="{{ asset('data/'~page.file) }}"
+                                                                              width="100%"
+                                                                              alt="{{ word.latin }}"><br><br>
+                    <center>
+                        <button type="button" class="btn btn-outline-secondary btn-sm">Ouvrir <span
+                                    class="oi oi-share"></span>
+                        </button>
+                    </center>
+                </a>
             {% endfor %}
         </div>
     </div>
