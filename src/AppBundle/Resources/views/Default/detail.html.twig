@@ -23,18 +23,30 @@
   "headline": "{{ word.latin }}",
   "text": "{{ word.french|striptags }}"
 }
-
-
     </script>
 {% endblock %}
 {% block body %}
     <br>
     <a href="{{ path('home') }}">
-        <button class="btn btn-default btn-sm" role="group"><span class="glyphicon glyphicon-chevron-left"></span> Back
+        <button type="button" class="btn btn-outline-dark btn-sm"><span class="oi oi-chevron-left"></span> Back
         </button>
     </a>
-    <br><br>
 
+    <br><br>
+    <p>
+        <a class="btn btn-outline-primary btn-sm" data-toggle="collapse" href="#scan" role="button"
+           aria-expanded="false"
+           aria-controls="scan">
+            <span class="oi oi-eye"></span> Vue classique
+        </a>
+    </p>
+    <div class="collapse" id="scan">
+        <div class="card card-body">
+            {% for page in word.pages %}
+                <img src="{{ asset('data/'~page.file) }}" width="100%" alt="{{ word.latin }}">
+            {% endfor %}
+        </div>
+    </div>
     <div class="detail">
         <b>{{ word.latin }}</b> {{ word.french|raw }}
     </div>
