@@ -46,6 +46,9 @@
                 {% else %}
                     <li class="page-item"><a class="page-link" href="{{ path('page', {'number': i}) }}">{{ i }}</a></li>
                 {% endif %}
+
+            {% else %}
+                <p>Veuillez envoyer un message à info [at] gaffiot [dot] org afin de signaler une page manquante.</p>
             {% endfor %}
         </ul>
     </nav>
