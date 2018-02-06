@@ -54,15 +54,15 @@ class DefaultController extends Controller
             $start = $number;
         }
 
-        if ($number >= 719) {
-            $start = 719;
-            $end = 721;
+        if ($number >= 720) {
+            $start = 720;
+            $end = 722;
         } else {
             $end = $number + 2;
         }
         $current = $number + 1;
 
-        if ($current < 0 || $current > 721) {
+        if ($current < 0 || $current > 722) {
             throw new NotFoundHttpException();
         }
         return [
