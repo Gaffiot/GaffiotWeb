@@ -16,6 +16,7 @@
  * You should have received a copy of the GNU General Public License
  * along with PremiereLu If not, see <http://www.gnu.org/licenses/>.
  */
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300;400;600;700&family=Overpass:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
 
 html,
 body {
@@ -35,13 +36,23 @@ h2 {
 }
 
 b {
-    font-size: 22px
+}
+
+
+.credits-normal {
+    font-family: 'Overpass', sans-serif;
+    color: #192e52;
+}
+
+.credits {
+    font-family: 'Overpass Mono', monospace;
+    color: #192e52;
 }
 
 rub {
     font-size: 22px;
     font-weight: bold;
-    color: #1C92F6
+    color: #1c92f6
 }
 
 aut {
@@ -144,6 +155,8 @@ footer {
 
 .container .text-muted {
     margin: 20px 0;
+    color: #192e52 !important;
+
 }
 
 /* navbar */
@@ -155,17 +168,17 @@ footer {
 
 /* title */
 .navbar-default .navbar-brand {
-    color: #FFF;
+    color: #fff;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-    color: #FFF;
+    color: #fff;
 }
 
 /* link */
 .navbar-default .navbar-nav > li > a {
-    color: #FFF;
+    color: #fff;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -183,14 +196,14 @@ footer {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-    color: #FFF;
+    color: #fff;
     background-color: #f5a431;
 }
 
 /* caret */
 .navbar-default .navbar-nav > .dropdown > a .caret {
-    border-top-color: #FFF;
-    border-bottom-color: #FFF;
+    border-top-color: #fff;
+    border-bottom-color: #fff;
 }
 
 .navbar-default .navbar-nav > .dropdown > a:hover .caret,
@@ -213,21 +226,21 @@ footer {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #DDD;
+    background-color: #ddd;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #CCC;
+    background-color: #ccc;
 }
 
 @media (max-width: 767px) {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-        color: #A5A5A5;
+        color: #a5a5a5;
     }
 
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-        color: #A5A5A5;
+        color: #a5a5a5;
     }
 }
 
